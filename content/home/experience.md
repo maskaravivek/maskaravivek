@@ -18,27 +18,30 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Researcher"
+  company = "The Luminosity Lab, ASU"
+  company_url = "https://theluminositylab.com/"
+  location = "Tempe, Arizona"
+  date_start = "2020-03-02"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Working on reducing the time people take to park their vehicles by providing step-by-step real-time guidance in multi-story indoor parking lots using computer vision and deep learning.
+  * Using sentiment analysis of the restaurants' Yelp reviews and user POI data to analyze what type of restaurants should be opened in a given location.
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Senior Software Engineer"
+  company = "Zeta, Directi"
+  company_url = "https://zeta.tech"
+  location = "Bangalore, India"
+  date_start = "2016-06-06"
+  date_end = "2019-11-19"
+  description = """
+  * Built NFC based contactless payments & custom ordering solution for POS attributing to 1 million+ monthly transactions.
+  * Contributed to over 20+ projects in Zeta spanning across Android, Raspberry Pi and backend microservices. 
+  * Responsible for optimizing query performance for PostgreSQL and building throughput and service health monitoring dashboards using Grafana and Kibana.
+  """
 
 +++
