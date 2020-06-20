@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Grad Student
+role: Grad Student at ASU | Researcher at The Luminosity Lab | Ex Senior Software Engineer, Zeta | Volunteer, Wikimedia Foundation
 
 # Organizations/Affiliations
 organizations:
 - name: Arizona State University
-  url: ""
+  url: "https://www.asu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
