@@ -69,6 +69,6 @@ user_groups:
 
 I am currently pursuing my Masters in Computer Science from Arizona State University. I completed my bachelor's in Software Engineering from Delhi Technological University. I love writing code, developing apps and creating websites.
 
-During my undergraduate years, I developed and published several apps and garnered over 1 million app downloads. By the time I completed my sophomore year, I had worked on developing an e-commerce website and mobile application for MapleGraph Solutions Pvt. Ltd and a PHP based competition engine for Camp K-12. In my final year of college, I worked for Times Business Solutions, a subsidiary of the Times Group to single-handedly building the Windows mobile application for TimesJobs, one of India’s leading job portals. Prior to joining ASU, I worked as a Senior Software Engineer at Zeta, Directi with the Express payments division for over 3 years.
+During my undergraduate years, I developed and published several apps and garnered over 1 million app downloads. Prior to joining ASU, I worked as a Senior Software Engineer at Zeta, Directi with the Express payments division for over 3 years.
 
 I have been associated with the Wikimedia Foundation as a volunteer for the past 3 years, contributing to their Wikimedia Commons Android app. 
