@@ -278,7 +278,7 @@ class Yolo_Reshape(tf.keras.layers.Layer):
 
 Next, we define the model as described in the original paper. 
 
-![YOLOV1 Architecture](`static/img/YOLOV1.png`)
+![YOLOV1 Architecture](/static/img/YOLOV1.png)
 
 
 ```
