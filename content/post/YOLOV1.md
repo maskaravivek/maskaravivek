@@ -4,8 +4,6 @@ date: 2020-06-21T19:51:22-07:00
 draft: false
 ---
 
-# Implementing YOLOV1 from Scratch using Keras Tensorflow
-
 In this notebook I am going to implement YOLOV1 as described in the paper [You Only Look Once](https://arxiv.org/abs/1506.02640). The goal is to replicate the model as described in the paper and in the process, understand the nuances of using Keras on a complex problem. 
 
 
@@ -280,6 +278,8 @@ class Yolo_Reshape(tf.keras.layers.Layer):
 
 Next, we define the model as described in the original paper. 
 
+![YOLOV1 Architecture](`static/img/YOLOV1.png`)
+
 
 ```
 from tensorflow.keras.models import Sequential
@@ -339,6 +339,9 @@ model.add(Dropout(0.5))
 model.add(Dense(1470, activation='sigmoid'))
 model.add(Yolo_Reshape(target_shape=(7,7,30)))
 model.summary()
+
+Here's the model summary. 
+
 ```
 
     Model: "sequential_5"
@@ -656,157 +659,6 @@ model.fit(x=my_training_batch_generator,
     Epoch 7/135
     625/625 [==============================] - 194s 310ms/step - loss: 71.0617 - val_loss: 61.3470
     
-    Epoch 00007: Learning rate is 0.0100.
-    Epoch 8/135
-    625/625 [==============================] - 194s 310ms/step - loss: 61.3792 - val_loss: 61.2777
-    
-    Epoch 00008: Learning rate is 0.0100.
-    Epoch 9/135
-    625/625 [==============================] - 194s 310ms/step - loss: 61.2944 - val_loss: 61.2020
-    
-    Epoch 00009: Learning rate is 0.0100.
-    Epoch 10/135
-    625/625 [==============================] - 194s 310ms/step - loss: 61.2224 - val_loss: 61.1325
-    
-    Epoch 00010: Learning rate is 0.0100.
-    Epoch 11/135
-    625/625 [==============================] - 193s 310ms/step - loss: 61.1456 - val_loss: 61.0505
-    
-    Epoch 00011: Learning rate is 0.0100.
-    Epoch 12/135
-    625/625 [==============================] - 193s 310ms/step - loss: 61.0826 - val_loss: 60.9664
-    
-    Epoch 00012: Learning rate is 0.0100.
-    Epoch 13/135
-    625/625 [==============================] - 193s 310ms/step - loss: 60.9735 - val_loss: 60.8249
-    
-    Epoch 00013: Learning rate is 0.0100.
-    Epoch 14/135
-    625/625 [==============================] - 189s 302ms/step - loss: 61.0396 - val_loss: 60.9560
-    
-    Epoch 00014: Learning rate is 0.0100.
-    Epoch 15/135
-    625/625 [==============================] - 189s 302ms/step - loss: 61.4908 - val_loss: 61.3017
-    
-    Epoch 00015: Learning rate is 0.0100.
-    Epoch 16/135
-    625/625 [==============================] - 189s 302ms/step - loss: 84.9713 - val_loss: 114.1165
-    
-    Epoch 00016: Learning rate is 0.0100.
-    Epoch 17/135
-    625/625 [==============================] - 189s 302ms/step - loss: 112.4938 - val_loss: 112.3247
-    
-    Epoch 00017: Learning rate is 0.0100.
-    Epoch 18/135
-    625/625 [==============================] - 189s 302ms/step - loss: 111.3362 - val_loss: 111.8182
-    
-    Epoch 00018: Learning rate is 0.0100.
-    Epoch 19/135
-    625/625 [==============================] - 189s 303ms/step - loss: 110.8149 - val_loss: 111.4894
-    
-    Epoch 00019: Learning rate is 0.0100.
-    Epoch 20/135
-    625/625 [==============================] - 189s 303ms/step - loss: 110.3949 - val_loss: 111.2774
-    
-    Epoch 00020: Learning rate is 0.0100.
-    Epoch 21/135
-    625/625 [==============================] - 189s 303ms/step - loss: 110.1953 - val_loss: 110.6259
-    
-    Epoch 00021: Learning rate is 0.0100.
-    Epoch 22/135
-    625/625 [==============================] - 189s 303ms/step - loss: 109.8213 - val_loss: 109.9314
-    
-    Epoch 00022: Learning rate is 0.0100.
-    Epoch 23/135
-    625/625 [==============================] - 189s 302ms/step - loss: 109.5438 - val_loss: 109.8661
-    
-    Epoch 00023: Learning rate is 0.0100.
-    Epoch 24/135
-    625/625 [==============================] - 189s 303ms/step - loss: 109.1022 - val_loss: 109.2804
-    
-    Epoch 00024: Learning rate is 0.0100.
-    Epoch 25/135
-    625/625 [==============================] - 189s 302ms/step - loss: 108.5726 - val_loss: 109.3220
-    
-    Epoch 00025: Learning rate is 0.0100.
-    Epoch 26/135
-    625/625 [==============================] - 189s 303ms/step - loss: 108.1205 - val_loss: 109.2925
-    
-    Epoch 00026: Learning rate is 0.0100.
-    Epoch 27/135
-    625/625 [==============================] - 189s 303ms/step - loss: 680.2722 - val_loss: 641.1106
-    
-    Epoch 00027: Learning rate is 0.0100.
-    Epoch 28/135
-    625/625 [==============================] - 189s 302ms/step - loss: 538.9865 - val_loss: 464.6626
-    
-    Epoch 00028: Learning rate is 0.0100.
-    Epoch 29/135
-    625/625 [==============================] - 189s 302ms/step - loss: 407.6799 - val_loss: 364.6414
-    
-    Epoch 00029: Learning rate is 0.0100.
-    Epoch 30/135
-    625/625 [==============================] - 189s 302ms/step - loss: 326.4214 - val_loss: 294.7802
-    
-    Epoch 00030: Learning rate is 0.0100.
-    Epoch 31/135
-    625/625 [==============================] - 189s 302ms/step - loss: 267.8182 - val_loss: 241.1241
-    
-    Epoch 00031: Learning rate is 0.0100.
-    Epoch 32/135
-    625/625 [==============================] - 189s 302ms/step - loss: 221.9328 - val_loss: 200.3850
-    
-    Epoch 00032: Learning rate is 0.0100.
-    Epoch 33/135
-    625/625 [==============================] - 189s 302ms/step - loss: 185.0515 - val_loss: 168.0143
-    
-    Epoch 00033: Learning rate is 0.0100.
-    Epoch 34/135
-    625/625 [==============================] - 189s 303ms/step - loss: 155.8073 - val_loss: 139.8257
-    
-    Epoch 00034: Learning rate is 0.0100.
-    Epoch 35/135
-    625/625 [==============================] - 189s 303ms/step - loss: 133.1198 - val_loss: 120.6147
-    
-    Epoch 00035: Learning rate is 0.0100.
-    Epoch 36/135
-    625/625 [==============================] - 189s 303ms/step - loss: 116.4010 - val_loss: 106.5819
-    
-    Epoch 00036: Learning rate is 0.0100.
-    Epoch 37/135
-    625/625 [==============================] - 189s 303ms/step - loss: 104.9643 - val_loss: 100.6991
-    
-    Epoch 00037: Learning rate is 0.0100.
-    Epoch 38/135
-    625/625 [==============================] - 189s 303ms/step - loss: 98.9404 - val_loss: 95.6625
-    
-    Epoch 00038: Learning rate is 0.0100.
-    Epoch 39/135
-    625/625 [==============================] - 189s 303ms/step - loss: 97.5994 - val_loss: 99.5546
-    
-    Epoch 00039: Learning rate is 0.0100.
-    Epoch 40/135
-    625/625 [==============================] - 189s 303ms/step - loss: 96.2420 - val_loss: 99.2519
-    
-    Epoch 00040: Learning rate is 0.0100.
-    Epoch 41/135
-    625/625 [==============================] - 189s 303ms/step - loss: 94.6305 - val_loss: 96.5285
-    
-    Epoch 00041: Learning rate is 0.0100.
-    Epoch 42/135
-    625/625 [==============================] - 189s 303ms/step - loss: 92.6969 - val_loss: 94.3836
-    
-    Epoch 00042: Learning rate is 0.0100.
-    Epoch 43/135
-    625/625 [==============================] - 189s 303ms/step - loss: 91.2436 - val_loss: 93.1228
-    
-    Epoch 00043: Learning rate is 0.0100.
-    Epoch 44/135
-    625/625 [==============================] - 189s 303ms/step - loss: 89.9544 - val_loss: 92.4389
-    
-    Epoch 00044: Learning rate is 0.0100.
-    Epoch 45/135
-     81/625 [==>...........................] - ETA: 1:57 - loss: 90.1415
 
 ## Conclusion
 
