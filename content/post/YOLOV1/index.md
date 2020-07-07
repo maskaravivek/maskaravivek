@@ -1,5 +1,5 @@
 ---
-title: "Implementing YOLOV1 from scratch using Keras Tensorflow"
+title: "Implementing YOLOV1 from scratch using Keras Tensorflow 2.0"
 date: 2020-06-21T19:51:22-07:00
 draft: false
 ---
