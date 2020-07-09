@@ -1,7 +1,5 @@
-# Maskaravivek.com
+### Hi there 👋
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a8b76b79-a90c-40ad-a2fb-30d33b42dc19/deploy-status)](https://app.netlify.com/sites/elegant-liskov-f74ede/deploys)
+I am currently pursuing my Masters in Computer Science from Arizona State University. Prior to joining ASU, I worked as a Senior Software Engineer at Zeta, Directi with the Express payments division for over 3 years.
 
-Visit: http://maskaravivek.com/
-
-LinkedIn: https://www.linkedin.com/in/maskaravivek/
+📬 Reach me at [maskaravivek@gmail.com](mailto:maskaravivek@gmail.com)
