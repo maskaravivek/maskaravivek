@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "GAN Synthetic Data Generation"
+title: "Generating Tabular Synthetic Data Using GANs"
 subtitle: ""
 summary: ""
 authors: []
