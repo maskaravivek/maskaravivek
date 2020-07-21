@@ -472,7 +472,9 @@ Improvements:
 ### [Video Action Transformer Network](https://arxiv.org/abs/1812.02707)
 
 
-![Hello world](Video_Action_Transformer_Network.png "Video Action Transformer Network")
+<!-- ![Hello world](Video_Action_Transformer_Network.png "Video Action Transformer Network") -->
+
+{{< imgfig "./Video_Action_Transformer_Network.png" "Video Action Transformer Network" >}}
 
 
 Key points: 
