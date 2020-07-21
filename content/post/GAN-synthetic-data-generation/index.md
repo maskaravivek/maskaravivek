@@ -38,8 +38,13 @@ We would be working with the Synthea dataset which is publicly available. Using 
 
 https://synthetichealth.github.io/synthea/
 
-## Data Preprocessing
+## TL;DR
 
+Checkout the Python Notebook if you are here just for the code. 
+
+https://colab.research.google.com/drive/1vBnSrTP8liPlnGg5ArzUk08oDLnERDbF?usp=sharing
+
+## Data Preprocessing
 
 
 Firstly, download the publicly available synthea dataset and unzip it. 
