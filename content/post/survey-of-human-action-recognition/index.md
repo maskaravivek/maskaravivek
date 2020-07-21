@@ -474,7 +474,7 @@ Improvements:
 
 <!-- ![Hello world](Video_Action_Transformer_Network.png "Video Action Transformer Network") -->
 
-{{< imgfig "./Video_Action_Transformer_Network.png" "Video Action Transformer Network" >}}
+{{< figure src="./Video_Action_Transformer_Network.png" title="Video Action Transformer Network" >}}
 
 
 Key points: 
