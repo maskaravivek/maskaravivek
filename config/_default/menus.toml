@@ -10,6 +10,11 @@
 
 [[main]]
   name = "Posts"
+  url = "#posts"
+  weight = 20
+
+[[main]]
+  name = "Medium"
   url = "https://medium.com/@maskaravivek"
   weight = 20
 

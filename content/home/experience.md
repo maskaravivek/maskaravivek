@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Researcher"
+  title = "Student Researcher"
   company = "The Luminosity Lab, ASU"
   company_url = "https://theluminositylab.com/"
   location = "Tempe, Arizona"
@@ -27,8 +27,11 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Working on reducing the time people take to park their vehicles by providing step-by-step real-time guidance in multi-story indoor parking lots using computer vision and deep learning.
-  * Using sentiment analysis of the restaurants' Yelp reviews and user POI data to analyze what type of restaurants should be opened in a given location.
+  * Developing a machine learning model for detection of Neuroblastoma using histopathological images for PCH hospital. 
+  * Researched and built the MVC for indoor parking automation using YOLO and DeepSort for real time vehicle tracking. 
+  * Contributed to the backend for ASU’s end to end PPE response network for producing and delivering medical supplies.
+  * Built a Customer 360 dashboard for Bank of West using Neo4J graph database, Flask backend and React for frontend. 
+  * Published a gamified supply chain management learning app funded by USAID, ShipShape for iOS and Android. 
   """
 
 [[experience]]
