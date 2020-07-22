@@ -244,9 +244,6 @@ Key points:
 
 ### [Convolutional Two-Stream Network Fusion for Video Action Recognition](https://arxiv.org/pdf/1604.06573.pdf)
 
-Convolutional_Two_Stream_Network_Fusion_for_Video_Action_Recognition.png
-
-
 {{< figure src="./Convolutional_Two_Stream_Network_Fusion_for_Video_Action_Recognition.png" title="Architecture for Convolutional Two-Stream Network Fusion ([Source](https://arxiv.org/pdf/1604.06573.pdf))" >}}
 
 Key points: 
