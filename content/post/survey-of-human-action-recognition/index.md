@@ -71,8 +71,6 @@ Issues:
 *   The long-range temporal modeling was still a problem. 
 *   Training such huge networks is computationally a problem
 
-Literature Survey
-
 ### [Action Recognition by Dense Trajectories](https://hal.inria.fr/inria-00583818/document){ #dense_trajectories }
 
 ![png](./Dense_Trajectories.png)
@@ -399,4 +397,4 @@ Issues:
 
 A brief literature survey shows that there has been a plenty of research in the area of video analysis and human action recognition. We have come a long way in the part 5-6 years after the advent of neural networks. Initially CNNs applied frame by frame helped in improving the accuracies as compared to the manual feature extraction techniques. Later 3D-CNNs further improved the accuracies of CNNs by processing multiple frames at a time. More recent architectures started focussing on RNNs and LSTMs to factor in the temporal component of the videos. Most recent architectures started incorporating attention mechanism to focus on the salient parts of the videos. 
 
-Human action recognition is still a very active research area and new approaches are still trying to solve the issues with the current approaches. Some of the existing issues are background clutter or fast irregular motion in videos, occlusion, view point changes, high computational complexity and responsiveness to illuminattion changes. 
+Human action recognition is still a very active research area and new approaches are still trying to solve the issues with the current approaches. Some of the existing issues are background clutter or fast irregular motion in videos, occlusion, view point changes, high computational complexity and responsiveness to illumination changes. 
