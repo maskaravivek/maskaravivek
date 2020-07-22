@@ -4,9 +4,9 @@
 title: "Implementing YOLOV2 from using Tensorflow 2.0"
 subtitle: ""
 summary: ""
-authors: []
-tags: []
-categories: []
+authors: [admin]
+tags: [YOLOV2, Object Detection, Deep Learning, CNN]
+categories: [Deep Learning, Object Detection]
 date: 2020-07-06T17:27:54-07:00
 lastmod: 2020-07-06T17:27:54-07:00
 featured: false

@@ -1,6 +1,11 @@
 ---
 title: "Implementing YOLOV1 from scratch using Keras Tensorflow 2.0"
 date: 2020-06-21T19:51:22-07:00
+subtitle: ""
+summary: ""
+authors: [admin]
+tags: [YOLOV1, Object Detection, Deep Learning, CNN]
+categories: [Deep Learning, Object Detection]
 draft: false
 ---
 
