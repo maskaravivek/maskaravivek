@@ -152,7 +152,7 @@ Key points:
 
 ### [Two-Stream Convolutional Networks for Action Recognition in Videos](https://arxiv.org/pdf/1406.2199.pdf) {#lrcn}
 
-{{< figure src="./Two_Stream_Architecture.png" title="Architecture for LRCN ([Source](https://arxiv.org/pdf/1406.2199.pdf))" >}}
+{{< figure src="./Two_Stream_Architecture.png" title="Two Stream Architecture ([Source](https://arxiv.org/pdf/1406.2199.pdf))" >}}
 
 Key points:
 

@@ -21,6 +21,16 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
+  title = "Neural Networks and Deep Learning"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/6S7BUCTLBFBX"
+  date_start = "2020-07-22"
+  date_end = ""
+  description = "Course on Neural Networks by DeepLearningAI"
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
   title = "Convolutional Neural Networks"
   url = ""
   certificate_url = "https://www.coursera.org/account/accomplishments/verify/WH6AVXKD3YS9"
