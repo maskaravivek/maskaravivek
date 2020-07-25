@@ -36,12 +36,6 @@ In this notebook, we will try to classify images from the [Covid-19 Radiography 
 
 Firstly, you need to download the dataset from Kaggle. Check [these steps](https://www.kaggle.com/general/74235) for detailed instructions. 
 
-
-
-
-{{< gist maskaravivek 52f840f14e8929ba25b92e6f36a17e17 >}}
-
-
 ## Data preprocessing
 
 As a first, step download the dataset from Kaggle and create a new PyTorch dataset using the `ImageFolder` method. 
