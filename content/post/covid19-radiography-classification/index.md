@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Covid-19 Diagnosis with Radiography Images using ResNet18"
-subtitle: ""
+title: "Covid-19 Diagnosis using Radiography Images"
+subtitle: "Clasifiying radiography images using a pretrained ResNet-18 architecture"
 summary: ""
-authors: []
-tags: []
-categories: []
+authors: [admin]
+tags: [Deep learning, Image Classification]
+categories: [Deep learning, Image Classification]
 date: 2020-07-25T16:22:57-07:00
 lastmod: 2020-07-25T16:22:57-07:00
 featured: false
