@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Zeta"
-summary: "Payments"
+summary: "Contributed in building products for Zeta Express, an end to end solution for digitizing cafeterias"
 authors: []
 tags: []
 categories: []

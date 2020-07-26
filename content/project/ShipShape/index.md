@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "ShipShape"
-summary: ""
+summary: "A gamified approach to educate on supply chain skills in an engaging manner."
 authors: []
 tags: []
 categories: []

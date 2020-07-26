@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Wikimedia Commons"
-summary: ""
+summary: "An open-source app allowing the Wikimedia community to contribute content to Wikimedia Commons."
 authors: []
 tags: []
 categories: []

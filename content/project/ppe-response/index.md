@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Ppe Response"
-summary: ""
+summary: "A decentralized production network to print, sterilize and deliver personal protective equipment (PPE) for those on the front lines of the coronavirus response."
 authors: []
 tags: []
 categories: []

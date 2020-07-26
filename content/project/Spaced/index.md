@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Spaced"
-summary: ""
+summary: "AR App for Zeta's design meetup 2019"
 authors: []
 tags: []
 categories: []
