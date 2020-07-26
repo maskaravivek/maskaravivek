@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Covid-19 Diagnosis using Radiography Images"
-subtitle: "Clasifiying radiography images using a pretrained ResNet-18 architecture"
+subtitle: "Classifying radiography images using a pre-trained ResNet-18 architecture"
 summary: ""
 authors: [admin]
 tags: [Deep learning, Image Classification]
