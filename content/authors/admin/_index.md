@@ -69,6 +69,6 @@ user_groups:
 
 I am currently pursuing my Masters in Computer Science from Arizona State University. I completed my bachelor's in Software Engineering from Delhi Technological University. I love writing code, developing apps and creating websites.
 
-During my undergraduate years, I developed and published several apps and garnered over 1 million app downloads. Prior to joining ASU, I worked as a Senior Software Engineer at Zeta, Directi with the Express payments division for over 3 years.
+As a full stack Software Engineer at Zeta, I helped in building a suite of products for digitizing office cafeterias used by ~700 corporates and attributing to 1 million+ monthly transactions. With strong Computer Science fundamentals and experience across multiple engineering verticals, I always tend to bring a unique perspective when solving business problems.
 
 I have been associated with the Wikimedia Foundation as a volunteer for the past 3 years, contributing to their Wikimedia Commons Android app. 

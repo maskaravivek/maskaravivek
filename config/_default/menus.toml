@@ -27,5 +27,18 @@
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[main]]
   name = "Resume"
+  identifier="resume"
   url = "files/Vivek Maskara Resume.pdf"
+  weight = 70
+
+[[main]]
+  name = "Software Engineering"
+  url = "files/Vivek Maskara Resume SE.pdf"
+  parent = "resume"
+  weight = 60
+
+[[main]]
+  name = "Data Science"
+  parent = "resume"
+  url = "files/Vivek Maskara Resume Data Science.pdf"
   weight = 70
