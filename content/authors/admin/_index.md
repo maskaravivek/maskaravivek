@@ -18,7 +18,7 @@ organizations:
   url: "https://www.asu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Seeking Summer 2021 internships. Check out my [Resume](https://www.maskaravivek.com/files/Vivek%20Maskara%20Resume%20SE.pdf). 
+bio: Seeking Summer 2021 internships. Check out my [Resume](files/Vivek Maskara Resume Data Science.pdf). 
 
 interests:
 - Artificial Intelligence
@@ -55,7 +55,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: "files/Vivek Maskara Resume SE.pdf"
+  link: "files/Vivek Maskara Resume Data Science.pdf"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "vmaskara@asu.edu"
