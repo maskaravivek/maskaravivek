@@ -18,7 +18,8 @@ organizations:
   url: "https://www.asu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Seeking Summer 2021 internships. Check out my [Resume](files/Vivek Maskara Resume Data Science.pdf). 
+bio: Seeking Summer 2021 internships. Check out my [Resume](https://www.maskaravivek.com/files/Vivek%20Maskara%20Resume%20Data%20Science.pdf). 
+
 
 interests:
 - Artificial Intelligence
