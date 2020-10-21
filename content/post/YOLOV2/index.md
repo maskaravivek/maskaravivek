@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Implementing YOLOV2 from using Tensorflow 2.0"
+title: "Implementing YOLOV2 from scratch using Tensorflow 2.0"
 subtitle: ""
 summary: ""
 authors: [admin]
