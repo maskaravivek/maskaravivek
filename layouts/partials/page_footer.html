@@ -1,0 +1,18 @@
+{{ partial "page_edit" . }}
+{{ partial "tags" . }}
+{{ partial "share" . }}
+{{ partial "page_author" . }}
+{{ partial "comments" . }}
+
+{{ if site.Params.section_pager }}
+<div class="article-widget">
+  {{ partial "section_pager" . }}
+</div>
+{{ end }}
+
+{{ partial "page_related" . }}
+
+<script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="maskara"
+  data-description="Support me on Buy me a coffee!"
+  data-message="Thank you for visiting. You can now buy me a coffee to support me!" data-color="#FF5F5F"
+  data-position="Right" data-x_margin="18" data-y_margin="18"></script>
