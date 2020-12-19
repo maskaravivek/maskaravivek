@@ -27,10 +27,10 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
+url_code: "https://github.com/asu-cse578-f2020/VAST-2017-MC2-Anup"
 url_pdf: ""
-url_slides: ""
-url_video: ""
+url_slides: "https://drive.google.com/file/d/1iJYqMu8HB30B0u9v1l4pUNhzHYnci6Ji/view?usp=sharing"
+url_video: "https://www.youtube.com/watch?v=99Iax9AIbAs&feature=youtu.be"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
