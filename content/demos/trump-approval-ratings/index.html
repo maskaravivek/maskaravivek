@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>DV Homework 6: Presidential Approval Ratings</title>
+  <script src="https://kit.fontawesome.com/b28c1fa635.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='css/styles.css'>
+  <script src='https://d3js.org/d3.v5.min.js'></script>
+  <script src='scripts/index.js'></script>
+
+</head>
+
+<body>
+  <div class="wrapper" id='wrapper'>
+    <div class="center-div">
+      <span id='page-title' class="page-heading">#6: Trump's Approval Ratings</span><br />
+      <a href="https://www.kaggle.com/huffingtonpost/presidential-approval">Dataset: Presidential
+        Approval Ratings</a><br><br><br>
+
+      Select Candidate:
+      <select id='candidate'>
+        <option value='trump'>Donald Trump</option>
+        <option value='obama'>Barack Obama</option>
+      </select>
+    </div>
+
+    <div class="chart-div">
+      <div class="chart">
+        <div id='leftchart'></div>
+        <div id='left-caption' class="chart-caption">
+          Approval Ratings amongst Republicans
+        </div>
+      </div>
+      <div class="chart">
+        <div id='rightchart'></div>
+        <div id='right-caption' class="chart-caption">
+          Overall Approval Ratings
+        </div>
+      </div>
+    </div>
+    <div class="description-div">
+      <p class='description'>
+        Elections in USA just concluded and we all followed the news where we were constantly bombarded with numbers.
+        This
+        course made me realise that numbers should not be taken at face value as it can be consciously misleading. For
+        eg.
+        <a href="this post">this post</a> by President Trump made me wonder how is he claiming his approval rating to b
+        ~90% when most of the news channels are showing favourable approval ratings for the democratic party's candidate
+        Joe Biden. After a closer look at the post, I realized that Trump's visualization refers to his approval ratings
+        amongst Republican supporters. Motivated by this trickery, I looked up the <a
+          href="https://www.kaggle.com/huffingtonpost/presidential-approval">dataset</a> for approval ratings for Barack
+        Obama and Donald Trump. <br />
+
+        <b>Left Chart:</b> The chart uses Anchoring technique as described under Procedural rhetorical techniques in the
+        paper<sup>[1]</sup>. This technique directs a user's attention in a way that subsequently helps in conveying a
+        message. More specifically, the visualization uses <b>filtering</b> technique described in this section of the
+        paper. It shows the approval rating of the candidate amongst people affliated(likely to vote or registered for a
+        particular party) to his party. For eg. when Donald Trump is selected, the left chart shows his approval ratings
+        amongst people who are registered/likely to vote for Republicans. <br />. This chart filters the survey data
+        based
+        on people's party affliation. Notice that there's fine text at the top of the visualization indicating that this
+        chart is using filtered data. This text has deliberately been made small so that user's attention doesn't go to
+        to
+        the text. <br /> <br />
+
+        <b>Right Chart:</b>The right chart shows the overall approval ratings for the selected candidate. In this chart
+        the data has been as it is and no filtering has been applied. Therefore when all survey responses are considered
+        it can be seen that the candidate's approval rating is actually quite lower than what is projected in the first
+        visualization. <br /><br />
+
+        <b>References:</b><br />
+        [1]: Hullman, J. and N. Diakopoulos. “Visualization Rhetoric: Framing Effects in Narrative Visualization.” IEEE
+        Transactions on Visualization and Computer Graphics 17 (2011): 2231-2240.
+      </p>
+    </div>
+
+  </div>
+</body>
+
+</html>

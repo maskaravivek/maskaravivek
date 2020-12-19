@@ -1,0 +1,92 @@
+body {
+  font: 10px sans-serif;
+  background-image: url("../images/background.png");
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.chart {
+  width: 45%;
+  float: left;
+  margin: 12px;
+  border: 1px solid gray;
+}
+
+.sub-heading {
+  font-weight: 400;
+  font-size: 24px;
+  fill: hsl(0, 0%, 20%);
+  letter-spacing: 1.5px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  fill: hsl(0, 0%, 20%);
+  letter-spacing: 1.5px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.statistics-text {
+  font-size: 21px;
+  font-weight: 400;
+  fill: hsl(0, 0%, 20%);
+  text-align: left;
+}
+
+.page-heading {
+  font-weight: 700;
+  font-size: 42px;
+  fill: hsl(0, 0%, 20%);
+  letter-spacing: 1.5px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.center-div {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.chart-caption {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  fill: hsl(0, 0%, 20%);
+  letter-spacing: 1.5px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.description {
+  width: 85%;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 12px;
+  padding-top: 24px;
+}
+
+.year.label {
+  font: 400 72px "Helvetica Neue";
+  z-index: -50;
+  opacity: 0.6;
+}
+
+.chart-div {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.description-div {
+  float: left;
+  margin-top: 24px;
+}

@@ -1,0 +1,199 @@
+survey_organization,party_affiliation,start_date,end_date,survey_method,survey_question,survey_population,survey_sample,approve_percent,disapprove_percent,undecided_percent,margin_of_error
+Gallup,None,2017-01-20,2017-01-22,Live Phone,,Adults,1500,45,45,,3
+Ipsos/Reuters,None,2017-01-20,2017-01-24,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults,1633,43,45,13,2.8
+Ipsos/Reuters,None,2017-01-20,2017-01-24,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Democrats),680,15,75,10,4.3
+Ipsos/Reuters,None,2017-01-20,2017-01-24,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Republicans),557,85,11,4,4.7
+Ipsos/Reuters,None,2017-01-20,2017-01-24,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Independents),228,38,39,23,7.4
+Politico/Morning Consult,None,2017-01-20,2017-01-22,Internet,,Registered Voters,1992,46,37,17,2
+Politico/Morning Consult,None,2017-01-20,2017-01-22,Internet,,Registered Voters (Democrats),744,18,67,15,
+Politico/Morning Consult,None,2017-01-20,2017-01-22,Internet,,Registered Voters (Republicans),642,83,8,9,
+Politico/Morning Consult,None,2017-01-20,2017-01-22,Internet,,Registered Voters (Independents),606,41,31,28,
+Quinnipiac,None,2017-01-20,2017-01-25,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Registered Voters,1190,36,44,19,2.8
+Quinnipiac,None,2017-01-20,2017-01-25,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Registered Voters (Democrats),,4,77,19,
+Quinnipiac,None,2017-01-20,2017-01-25,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Registered Voters (Republicans),,81,3,15,
+Quinnipiac,None,2017-01-20,2017-01-25,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Registered Voters (Independents),,35,45,20,
+Gallup,None,2017-01-21,2017-01-23,Live Phone,,Adults,1500,45,46,,3
+Gallup,None,2017-01-22,2017-01-24,Live Phone,,Adults,1500,46,45,,3
+Rasmussen,None,2017-01-22,2017-01-24,Automated Phone/Internet,,Likely Voters,1500,57,43,,2.5
+Gallup,None,2017-01-23,2017-01-25,Live Phone,,Adults,1500,46,45,,3
+PPP (D),Democrat,2017-01-23,2017-01-24,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters,1043,44,44,12,3
+PPP (D),Democrat,2017-01-23,2017-01-24,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Democrats),,14,77,9,
+PPP (D),Democrat,2017-01-23,2017-01-24,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Republicans),,84,9,7,
+PPP (D),Democrat,2017-01-23,2017-01-24,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Independents),,45,33,21,
+Rasmussen,None,2017-01-23,2017-01-25,Automated Phone/Internet,,Likely Voters,1500,59,41,,2.5
+YouGov/Economist,None,2017-01-23,2017-01-25,Internet,,Adults,2692,41,35,24,2.3
+YouGov/Economist,None,2017-01-23,2017-01-25,Internet,,Adults (Democrats),1025,12,68,20,
+YouGov/Economist,None,2017-01-23,2017-01-25,Internet,,Adults (Republicans),625,81,9,11,
+YouGov/Economist,None,2017-01-23,2017-01-25,Internet,,Adults (Independents),1042,36,28,35,
+Gallup,None,2017-01-24,2017-01-26,Live Phone,,Adults,1500,45,48,,3
+Rasmussen,None,2017-01-24,2017-01-26,Automated Phone/Internet,,Likely Voters,1500,55,45,,2.5
+Gallup,None,2017-01-25,2017-01-27,Live Phone,,Adults,1500,42,50,,3
+Rasmussen,None,2017-01-25,2017-01-29,Automated Phone/Internet,,Likely Voters,1500,53,47,,2.5
+Gallup,None,2017-01-26,2017-01-28,Live Phone,,Adults,1500,42,51,,3
+Politico/Morning Consult,None,2017-01-26,2017-01-28,Internet,,Registered Voters,1991,49,41,10,2
+Politico/Morning Consult,None,2017-01-26,2017-01-28,Internet,,Registered Voters (Democrats),710,21,70,9,
+Politico/Morning Consult,None,2017-01-26,2017-01-28,Internet,,Registered Voters (Republicans),717,86,7,6,
+Politico/Morning Consult,None,2017-01-26,2017-01-28,Internet,,Registered Voters (Independents),565,36,47,17,
+Rasmussen,None,2017-01-26,2017-01-30,Automated Phone/Internet,,Likely Voters,1500,51,49,,2.5
+SurveyMonkey,None,2017-01-26,2017-01-30,Internet,,Adults,4444,48,50,3,
+SurveyMonkey,None,2017-01-26,2017-01-30,Internet,,Adults (Democrats),1551,13,85,2,
+SurveyMonkey,None,2017-01-26,2017-01-30,Internet,,Adults (Republicans),1195,92,6,2,
+SurveyMonkey,None,2017-01-26,2017-01-30,Internet,,Adults (Independents),1552,47,52,1,
+Gallup,None,2017-01-27,2017-01-29,Live Phone,,Adults,1500,43,50,,3
+IBD/TIPP,None,2017-01-27,2017-02-02,Live Phone,,Adults,885,42,48,9,3.3
+IBD/TIPP,None,2017-01-27,2017-02-02,Live Phone,,Adults (Democrats),279,8,83,9,
+IBD/TIPP,None,2017-01-27,2017-02-02,Live Phone,,Adults (Republicans),284,84,6,9,
+IBD/TIPP,None,2017-01-27,2017-02-02,Live Phone,,Adults (Independents),305,43,47,10,
+Ipsos/Reuters,None,2017-01-27,2017-01-31,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults,3151,46,47,8,2
+Ipsos/Reuters,None,2017-01-27,2017-01-31,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Democrats),1188,14,81,5,3.2
+Ipsos/Reuters,None,2017-01-27,2017-01-31,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Republicans),1234,86,11,3,3.2
+Ipsos/Reuters,None,2017-01-27,2017-01-31,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Independents),421,43,43,13,5.4
+Gallup,None,2017-01-28,2017-01-30,Live Phone,,Adults,1500,43,51,,3
+YouGov/Economist,None,2017-01-28,2017-01-31,Internet,,Adults,1500,43,44,14,3.1
+YouGov/Economist,None,2017-01-28,2017-01-31,Internet,,Adults (Democrats),588,13,81,5,
+YouGov/Economist,None,2017-01-28,2017-01-31,Internet,,Adults (Republicans),366,83,11,6,
+YouGov/Economist,None,2017-01-28,2017-01-31,Internet,,Adults (Independents),546,40,34,26,
+Gallup,None,2017-01-29,2017-01-31,Live Phone,,Adults,1500,43,52,,3
+Rasmussen,None,2017-01-29,2017-01-31,Automated Phone/Internet,,Likely Voters,1500,53,47,,2.5
+Gallup,None,2017-01-30,2017-02-01,Live Phone,,Adults,1500,43,52,,3
+PPP (D),Democrat,2017-01-30,2017-01-31,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters,725,47,49,4,3.6
+PPP (D),Democrat,2017-01-30,2017-01-31,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Democrats),,19,76,4,
+PPP (D),Democrat,2017-01-30,2017-01-31,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Republicans),,84,13,2,
+PPP (D),Democrat,2017-01-30,2017-01-31,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Independents),,48,48,7,
+Rasmussen,None,2017-01-30,2017-02-01,Automated Phone/Internet,,Likely Voters,1500,53,47,,2.5
+SurveyMonkey,None,2017-01-30,2017-02-05,Internet,,Adults,9219,46,52,2,
+SurveyMonkey,None,2017-01-30,2017-02-05,Internet,,Adults (Democrats),3069,10,90,1,
+SurveyMonkey,None,2017-01-30,2017-02-05,Internet,,Adults (Republicans),2456,90,9,1,
+SurveyMonkey,None,2017-01-30,2017-02-05,Internet,,Adults (Independents),3504,44,55,1,
+CNN,None,2017-01-31,2017-02-02,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Adults,1002,44,53,3,3
+CNN,None,2017-01-31,2017-02-02,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Adults (Democrats),,10,89,1,5.5
+CNN,None,2017-01-31,2017-02-02,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Adults (Republicans),,90,8,2,6
+CNN,None,2017-01-31,2017-02-02,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Adults (Independents),,41,55,4,4.5
+Gallup,None,2017-01-31,2017-02-02,Live Phone,,Adults,1500,43,52,,3
+Rasmussen,None,2017-01-31,2017-02-02,Automated Phone/Internet,,Likely Voters,1500,54,46,,2.5
+CBS,None,2017-02-01,2017-02-02,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Adults,1019,40,48,12,4
+CBS,None,2017-02-01,2017-02-02,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Adults (Democrats),,8,84,8,
+CBS,None,2017-02-01,2017-02-02,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Adults (Republicans),,84,8,8,
+CBS,None,2017-02-01,2017-02-02,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Adults (Independents),,36,46,18,
+Gallup,None,2017-02-01,2017-02-03,Live Phone,,Adults,1500,44,50,,3
+Rasmussen,None,2017-02-01,2017-02-05,Automated Phone/Internet,,Likely Voters,1500,53,47,,2.5
+Gallup,None,2017-02-02,2017-02-04,Live Phone,,Adults,1500,42,53,,3
+Politico/Morning Consult,None,2017-02-02,2017-02-04,Internet,,Registered Voters,2070,47,46,6,2
+Politico/Morning Consult,None,2017-02-02,2017-02-04,Internet,,Registered Voters (Democrats),740,15,80,4,
+Politico/Morning Consult,None,2017-02-02,2017-02-04,Internet,,Registered Voters (Republicans),715,85,10,5,
+Politico/Morning Consult,None,2017-02-02,2017-02-04,Internet,,Registered Voters (Independents),615,44,45,11,
+Quinnipiac,None,2017-02-02,2017-02-06,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Registered Voters,1155,42,51,7,2.9
+Quinnipiac,None,2017-02-02,2017-02-06,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Registered Voters (Democrats),,4,90,6,
+Quinnipiac,None,2017-02-02,2017-02-06,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Registered Voters (Republicans),,88,8,4,
+Quinnipiac,None,2017-02-02,2017-02-06,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Registered Voters (Independents),,38,53,9,
+Rasmussen,None,2017-02-02,2017-02-06,Automated Phone/Internet,,Likely Voters,1500,53,47,,2.5
+Zogby,None,2017-02-02,2017-02-04,Internet,,Likely Voters,860,47,43,9,3.3
+Gallup,None,2017-02-03,2017-02-05,Live Phone,,Adults,1500,42,52,,3
+Ipsos/Reuters,None,2017-02-03,2017-02-07,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults,1896,48,47,5,2.6
+Ipsos/Reuters,None,2017-02-03,2017-02-07,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Democrats),785,23,75,2,4
+Ipsos/Reuters,None,2017-02-03,2017-02-07,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Republicans),733,85,14,2,4.1
+Ipsos/Reuters,None,2017-02-03,2017-02-07,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Independents),246,39,52,9,7.1
+Gallup,None,2017-02-04,2017-02-06,Live Phone,,Adults,1500,42,54,,3
+Gallup,None,2017-02-05,2017-02-07,Live Phone,,Adults,1500,43,52,,3
+Rasmussen,None,2017-02-05,2017-02-07,Automated Phone/Internet,,Likely Voters,1500,53,47,,2.5
+YouGov/Economist,None,2017-02-05,2017-02-07,Internet,,Adults,1500,41,48,11,3.2
+YouGov/Economist,None,2017-02-05,2017-02-07,Internet,,Adults (Democrats),553,13,83,4,
+YouGov/Economist,None,2017-02-05,2017-02-07,Internet,,Adults (Republicans),376,83,13,4,
+YouGov/Economist,None,2017-02-05,2017-02-07,Internet,,Adults (Independents),571,36,43,20,
+Gallup,None,2017-02-06,2017-02-08,Live Phone,,Adults,1500,43,52,,3
+Rasmussen,None,2017-02-06,2017-02-08,Automated Phone/Internet,,Likely Voters,1500,53,47,,2.5
+SurveyMonkey,None,2017-02-06,2017-02-12,Internet,,Adults,9349,46,53,1,
+SurveyMonkey,None,2017-02-06,2017-02-12,Internet,,Adults (Democrats),3146,10,90,1,
+SurveyMonkey,None,2017-02-06,2017-02-12,Internet,,Adults (Republicans),2735,90,10,0,
+SurveyMonkey,None,2017-02-06,2017-02-12,Internet,,Adults (Independents),3303,45,55,1,
+Gallup,None,2017-02-07,2017-02-09,Live Phone,,Adults,1500,42,52,,3
+PPP (D),Democrat,2017-02-07,2017-02-08,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters,712,43,53,3,3.7
+PPP (D),Democrat,2017-02-07,2017-02-08,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Democrats),,8,90,2,
+PPP (D),Democrat,2017-02-07,2017-02-08,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Republicans),,89,8,3,
+PPP (D),Democrat,2017-02-07,2017-02-08,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Independents),,43,53,5,
+Pew,None,2017-02-07,2017-02-12,Live Phone,,Adults,1503,39,56,6,2.9
+Rasmussen,None,2017-02-07,2017-02-09,Automated Phone/Internet,,Likely Voters,1500,53,48,,2.5
+Gallup,None,2017-02-08,2017-02-10,Live Phone,,Adults,1500,41,53,,3
+Rasmussen,None,2017-02-08,2017-02-12,Automated Phone/Internet,,Likely Voters,1500,52,48,,2.5
+Gallup,None,2017-02-09,2017-02-11,Live Phone,,Adults,1500,40,55,,3
+Politico/Morning Consult,None,2017-02-09,2017-02-10,Internet,,Registered Voters,1791,49,45,6,2
+Politico/Morning Consult,None,2017-02-09,2017-02-10,Internet,,Registered Voters (Democrats),642,17,79,3,
+Politico/Morning Consult,None,2017-02-09,2017-02-10,Internet,,Registered Voters (Republicans),626,88,10,3,
+Politico/Morning Consult,None,2017-02-09,2017-02-10,Internet,,Registered Voters (Independents),523,41,47,13,
+Rasmussen,None,2017-02-09,2017-02-13,Automated Phone/Internet,,Likely Voters,1500,52,48,,2.5
+Gallup,None,2017-02-10,2017-02-12,Live Phone,,Adults,1500,40,54,,3
+Ipsos/Reuters,None,2017-02-10,2017-02-14,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults,1774,46,50,4,2.7
+Ipsos/Reuters,None,2017-02-10,2017-02-14,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Democrats),802,19,79,1,3.9
+Ipsos/Reuters,None,2017-02-10,2017-02-14,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Republicans),644,84,14,2,4.4
+Ipsos/Reuters,None,2017-02-10,2017-02-14,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Independents),194,43,51,6,8
+FOX,None,2017-02-11,2017-02-13,Live Phone,,Registered Voters,1013,48,47,6,3
+FOX,None,2017-02-11,2017-02-13,Live Phone,,Registered Voters (Democrats),,10,86,5,4.5
+FOX,None,2017-02-11,2017-02-13,Live Phone,,Registered Voters (Republicans),,87,9,5,5
+FOX,None,2017-02-11,2017-02-13,Live Phone,,Registered Voters (Independents),,52,38,10,7
+Gallup,None,2017-02-11,2017-02-13,Live Phone,,Adults,1500,40,54,,3
+Gallup,None,2017-02-12,2017-02-14,Live Phone,,Adults,1500,40,53,,3
+Rasmussen,None,2017-02-12,2017-02-14,Automated Phone/Internet,,Likely Voters,1500,53,47,,2.5
+YouGov/Economist,None,2017-02-12,2017-02-14,Internet,,Adults,1500,43,47,10,3.1
+YouGov/Economist,None,2017-02-12,2017-02-14,Internet,,Adults (Democrats),595,14,79,8,
+YouGov/Economist,None,2017-02-12,2017-02-14,Internet,,Adults (Republicans),333,86,11,2,
+YouGov/Economist,None,2017-02-12,2017-02-14,Internet,,Adults (Independents),572,39,43,18,
+Gallup,None,2017-02-13,2017-02-15,Live Phone,,Adults,1500,40,54,,3
+NBC/SurveyMonkey,None,2017-02-13,2017-02-19,Internet,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Adults,11512,43,54,2,1.4
+Rasmussen,None,2017-02-13,2017-02-15,Automated Phone/Internet,,Likely Voters,1500,55,45,,2.5
+SurveyMonkey,None,2017-02-13,2017-02-17,Internet,,Adults,9163,45,53,2,
+SurveyMonkey,None,2017-02-13,2017-02-17,Internet,,Adults (Democrats),2959,9,90,1,
+SurveyMonkey,None,2017-02-13,2017-02-17,Internet,,Adults (Republicans),2546,91,9,0,
+SurveyMonkey,None,2017-02-13,2017-02-17,Internet,,Adults (Independents),3457,43,56,0,
+Gallup,None,2017-02-14,2017-02-16,Live Phone,,Adults,1500,38,56,,3
+Rasmussen,None,2017-02-14,2017-02-16,Automated Phone/Internet,,Likely Voters,1500,55,45,,2.5
+Gallup,None,2017-02-15,2017-02-17,Live Phone,,Adults,1500,40,55,,3
+McClatchy/Marist,None,2017-02-15,2017-02-19,Live Phone,Do you approve or disapprove of the job Donald Trump  is doing as president?,Registered Voters,864,41,49,9,3.3
+McClatchy/Marist,None,2017-02-15,2017-02-19,Live Phone,Do you approve or disapprove of the job Donald Trump  is doing as president?,Registered Voters (Democrats),,11,81,8,
+McClatchy/Marist,None,2017-02-15,2017-02-19,Live Phone,Do you approve or disapprove of the job Donald Trump  is doing as president?,Registered Voters (Republicans),,85,7,8,
+McClatchy/Marist,None,2017-02-15,2017-02-19,Live Phone,Do you approve or disapprove of the job Donald Trump  is doing as president?,Registered Voters (Independents),,40,51,9,
+Rasmussen,None,2017-02-15,2017-02-19,Automated Phone/Internet,,Likely Voters,1500,51,49,,2.5
+Gallup,None,2017-02-16,2017-02-18,Live Phone,,Adults,1500,41,55,,3
+Politico/Morning Consult,None,2017-02-16,2017-02-19,Internet,,Registered Voters,2013,49,44,7,2
+Politico/Morning Consult,None,2017-02-16,2017-02-19,Internet,,Registered Voters (Democrats),691,21,74,5,
+Politico/Morning Consult,None,2017-02-16,2017-02-19,Internet,,Registered Voters (Republicans),648,85,11,4,
+Politico/Morning Consult,None,2017-02-16,2017-02-19,Internet,,Registered Voters (Independents),675,41,47,13,
+Quinnipiac,None,2017-02-16,2017-02-21,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Registered Voters,1323,38,55,7,2.7
+Rasmussen,None,2017-02-16,2017-02-20,Automated Phone/Internet,,Likely Voters,1500,50,50,,2.5
+ARG,None,2017-02-17,2017-02-20,Live Phone,,Adults,1100,43,51,6,3
+CBS,None,2017-02-17,2017-02-21,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Adults,1280,39,51,10,3
+CBS,None,2017-02-17,2017-02-21,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Adults (Democrats),386,6,85,9,
+CBS,None,2017-02-17,2017-02-21,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Adults (Republicans),355,82,11,6,
+CBS,None,2017-02-17,2017-02-21,Live Phone,Do you approve or disapprove of the way Donald Trump is handling his job as President?,Adults (Independents),549,37,50,12,
+Gallup,None,2017-02-17,2017-02-19,Live Phone,,Adults,1500,42,53,,3
+HuffPost/YouGov,None,2017-02-17,2017-02-18,Internet,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Adults,1000,41,47,12,4
+HuffPost/YouGov,None,2017-02-17,2017-02-18,Internet,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Adults (Democrats),363,17,75,8,
+HuffPost/YouGov,None,2017-02-17,2017-02-18,Internet,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Adults (Republicans),264,84,11,5,
+HuffPost/YouGov,None,2017-02-17,2017-02-18,Internet,Do you approve or disapprove of the way Donald Trump is handling his job as president?,Adults (Independents),373,37,44,19,
+Ipsos/Reuters,None,2017-02-17,2017-02-21,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults,2338,45,50,5,2.3
+Ipsos/Reuters,None,2017-02-17,2017-02-21,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Democrats),996,19,79,2,3.5
+Ipsos/Reuters,None,2017-02-17,2017-02-21,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Republicans),867,82,16,2,3.8
+Ipsos/Reuters,None,2017-02-17,2017-02-21,Internet,"Overall, do you approve or disapprove about the way Donald Trump is handling his job as President?",Adults (Independents),290,39,53,8,6.6
+SurveyMonkey,None,2017-02-17,2017-02-23,Internet,,Adults,10639,44,54,2,
+SurveyMonkey,None,2017-02-17,2017-02-23,Internet,,Adults (Democrats),3460,10,88,1,
+SurveyMonkey,None,2017-02-17,2017-02-23,Internet,,Adults (Republicans),2813,88,12,1,
+SurveyMonkey,None,2017-02-17,2017-02-23,Internet,,Adults (Independents),4087,41,58,1,
+Gallup,None,2017-02-18,2017-02-20,Live Phone,,Adults,1500,41,53,,3
+NBC/WSJ,None,2017-02-18,2017-02-22,Live Phone,,Adults,1000,44,48,8,3.1
+YouGov/Economist,None,2017-02-18,2017-02-22,Internet,,Adults,1500,43,46,11,3
+YouGov/Economist,None,2017-02-18,2017-02-22,Internet,,Adults (Democrats),562,18,78,5,
+YouGov/Economist,None,2017-02-18,2017-02-22,Internet,,Adults (Republicans),344,82,13,4,
+YouGov/Economist,None,2017-02-18,2017-02-22,Internet,,Adults (Independents),594,39,41,20,
+Gallup,None,2017-02-19,2017-02-21,Live Phone,,Adults,1500,42,52,,3
+Rasmussen,None,2017-02-19,2017-02-21,Automated Phone/Internet,,Likely Voters,1500,51,49,,2.5
+Gallup,None,2017-02-20,2017-02-22,Live Phone,,Adults,1500,43,52,,3
+Rasmussen,None,2017-02-20,2017-02-22,Automated Phone/Internet,,Likely Voters,1500,52,47,,2.5
+Gallup,None,2017-02-21,2017-02-23,Live Phone,,Adults,1500,43,52,,3
+PPP (D),Democrat,2017-02-21,2017-02-22,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters,941,45,48,7,3.2
+PPP (D),Democrat,2017-02-21,2017-02-22,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Democrats),,15,81,4,
+PPP (D),Democrat,2017-02-21,2017-02-22,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Republicans),,87,12,1,
+PPP (D),Democrat,2017-02-21,2017-02-22,Automated Phone/Internet,Do you approve or disapprove of President Donald Trump’s job performance?,Likely Voters (Independents),,37,54,8,
+Rasmussen,None,2017-02-21,2017-02-23,Automated Phone/Internet,,Likely Voters,1500,53,47,,2.5
+Gallup,None,2017-02-22,2017-02-24,Live Phone,,Adults,1500,41,53,,3
+Gallup,None,2017-02-23,2017-02-25,Live Phone,,Adults,1500,41,54,,3
+Rasmussen,None,2017-02-23,2017-02-26,Automated Phone/Internet,,Likely Voters,1500,51,49,,2.5
+Gallup,None,2017-02-24,2017-02-26,Live Phone,,Adults,1500,42,54,,3

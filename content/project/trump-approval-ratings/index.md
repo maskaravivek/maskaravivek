@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Data Viz: Mystery at the Wildlife"
-summary: "This project was done as part of CSE 578 course. The primary goal of this project is to identify reasons behind the decline in the population of the Rose-crested Blue Pipit bird in the city of Mistford. "
+title: "Data Viz: Trump Approval Ratings"
+summary: "This project uses a pair of visualizations to promote opposing viewpoints using the same base dataset"
 authors: [admin]
 tags: [Data Visualization]
 categories: [Data Visualization]
-date: 2020-12-18T22:46:06-07:00
+date: 2020-12-18T22:58:53-07:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "demos/mystery-at-the-wildlife/"
+external_link: "demos/trump-approval-ratings"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
