@@ -1,0 +1,14 @@
+type,name,x,y
+sensor,1,62,21
+sensor,2,66,35
+sensor,3,76,41
+sensor,4,88,45
+sensor,5,103,43
+sensor,6,102,22
+sensor,7,89,3
+sensor,8,74,7
+sensor,9,119,42
+factory,Roadrunner Fitness Electronics,89,27
+factory,Kasios Office Furniture,90,21
+factory,Radiance ColourTek,109,26
+factory,Indigo Sol Boards,120,22

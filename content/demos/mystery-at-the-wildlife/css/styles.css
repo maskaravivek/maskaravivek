@@ -1,0 +1,262 @@
+#wrapper {
+  margin:auto;
+  width:1440px;
+}
+input {
+  width:50px;
+}
+svg, #innovative_dataviz_main {
+  border:1px solid gray;
+  border-radius:10px;
+  /* padding-top: 25px;
+  padding-bottom: 25px; */
+  /* height:600px;
+  width:600px; */
+  margin:5px;
+}
+.line-svg, #inno_viz{
+  border:none
+}
+#linechart {
+  border: 1px solid black;
+  border-radius: 10px;
+  /* height: 500px; */
+  width: 800px;
+  margin: 5px;
+  /* display:flex;
+  flex-direction : row-reverse;
+  justify-content: center;
+  align-items: center; */
+}
+.color-layout{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  flex-direction : column;
+}
+#graph-layout{
+  display:flex;
+  flex-direction : row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+#text-msg{
+  display:flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  font-size: 15px;
+  color: gray;
+}
+html {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.countrymap {
+  stroke: black;
+}
+
+
+h2, h3 {
+  text-align:center;
+}
+
+#heatmap{
+  width: 550px;
+  height: 520px;
+  border:1px solid gray;
+  border-radius:10px;
+  
+}
+#heatMapSvg{
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  max-width: 90%;
+  top:10%;
+}
+.month {
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+.month-name {
+  font-size: 85%;
+  fill: #777;
+  font-family: Arial, Helvetica;
+}
+.day.hover {
+  stroke: #6d6E70;
+  stroke-width: 2;
+}
+.day.focus {
+  stroke: #ffff33;
+  stroke-width: 2;
+}
+.tooltip {  
+  position: absolute;
+  text-align: left;
+  padding: .5rem;
+  background: #FFFFFF;
+  color: #313639;
+  border: 1px solid #313639;
+  border-radius: 8px;
+  pointer-events: none;
+  font-size: 1.1rem;
+}
+.playPause{
+  visibility: visible;
+  background-color: gray;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 20%;
+  border: 1px solid black;
+  transition-duration: 0.4s; 
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.playPause:hover {
+  background-color: white;
+  color: black;
+} 
+/* .tooltip {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  pointer-events: none;
+} */
+
+.node {
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.link {
+  fill: none;
+  opacity: .8;
+}
+.link.on {
+  stroke: #F00;
+  opacity: .7;
+}
+
+.link:hover {
+  stroke: green;
+  opacity: 0.8;
+}
+
+.node {
+    stroke: none;
+}
+
+/* .container div {
+  display: inline-block;
+} */
+
+.title-text{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Inconsolata;
+  text-decoration: underline;
+  position: absolute;
+  left: 30%;
+  top: 2%;
+}
+
+#chemical{
+  position: relative;
+  top: 10%;
+  text-align: left;
+}
+#mainTitle{
+  font-family: 'Oswald';
+  font-size: 35px;
+  color: rgb(241, 241, 247);
+  text-align: center;
+}
+.img-fluid{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  
+}
+.content
+{
+  width:100%;
+  height:150px;
+}
+
+body {
+  margin: 0;
+}
+.calendar {
+  font-family: "Helvetica Neue", sans-serif;
+}
+.calendar .month {
+  margin: 0px 20px;
+  display: inline-block;
+  width: calc(250px);
+}
+.calendar .month-name {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.calendar rect {
+  fill: none;
+  stroke: #eee;
+}
+.calendar text {
+  text-anchor: middle;
+  font-size: 14px;
+}
+.calendar .day.past text {
+  fill:  #aaa;
+}
+.calendar .day.today rect {
+  fill: #222;
+}
+.calendar .day.today text {
+  fill: #fff;
+}
+.calendar .outline {
+  fill: none;
+  stroke: #888;
+}
+
+line {
+	stroke: #555;
+	stroke-width: 2px;
+}
+#month-dropdown{
+  left: 22%;
+  position: relative;
+  width: 116px;
+  margin-top: 10px;
+}
+
+.bg-custom-2 {
+background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+#info_icon{
+  width:18px;
+  height:18px;
+  margin-bottom: 3px;
+}
+.modal-content
+{
+  background: linear-gradient(0.25turn,#F0FFF0, #FFFAFA,#F0FFF0) 	;
+}
+.tabletext
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: justify;
+}

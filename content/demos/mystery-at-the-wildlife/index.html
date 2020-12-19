@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>DV Project 1</title>
+    <link rel='stylesheet' href='css/styles.css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/sankey.js"></script>
+    <script src='./scripts/heatMap.js' type="module"></script>
+    <script src='./scripts/lineChart.js' type="module" defer></script>
+
+  </head>
+  <body style="background-image: url('./images/background.jpg'); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+    <nav class="navbar navbar-dark bg-custom-2" style="width:100%; display: inline-block; text-align: center;">
+      <a id="mainTitle">
+          <img src="./images/bird.png" class="img-fluid">
+      Mystery at the Wildlife Preserve
+    </a>
+    </nav>
+    <main class="container">
+    <div class="content" style="text-align: justify; margin-top:20px;">
+      <b>Welcome to the city of Mistford!</b>
+      <p>On this dashboard, you see the relative locations of the four manufacturing plants in Mistford and the sensors installed by the state government. The sensor record the chemical readings of the effluents released in the atmosphere by the factories.
+      The data shown is for 3 months and you can navigate through the dashboard to explore more.<img src="./images/info.png"  id="info_icon" data-toggle="modal" data-target="#myModal"></p>
+    </div>
+  </main>
+    <div id="innovative_dataviz_main" class="text-center" style="margin-left:125px; margin-right:125px;">
+      <div id="innovative_dataviz">
+        <div id='month-dropdown'>
+          <select name="months_" id="months-innovative_dataviz">
+            <option value=3>April</option>
+            <option value=7>August</option>
+            <option value=11>December</option>
+          </select>
+        </div>
+      </div>
+      <div class='col-12' id='slider' style="margin-top:45px;margin-bottom:25px;" >
+        <input name="dateSlider" id="dateSlider" type="range" min="1" max="2110" value="1" style="width:1000px;"/>
+      </div>
+      <button type="button" id='playPause' value="Start" class="btn btn-secondary playPause">Start</button>
+      <div id="text-msg">Click on the Factory or Sensor to show the related visualization.</div>
+    </div>
+
+    <div class="text-center" id="sensorPlots" style="margin-top:25px; margin-left:125px; margin-bottom:25px; display: none;">
+      <div class="row">
+        
+        <div id="linechart">
+          <div id="graph-layout">
+              <div class="color-layout">
+                <div>
+                    <label for="months">Month</label>
+                    <select name="months" id="months-linechart">
+                      <option value="april">April</option>
+                      <option value="august">August</option>
+                      <option value="december">December</option>
+                    </select>
+                </div>
+                <div class="lineChartColorText" >
+                    <p id="text-AGOC3A" style="color: green;">&nbsp;&boxh;&boxh;&boxh;&nbsp;AGOC 3A</p>
+                    <p id="text-APPLUIMONIA" style="color: blue;">&nbsp;&boxh;&boxh;&boxh;&nbsp;Appluimonia</p>
+                    <p id="text-CHLORODININE" style="color: red;">&nbsp;&boxh;&boxh;&boxh;&nbsp;  Chlorodinine</p>
+                    <p id="text-METHYLOSMOLENE" style="color: orange;">&nbsp;&boxh;&boxh;&boxh;&nbsp;  Methylosmolene</p>
+                </div>
+              </div>
+          </div>
+          <div id="text-msg">Click on the line graph to see a box plot of the selected chemical.</div>
+        </div> 
+            
+        
+
+          <div id="violin" style="width: 600px;"></div>
+
+        </div>
+    </div>
+
+    <div class="container text-center" id = "factoryPlots" style="margin-top:25px; margin-bottom:25px; display: none;">
+    <div class="row">
+
+          <div id="heatmap" class="col-6">
+            <form id='chemical'>
+              <input type="radio" name="chemical" value="Methylosmolene" checked>Methylosmolene</input><br>
+              <input type="radio" name="chemical" value="Chlorodinine">Chlorodinine</input><br>
+              <input type="radio" name="chemical" value="AGOC-3A">AGOC-3A</input><br>
+              <input type="radio" name="chemical" value="Appluimonia">Appluimonia</input><br>
+            </form>
+          </div>
+          
+          <div id="sankey" class="col-6"></div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+          <span class="text-muted">Developed by team: VAST-2017-MC2-Anup</span>
+      </div>
+  </footer>
+    <script src='scripts/innovative_viz.js' type='module'></script>
+    <script src="scripts/sankey.js"></script>
+  </body>
+   <!-- Modal -->
+   <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">General information about visualizations</h4>
+        </div>
+        <div class="modal-body">
+          <table class="table table-striped">
+            <thead class="thead-dark">
+              <tr><th>Chart Type</th><th>Description</th></tr>
+            </thead>
+            <tbody>
+              <tr class="tabletext"><th>Heat map</th><th>This graph depicts the average reading for a particular chemical (selected from the radio button) emitted by the factory over the day.</th></tr>
+              <tr class="tabletext"><th>Alluvial Plot</th><th>This graph depicts the relationship between the factories and the chemicals emitted as well as the the months during which these chemicals were emitted.</th></tr>
+              <tr class="tabletext"><th>Multi Line Chart</th><th>This plot shows chemical reading for each month (for a particular sensor) as selected in the dropdown. We have calculated the average of reading values for each day.</th></tr>
+              <tr class="tabletext"><th>Box Plot</th><th>This shows a summarized view of chemical data for a sensor for all 3 months. Please note: outliers have been removed from the dataset for this view only.</th></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+</html>
+

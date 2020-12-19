@@ -1,0 +1,5 @@
+type,name,x,y
+smoke,roadrunner_emission,89,27
+smoke,kasios_emission,90,21
+smoke,radiance_emission,109,26
+smoke,indigo_emission,120,22

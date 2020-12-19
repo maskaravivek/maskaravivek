@@ -1,0 +1,51 @@
+{
+    "nodes":[
+    {"node":0,"name":"RoadRunner"},
+    {"node":1,"name":"Kasios"},
+    {"node":2,"name":"Radiance"},
+    {"node":3,"name":"Indigo"},
+    {"node":4,"name":"AGOC-3A"},
+    {"node":5,"name":"Appluimonia"},
+    {"node":6,"name":"Chlorodinine"},
+    {"node":7,"name":"Methylosmolene"},
+    {"node":8,"name":"April"},
+    {"node":9,"name":"August"},
+    {"node":10,"name":"December"}
+    ],
+    "links":[
+    {"source":0,"target":4,"value":4341.5551940167325},
+    {"source":0,"target":5,"value":2971.3278920471294},
+    {"source":0,"target":6,"value":3185.9587175852093},
+    {"source":0,"target":7,"value":3436.3543157797694},
+
+    {"source":1,"target":4,"value":4245.336411918254},
+    {"source":1,"target":5,"value":2873.201151285094},
+    {"source":1,"target":6,"value":3089.8362689339006},
+    {"source":1,"target":7,"value":3356.3484727317095},
+
+    {"source":2,"target":4,"value":4419.4098439075005},
+    {"source":2,"target":5,"value":2891.8847065062882},
+    {"source":2,"target":6,"value":3126.9914597959114},
+    {"source":2,"target":7,"value":3458.580334596769},
+
+    {"source":3,"target":4,"value":4055.7878008175007},
+    {"source":3,"target":5,"value":2616.7432856914816},
+    {"source":3,"target":6,"value":2832.5999600949553},
+    {"source":3,"target":7,"value":3181.724625541752},
+
+    {"source":4,"target":8,"value":3001.24442149001},
+    {"source":4,"target":9,"value":5654.555650020008},
+    {"source":4,"target":10,"value":6682.173859530002},
+
+    {"source":5,"target":8,"value":3001.2444214900083},
+    {"source":5,"target":9,"value":3453.5908017100037},
+    {"source":5,"target":10,"value":4898.321812330003},
+
+    {"source":6,"target":8,"value":3336.747157720014},
+    {"source":6,"target":9,"value":3679.1589436900026},
+    {"source":6,"target":10,"value":5219.480305000011},
+
+    {"source":7,"target":8,"value":3916.963558489988},
+    {"source":7,"target":9,"value":3711.695713279985},
+    {"source":7,"target":10,"value":5804.348476880004}
+    ]}
