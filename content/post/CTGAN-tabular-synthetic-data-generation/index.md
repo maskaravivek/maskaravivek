@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-In this post we we will talk about generating synthetic data from tabular data using Generative adversarial networks(GANs). We will be using the default implementation of [CTGAN](https://github.com/sdv-dev/CTGAN) [1] model. 
+In this post we will talk about generating synthetic data from tabular data using Generative adversarial networks(GANs). We will be using the default implementation of [CTGAN](https://github.com/sdv-dev/CTGAN) [1] model. 
 
 ![png](featured.png)
 
@@ -49,10 +49,8 @@ In this post, we will be working on the `patients.csv` file and will only be usi
 Firstly, download the publicly available synthea dataset and unzip it. 
 
 
-```
-!wget https://storage.googleapis.com/synthea-public/synthea_sample_data_csv_apr2020.zip
-!unzip synthea_sample_data_csv_apr2020.zip
-```
+
+{{< gist maskaravivek 3e16486883fd540b57dcb9a8ffeacb91 >}}
 
 ## Install Dependencies
 
@@ -63,24 +61,16 @@ https://github.com/sdv-dev/CTGAN
 To use CTGAN do a pip install. Also, we will be installing the `table_evaluator` library([link](https://pypi.org/project/table-evaluator/)) which will help us in comparing the results with the original data. 
 
 
-```
-!pip install ctgan
-!pip install table_evaluator
-```
+
+{{< gist maskaravivek b61938f1ab453eae38a4a1a2815e0747 >}}
 
 ### Remove unnecessary columns and encode all data
 
 Next, we read the data into a dataframe and drop the unnecessary columns. 
 
 
-```
-import pandas as pd
 
-data = pd.read_csv('csv/patients.csv')
-data.drop(['Id', 'BIRTHDATE', 'DEATHDATE', 'SSN', 'DRIVERS', 'PASSPORT', 'PREFIX',
-       'FIRST', 'ADDRESS', 'LAST', 'SUFFIX', 'MAIDEN','LAT', 'LON',], axis=1, inplace=True)
-print(data.columns)
-```
+{{< gist maskaravivek 17a12bf4daeea0be7bd3927a78685e0a >}}
 
     Index(['MARITAL', 'RACE', 'ETHNICITY', 'GENDER', 'BIRTHPLACE', 'CITY', 'STATE',
            'COUNTY', 'ZIP', 'HEALTHCARE_EXPENSES', 'HEALTHCARE_COVERAGE'],
@@ -90,9 +80,8 @@ print(data.columns)
 Next, we define a list with column names for categorical variables. This list will be passed to the model so that the model can decide how to process these fields. 
 
 
-```
-categorical_features = ['MARITAL', 'RACE', 'ETHNICITY', 'GENDER', 'BIRTHPLACE', 'CITY', 'STATE', 'COUNTY', 'ZIP']
-```
+
+{{< gist maskaravivek f0223298a08f3e3822746aeede6d7950 >}}
 
 ## Training the model
 
@@ -101,23 +90,16 @@ Next, we simply define an instance of `CTGANSynthesizer` and call the `fit` meth
 We train the model for 300 epochs only as the discriminator and generator loss becomes quite low after these many epochs. 
 
 
-```
-from ctgan import CTGANSynthesizer
 
-ctgan = CTGANSynthesizer(verbose=True)
-ctgan.fit(data, categorical_features, epochs = 300)
-```
+{{< gist maskaravivek 70ab487cd045beb5cd6437719614149a >}}
 
 ## Evaluation
 
 Next, we simply call model's `sample` function to generate samples based on the learned model. In this example we generate 1000 samples. 
 
 
-```
-samples = ctgan.sample(1000)
 
-print(samples.head())
-```
+{{< gist maskaravivek 208910bdd2ceeabb0477a19d053b5d05 >}}
 
       MARITAL    RACE  ... HEALTHCARE_EXPENSES HEALTHCARE_COVERAGE
     0       S   asian  ...        7.331230e+05         8940.917593
@@ -134,14 +116,8 @@ Now let's try to do a feature by feature comparision between the generated data 
 We call the `visual_evaluation` method to compare the actual data(`data`) and the generated data(`samples`).
 
 
-```
-from table_evaluator import load_data, TableEvaluator
 
-print(data.shape, samples.shape)
-table_evaluator =  TableEvaluator(data, samples, cat_cols= categorical_features)
-
-table_evaluator.visual_evaluation()
-```
+{{< gist maskaravivek 49733d91384a62252a069c26b427833b >}}
 
     (1171, 11) (1000, 11)
 
