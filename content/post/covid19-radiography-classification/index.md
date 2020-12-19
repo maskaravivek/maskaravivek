@@ -32,6 +32,8 @@ In this notebook, we will try to classify images from the [Covid-19 Radiography 
 
 **Disclaimer:** This model should be used only for learning purposes as Covid-19 diagnosis is an ongoing research topic.
 
+<!--adsense-->
+
 ## Download the dataset
 
 Firstly, you need to download the dataset from Kaggle. Check [these steps](https://www.kaggle.com/general/74235) for detailed instructions. 
@@ -150,5 +152,3 @@ We used a pre-trained ResNet18 architecture for classifying images from the Radi
 # References
 
 [1] M.E.H. Chowdhury, T. Rahman, A. Khandakar, R. Mazhar, M.A. Kadir, Z.B. Mahbub, K.R. Islam, M.S. Khan, A. Iqbal, N. Al-Emadi, M.B.I. Reaz, “Can AI help in screening Viral and COVID-19 pneumonia?” arXiv preprint, 29 March 2020, https://arxiv.org/abs/2003.13145. https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
-
-<!--adsense-->
