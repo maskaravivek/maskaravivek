@@ -169,6 +169,12 @@ The model can be used in various scenarios where data augmentation is required. 
 
 There's a framework to mitigate some of the above issues. Checkout [SDV](https://sdv.dev/SDV/) if you are interested. I will try to write a post about it in future.
 
+## TL;DR
+
+Here's the link to the Google colab notebook with the complete source code. 
+
+https://colab.research.google.com/drive/1nwbvkg32sOUC69zATCfXOygFUBeo0dsx?usp=sharing
+
 
 ```
 ## References
