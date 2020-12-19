@@ -176,9 +176,7 @@ Here's the link to the Google colab notebook with the complete source code.
 https://colab.research.google.com/drive/1nwbvkg32sOUC69zATCfXOygFUBeo0dsx?usp=sharing
 
 
-```
 ## References
 
 [1] Lei Xu, Maria Skoularidou, Alfredo Cuesta-Infante, Kalyan Veeramachaneni. Modeling Tabular data using Conditional GAN. NeurIPS, 2019
-```
 
