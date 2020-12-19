@@ -3,9 +3,9 @@
 
 title: "Ppe Response"
 summary: "A decentralized production network to print, sterilize and deliver personal protective equipment (PPE) for those on the front lines of the coronavirus response."
-authors: []
-tags: []
-categories: []
+authors: [admin]
+tags: [Applications]
+categories: [Applications]
 date: 2020-07-26T14:16:30-07:00
 
 # Optional external URL for project (replaces project detail page).

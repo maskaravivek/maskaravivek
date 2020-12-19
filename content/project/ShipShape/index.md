@@ -3,9 +3,9 @@
 
 title: "ShipShape"
 summary: "A gamified approach to educate on supply chain skills in an engaging manner."
-authors: []
-tags: []
-categories: []
+authors: [admin]
+tags: [Applications]
+categories: [Applications]
 date: 2020-07-26T14:16:41-07:00
 
 # Optional external URL for project (replaces project detail page).

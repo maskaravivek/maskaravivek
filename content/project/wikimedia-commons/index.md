@@ -3,9 +3,9 @@
 
 title: "Wikimedia Commons"
 summary: "An open-source app allowing the Wikimedia community to contribute content to Wikimedia Commons."
-authors: []
-tags: []
-categories: []
+authors: [admin]
+tags: [Applications]
+categories: [Applications]
 date: 2020-07-26T14:17:29-07:00
 
 # Optional external URL for project (replaces project detail page).

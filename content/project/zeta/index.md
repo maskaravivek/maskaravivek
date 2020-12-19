@@ -3,9 +3,9 @@
 
 title: "Zeta"
 summary: "Contributed in building products for Zeta Express, an end to end solution for digitizing cafeterias"
-authors: []
-tags: []
-categories: []
+authors: [admin]
+tags: [Applications]
+categories: [Applications]
 date: 2020-07-26T14:11:54-07:00
 
 # Optional external URL for project (replaces project detail page).

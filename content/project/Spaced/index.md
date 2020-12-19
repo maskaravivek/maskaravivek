@@ -3,9 +3,9 @@
 
 title: "Spaced"
 summary: "AR App for Zeta's design meetup 2019"
-authors: []
-tags: []
-categories: []
+authors: [admin]
+tags: [Applications]
+categories: [Applications]
 date: 2020-07-26T14:16:47-07:00
 
 # Optional external URL for project (replaces project detail page).
