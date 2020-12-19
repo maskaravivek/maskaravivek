@@ -107,3 +107,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   [[related.indices]]
     name = "authors"
     weight = 20.0
+
+[params.adsense]
+  client = "ca-pub-0623406534268990"
+  inArticleSlot = "6447063085"
