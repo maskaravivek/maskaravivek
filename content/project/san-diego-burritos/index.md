@@ -9,7 +9,7 @@ categories: [Data Visualization]
 date: 2020-12-18T23:05:43-07:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "demos/san-diego-burritos"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
