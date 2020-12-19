@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Burritos In San Diego</title>
+  <link rel='stylesheet' href='css/styles.css'>
+  <script src="https://kit.fontawesome.com/b28c1fa635.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+  <script src='https://d3js.org/d3.v5.min.js'></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+
+
+
+</head>
+
+<body style="background-color: cornflowerblue;">
+  <div>
+    <span class="page-heading">Homework #5: Burritos in San Diego</span>
+
+    <p class='description'>
+      The visualization below shows the burritos and their ratings in San Diego. The burritos are groups based on the
+      the location(ie. shop) which in turn is grouped based on the neighbourhood. The visualization uses neighbourhood
+      and location as categorical variables. It uses overall ratings as quantatitive variables. Information from quite a
+      few other fields are displayed in the detail section when one hovers over a circle. <br/><br/>
+      <b>Marks:</b> There are two marks ie. circles and nested containment. Circles are used as marks and it depicts a
+      neighbourhood/location/burrito. Nested Containment is another
+      mark in this viz. Locations are contained within neighbourhood's circle and burritos are contained inside
+      location's circle <br /><br/>
+      <b>Channels:</b> There are two channels ie. color hue for displaying burrito ratings and depth for relationships
+      between neighbourhood, locations and burritos. <br /><br/>
+      <b>Interaction:</b> (1). Hover: User can over a circle to view details. The detail view displays corresponding
+      details for neighbourhood/location/burrito.(2). Click: User can click a circle to zoom into the view. There are three levels
+      to zoom in. Neighbourhoods > Locations > Burritos.<br />
+    </p>
+    <img class="burrito-img" src="images/burritos.png" />
+    <div class='viz'>
+      <svg id='burritos' width="650" height="650"></svg>
+    </div>
+    <div class='detail'>
+      <div class='neighbourhood' id='neighbourhood'>
+        <span class='title' id='n_name'>Sorrento Valley</span> <br />
+        <br />
+        <br />
+        <span class='statistics' id='n_location_count'>5</span> <span class='statistics-text'>Locations</span><br />
+        <span class='statistics' id='n_burrito_count'>18</span> <span class='statistics-text'>Burritos</span><br />
+      </div>
+      <div class='location' id='location'>
+        <span class='title' id='l_name'>Sorrento Valley</span> <br />
+        <br />
+        <br />
+        <span class='statistics' id='l_burrito_count'>18</span> <span class='statistics-text'>Burritos</span><br />
+        <span class='statistics' id='l_google_rating'>4.5</span>
+        <div class="stars-outer">
+          <div class="stars-inner"></div>
+        </div>
+      </div>
+      <div class='burrito' id='burrito'>
+        <span class='title' id='b_name'>Sorrento Valley</span> • <span class='cost-statistics' id='b_overall'>4.5</span>
+        <i class="fas fa-star"></i> • <span class='cost-statistics' id='b_cost'> $ </span>
+
+
+        <table>
+          <tbody>
+            <tr class="row Temp">
+              <td>Temperature</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="row Meat">
+              <td>Meat</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="row Fillings">
+              <td>Fillings</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="row Uniformity">
+              <td>Uniformity</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="row Salsa">
+              <td>Salsa</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="row Synergy">
+              <td>Synergy</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="row Wrap">
+              <td>Wrap</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <a class="reference" href="https://observablehq.com/@d3/zoomable-circle-packing">Reference: Zoomable Circle
+      Packing</a>
+    <a class="attribution" href="http://fontawesome.io/"><i class="fa fa-font-awesome"></i>Attribution:
+      fontawesome.io</a>
+  </div>
+  <div class='ratings-legend'>
+    <svg class='ratings-legend-svg' id='ratings-legend'></svg>
+  </div>
+
+
+  <script src='scripts/index.js'></script>
+</body>
+
+</html>

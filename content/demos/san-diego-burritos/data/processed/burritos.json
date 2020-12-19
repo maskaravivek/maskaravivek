@@ -1,0 +1,3701 @@
+{
+    "name": "San Diego",
+    "children": [
+        {
+            "name": "Sorrento Valley",
+            "children": [
+                {
+                    "name": "Donato's taco shop",
+                    "children": [
+                        {
+                            "name": "California ",
+                            "Cost": 6.49,
+                            "overall": 3.8,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3,
+                                "Fillings": 3.5,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4.2
+                },
+                {
+                    "name": "Donato's Taco Shop",
+                    "children": [
+                        {
+                            "name": "Al pastor ",
+                            "Cost": 5.99,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3.7,
+                                "Fillings": 2.8,
+                                "Uniformity": 4.5,
+                                "Salsa": 3,
+                                "Synergy": 2.3,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 5.99,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4.5,
+                                "Fillings": 4,
+                                "Uniformity": 3,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 2
+                            }
+                        }
+                    ],
+                    "rating": 0
+                }
+            ],
+            "burrito_count": 3
+        },
+        {
+            "name": "Pacific Beach",
+            "children": [
+                {
+                    "name": "Oscar's Mexican food",
+                    "children": [
+                        {
+                            "name": "California ",
+                            "Cost": 5.45,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 2.5,
+                                "Fillings": 2.5,
+                                "Uniformity": 4,
+                                "Salsa": 3.5,
+                                "Synergy": 2.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Carnitas",
+                            "Cost": 4.85,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 2.5,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 3,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 5.25,
+                            "overall": 3.75,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 3.5,
+                                "Fillings": 3,
+                                "Uniformity": 5,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 3.3
+                },
+                {
+                    "name": "La Perla Cocina",
+                    "children": [
+                        {
+                            "name": "Addiction",
+                            "Cost": 7.99,
+                            "overall": 2.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 2,
+                                "Fillings": 3,
+                                "Uniformity": 3,
+                                "Salsa": 2.5,
+                                "Synergy": 1,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Oaxacalifornia",
+                            "Cost": 9.99,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 2,
+                                "Salsa": 2.5,
+                                "Synergy": 3.5,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 6.5,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 0,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.7
+                },
+                {
+                    "name": "Taco Surf PB",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 7.14,
+                            "overall": 4.4,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 4,
+                                "Fillings": 5,
+                                "Uniformity": 2,
+                                "Salsa": 4,
+                                "Synergy": 4.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 6.02,
+                            "overall": 3.7,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 3.3,
+                                "Fillings": 3.4,
+                                "Uniformity": 4.5,
+                                "Salsa": 3.8,
+                                "Synergy": 3.7,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.6
+                },
+                {
+                    "name": "El Rey Moro",
+                    "children": [
+                        {
+                            "name": "California Surf",
+                            "Cost": 9.19,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 4,
+                                "Fillings": 3.5,
+                                "Uniformity": 4.5,
+                                "Salsa": 3,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Hashbrown",
+                            "Cost": 6.47,
+                            "overall": 3.2,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 2,
+                                "Fillings": 2.5,
+                                "Uniformity": 2.5,
+                                "Salsa": 2.5,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 3.8
+                }
+            ],
+            "burrito_count": 10
+        },
+        {
+            "name": "Carmel Valley",
+            "children": [
+                {
+                    "name": "Nico's Taco Shop",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 7.19,
+                            "overall": 2.6,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3,
+                                "Fillings": 2,
+                                "Uniformity": 2.5,
+                                "Salsa": 0,
+                                "Synergy": 2,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Carnitas",
+                            "Cost": 6.99,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3,
+                                "Fillings": 2.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 0,
+                                "Synergy": 2.5,
+                                "Wrap": 3
+                            }
+                        }
+                    ],
+                    "rating": 2.9
+                },
+                {
+                    "name": "Porkyland ",
+                    "children": [
+                        {
+                            "name": "Deborah's special",
+                            "Cost": 8.25,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3.5,
+                                "Fillings": 2.5,
+                                "Uniformity": 4.5,
+                                "Salsa": 4,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Chicken nopalito",
+                            "Cost": 7.95,
+                            "overall": 3.3,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 4,
+                                "Fillings": 3.5,
+                                "Uniformity": 2.5,
+                                "Salsa": 3,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 8.75,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3,
+                                "Fillings": 5,
+                                "Uniformity": 2,
+                                "Salsa": 4,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.4
+                }
+            ],
+            "burrito_count": 5
+        },
+        {
+            "name": "Point Loma",
+            "children": [
+                {
+                    "name": "Los Primos Mexican Food",
+                    "children": [
+                        {
+                            "name": "Monster California",
+                            "Cost": 9.25,
+                            "overall": 3.9,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 4.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 3,
+                                "Salsa": 3.5,
+                                "Synergy": 4,
+                                "Wrap": 2
+                            }
+                        },
+                        {
+                            "name": "619 Burrito Original",
+                            "Cost": 11.75,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 0,
+                                "Meat": 4,
+                                "Fillings": 5,
+                                "Uniformity": 4,
+                                "Salsa": 5,
+                                "Synergy": 4,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 7.5,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 4,
+                                "Salsa": 2.5,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California breakfast",
+                            "Cost": 6.25,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3,
+                                "Fillings": 2,
+                                "Uniformity": 1,
+                                "Salsa": 3,
+                                "Synergy": 1.5,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Baja monster",
+                            "Cost": 6,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 1,
+                                "Fillings": 4,
+                                "Uniformity": 2,
+                                "Salsa": 3,
+                                "Synergy": 2,
+                                "Wrap": 1
+                            }
+                        },
+                        {
+                            "name": "Carnitas",
+                            "Cost": 6.35,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 2.5,
+                                "Fillings": 2,
+                                "Uniformity": 2,
+                                "Salsa": 2,
+                                "Synergy": 2,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Surf & Turf",
+                            "Cost": 7,
+                            "overall": 2.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 2,
+                                "Fillings": 3,
+                                "Uniformity": 3.5,
+                                "Salsa": 3,
+                                "Synergy": 3,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Adobada",
+                            "Cost": 6.25,
+                            "overall": 2.6,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 2.5,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 3.5,
+                                "Synergy": 3,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 7,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 2,
+                                "Fillings": 2,
+                                "Uniformity": 3,
+                                "Salsa": 3.5,
+                                "Synergy": 1.5,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 3.7
+                },
+                {
+                    "name": "Tony's Fresh Mexican Food",
+                    "children": [
+                        {
+                            "name": "Chile verde pork",
+                            "Cost": 6.95,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 1,
+                                "Synergy": 2,
+                                "Wrap": 1
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 6.25,
+                            "overall": 3.9,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 3.5,
+                                "Salsa": 1,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "battered fish ",
+                            "Cost": 6.99,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 1,
+                                "Meat": 1.5,
+                                "Fillings": 2.5,
+                                "Uniformity": 4,
+                                "Salsa": 3,
+                                "Synergy": 4.5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.1
+                },
+                {
+                    "name": "Qdoba Mexican Grill, Seatac Airport",
+                    "children": [
+                        {
+                            "name": "Custom",
+                            "Cost": 9.5,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3.5,
+                                "Fillings": 3,
+                                "Uniformity": 1,
+                                "Salsa": 3,
+                                "Synergy": 2.5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                },
+                {
+                    "name": "Mikes Taco Club",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 8.59,
+                            "overall": 4.3,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3.5,
+                                "Fillings": 5,
+                                "Uniformity": 2,
+                                "Salsa": 4,
+                                "Synergy": 4.5,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4.9
+                }
+            ],
+            "burrito_count": 14
+        },
+        {
+            "name": "Morena",
+            "children": [
+                {
+                    "name": "JV's Mexican Food",
+                    "children": [
+                        {
+                            "name": "Carne Asada",
+                            "Cost": 6.25,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 1.5,
+                                "Meat": 1.5,
+                                "Fillings": 3,
+                                "Uniformity": 3,
+                                "Salsa": 1.5,
+                                "Synergy": 2,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Surf & Turf",
+                            "Cost": 9.5,
+                            "overall": 2.5,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 2.75,
+                                "Fillings": 2.5,
+                                "Uniformity": 2,
+                                "Salsa": 0.5,
+                                "Synergy": 3,
+                                "Wrap": 3.5
+                            }
+                        }
+                    ],
+                    "rating": 4.1
+                },
+                {
+                    "name": "Matador Mexican Food",
+                    "children": [
+                        {
+                            "name": "Carnitas",
+                            "Cost": 6.6,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 3.7,
+                                "Meat": 3,
+                                "Fillings": 3.2,
+                                "Uniformity": 2.4,
+                                "Salsa": 3,
+                                "Synergy": 2.9,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 6.6,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 3.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 3,
+                                "Salsa": 3.5,
+                                "Synergy": 3.5,
+                                "Wrap": 4.5
+                            }
+                        }
+                    ],
+                    "rating": 4
+                }
+            ],
+            "burrito_count": 4
+        },
+        {
+            "name": "Core-Columbia",
+            "children": [
+                {
+                    "name": "Taco Stand",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 7.49,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 2.5,
+                                "Salsa": 3.5,
+                                "Synergy": 5,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Surf and turf ",
+                            "Cost": 8.49,
+                            "overall": 4.1,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4.5,
+                                "Fillings": 4,
+                                "Uniformity": 4.5,
+                                "Salsa": 3.5,
+                                "Synergy": 4,
+                                "Wrap": 2
+                            }
+                        },
+                        {
+                            "name": "Al pastor",
+                            "Cost": 6.99,
+                            "overall": 3.9,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 4,
+                                "Fillings": 3.5,
+                                "Uniformity": 5,
+                                "Salsa": 2.5,
+                                "Synergy": 4,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "California ",
+                            "Cost": 7.49,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 2,
+                                "Salsa": 3.5,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Al Pastor",
+                            "Cost": 6.99,
+                            "overall": 4.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4.5,
+                                "Fillings": 4.5,
+                                "Uniformity": 4.5,
+                                "Salsa": 4.5,
+                                "Synergy": 5,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4.4
+                },
+                {
+                    "name": "Taco stand",
+                    "children": [
+                        {
+                            "name": "Carne asada",
+                            "Cost": 7.89,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 4.5,
+                                "Fillings": 4,
+                                "Uniformity": 5,
+                                "Salsa": 4.5,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Al pastor",
+                            "Cost": 6.99,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3.5,
+                                "Fillings": 3,
+                                "Uniformity": 5,
+                                "Salsa": 3,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 8,
+                            "overall": 4.9,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 5,
+                                "Salsa": 3,
+                                "Synergy": 5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Shrimp",
+                            "Cost": 8.95,
+                            "overall": 5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 4,
+                                "Salsa": 5,
+                                "Synergy": 5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                },
+                {
+                    "name": "Valentines Mexican Food",
+                    "children": [
+                        {
+                            "name": "California ",
+                            "Cost": 7.9,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 2.5
+                            }
+                        },
+                        {
+                            "name": "California Chipotle",
+                            "Cost": 7.9,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3.5,
+                                "Fillings": 4.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 2.5,
+                                "Synergy": 4,
+                                "Wrap": 1.5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 6.75,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 4.7,
+                                "Meat": 4.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 4.5,
+                                "Salsa": 4.5,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Pork california",
+                            "Cost": 7.9,
+                            "overall": 5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4,
+                                "Fillings": 5,
+                                "Uniformity": 3,
+                                "Salsa": 4,
+                                "Synergy": 5,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 7.9,
+                            "overall": 4.5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 5,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 3,
+                                "Synergy": 5,
+                                "Wrap": 2
+                            }
+                        }
+                    ],
+                    "rating": 4
+                },
+                {
+                    "name": "Famoso Mexican Street Food",
+                    "children": [
+                        {
+                            "name": "Cali Diablo",
+                            "Cost": 10.5,
+                            "overall": 3.1,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3.3,
+                                "Fillings": 3.5,
+                                "Uniformity": 4,
+                                "Salsa": 2.5,
+                                "Synergy": 2.5,
+                                "Wrap": 3
+                            }
+                        }
+                    ],
+                    "rating": 3.9
+                }
+            ],
+            "burrito_count": 15
+        },
+        {
+            "name": "La Jolla",
+            "children": [
+                {
+                    "name": "Rigoberto's Taco Shop La Jolla",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 6.4,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 2.75,
+                                "Fillings": 3,
+                                "Uniformity": 2,
+                                "Salsa": 2,
+                                "Synergy": 0,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4
+                },
+                {
+                    "name": "Rubios UCSD",
+                    "children": [
+                        {
+                            "name": "Tilapia one",
+                            "Cost": 7.99,
+                            "overall": 3.2,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 4.5,
+                                "Salsa": 2.5,
+                                "Synergy": 3,
+                                "Wrap": 1.5
+                            }
+                        },
+                        {
+                            "name": "Grilled fish salmon",
+                            "Cost": 8.99,
+                            "overall": 3.4,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 2,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 3.4
+                },
+                {
+                    "name": "Taco Villa",
+                    "children": [
+                        {
+                            "name": "Carnitas",
+                            "Cost": 5.99,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 3.8,
+                                "Meat": 4.5,
+                                "Fillings": 2.8,
+                                "Uniformity": 2,
+                                "Salsa": 1.8,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Al pastor",
+                            "Cost": 5.99,
+                            "overall": 3.2,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 2,
+                                "Fillings": 3,
+                                "Uniformity": 4.5,
+                                "Salsa": 3,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Chicken and rice",
+                            "Cost": 4.95,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 5,
+                                "Salsa": 0,
+                                "Synergy": 4.7,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California ",
+                            "Cost": 6.99,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 3.5,
+                                "Salsa": 3.8,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Breakfast",
+                            "Cost": 4.99,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 2.5,
+                                "Salsa": 0,
+                                "Synergy": 2.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Tejano",
+                            "Cost": 6.99,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4.2,
+                                "Fillings": 3,
+                                "Uniformity": 5,
+                                "Salsa": 3.7,
+                                "Synergy": 4.2,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Shrimp with guac",
+                            "Cost": 0,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Bean & cheese",
+                            "Cost": 0,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 0,
+                                "Fillings": 3,
+                                "Uniformity": 2,
+                                "Salsa": 0,
+                                "Synergy": 1,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Chicken",
+                            "Cost": 4.99,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3,
+                                "Fillings": 2.5,
+                                "Uniformity": 3,
+                                "Salsa": 2,
+                                "Synergy": 2,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Pollo asado",
+                            "Cost": 5.99,
+                            "overall": 3.1,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 2.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 3,
+                                "Salsa": 2,
+                                "Synergy": 1.5,
+                                "Wrap": 3.4
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 0,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 1.5,
+                                "Salsa": 3.8,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 6.99,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 2,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 2,
+                                "Synergy": 2,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 3.5
+                },
+                {
+                    "name": "Jose's Taco",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 6.1,
+                            "overall": 3.3,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 2,
+                                "Fillings": 3.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 3,
+                                "Synergy": 3.5,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 3.8
+                },
+                {
+                    "name": "Don Carlos Taco Shop",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 7.75,
+                            "overall": 3.7,
+                            "ingredients": {
+                                "Temp": 4.2,
+                                "Meat": 3.3,
+                                "Fillings": 3.7,
+                                "Uniformity": 4,
+                                "Salsa": 2.9,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.5
+                },
+                {
+                    "name": "Taco VIlla",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 6.99,
+                            "overall": 3.7,
+                            "ingredients": {
+                                "Temp": 0,
+                                "Meat": 3.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 3.5,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                }
+            ],
+            "burrito_count": 18
+        },
+        {
+            "name": "Kearny Mesa",
+            "children": [
+                {
+                    "name": "Lolita's taco shop",
+                    "children": [
+                        {
+                            "name": "2 in 1",
+                            "Cost": 8.75,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 3,
+                                "Fillings": 3.5,
+                                "Uniformity": 1,
+                                "Salsa": 3.5,
+                                "Synergy": 4.5,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Adobado",
+                            "Cost": 5.5,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3.5,
+                                "Fillings": 3,
+                                "Uniformity": 1.5,
+                                "Salsa": 2.5,
+                                "Synergy": 3.5,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 7,
+                            "overall": 3.3,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3,
+                                "Fillings": 3.5,
+                                "Uniformity": 1.5,
+                                "Salsa": 3,
+                                "Synergy": 3,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4.4
+                },
+                {
+                    "name": "Lolita's Taco shop",
+                    "children": [
+                        {
+                            "name": "Carne asada",
+                            "Cost": 6.25,
+                            "overall": 2.6,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3,
+                                "Fillings": 4.5,
+                                "Uniformity": 2,
+                                "Salsa": 2.75,
+                                "Synergy": 3.75,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Shrimp",
+                            "Cost": 8.95,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 3.5,
+                                "Salsa": 2.5,
+                                "Synergy": 4,
+                                "Wrap": 0.5
+                            }
+                        },
+                        {
+                            "name": "Bean and cheese",
+                            "Cost": 3.5,
+                            "overall": 2.7,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 0,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 3,
+                                "Synergy": 2.5,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 0
+                },
+                {
+                    "name": "Pokirrito",
+                    "children": [
+                        {
+                            "name": "Pokirrito classic ",
+                            "Cost": 11.95,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 4.5,
+                                "Uniformity": 2.5,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 2
+                            }
+                        },
+                        {
+                            "name": "Mauna Lani",
+                            "Cost": 11.95,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 2.5,
+                                "Salsa": 4.5,
+                                "Synergy": 4,
+                                "Wrap": 1.5
+                            }
+                        }
+                    ],
+                    "rating": 4.3
+                },
+                {
+                    "name": "Lolita's Taco Shop",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 7,
+                            "overall": 2.3,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3,
+                                "Fillings": 2,
+                                "Uniformity": 4.5,
+                                "Salsa": 2,
+                                "Synergy": 1.5,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Mixed",
+                            "Cost": 8.25,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 5,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                },
+                {
+                    "name": "Burros and Fries",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 6.89,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 1.5,
+                                "Salsa": 2.5,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 6.89,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4.5,
+                                "Fillings": 4.5,
+                                "Uniformity": 4,
+                                "Salsa": 4.5,
+                                "Synergy": 4,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Shrimp california",
+                            "Cost": 6.99,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 2.5,
+                                "Uniformity": 3,
+                                "Salsa": 3,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.1
+                },
+                {
+                    "name": "Storehouse Kitchen ",
+                    "children": [
+                        {
+                            "name": "Breakfast",
+                            "Cost": 0,
+                            "overall": 4.6,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4.5,
+                                "Fillings": 4.2,
+                                "Uniformity": 4.4,
+                                "Salsa": 4,
+                                "Synergy": 4.9,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                }
+            ],
+            "burrito_count": 14
+        },
+        {
+            "name": "North Park",
+            "children": [
+                {
+                    "name": "Colima's Mexican Food",
+                    "children": [
+                        {
+                            "name": "Hawaiian",
+                            "Cost": 6.29,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 4.5,
+                                "Salsa": 3.5,
+                                "Synergy": 3.5,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Bandido",
+                            "Cost": 6.49,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 2.5,
+                                "Synergy": 4.5,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4.2
+                },
+                {
+                    "name": "Saguaro's ",
+                    "children": [
+                        {
+                            "name": "Vegetarian",
+                            "Cost": 5.25,
+                            "overall": 4.8,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 0,
+                                "Fillings": 5,
+                                "Uniformity": 4,
+                                "Salsa": 5,
+                                "Synergy": 5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                },
+                {
+                    "name": "Colima's ",
+                    "children": [
+                        {
+                            "name": "Colimas burrito",
+                            "Cost": 8.25,
+                            "overall": 4.9,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 5,
+                                "Salsa": 0,
+                                "Synergy": 5,
+                                "Wrap": 4.5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                },
+                {
+                    "name": "Lucha Libre North Park",
+                    "children": [
+                        {
+                            "name": "Surf & Turf",
+                            "Cost": 8.25,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 3,
+                                "Salsa": 3.5,
+                                "Synergy": 3,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Surfin California",
+                            "Cost": 8.25,
+                            "overall": 3.9,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 4,
+                                "Fillings": 3.5,
+                                "Uniformity": 2,
+                                "Salsa": 3.5,
+                                "Synergy": 3.5,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Nutty",
+                            "Cost": 7.5,
+                            "overall": 4.4,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 4.5,
+                                "Synergy": 4.5,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Veg Out",
+                            "Cost": 6.95,
+                            "overall": 4.5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 0,
+                                "Fillings": 5,
+                                "Uniformity": 5,
+                                "Salsa": 4.5,
+                                "Synergy": 5,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Veggie",
+                            "Cost": 5.25,
+                            "overall": 3.25,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 0,
+                                "Fillings": 3.5,
+                                "Uniformity": 3,
+                                "Salsa": 4,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Bean and cheese",
+                            "Cost": 3.75,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 0,
+                                "Fillings": 1,
+                                "Uniformity": 3,
+                                "Salsa": 3,
+                                "Synergy": 2,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "California - Steak",
+                            "Cost": 7.5,
+                            "overall": 3.9,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 5,
+                                "Fillings": 3.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 4.5,
+                                "Synergy": 4,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "California - Pork Adobada",
+                            "Cost": 7.5,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 3,
+                                "Salsa": 4,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California - Chicken",
+                            "Cost": 7.5,
+                            "overall": 2.5,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3,
+                                "Fillings": 4.5,
+                                "Uniformity": 2,
+                                "Salsa": 5,
+                                "Synergy": 4.5,
+                                "Wrap": 3.5
+                            }
+                        },
+                        {
+                            "name": "Holy Moly",
+                            "Cost": 7.5,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 3.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 4,
+                                "Salsa": 2,
+                                "Synergy": 2,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4.3
+                }
+            ],
+            "burrito_count": 14
+        },
+        {
+            "name": "Miramar",
+            "children": [
+                {
+                    "name": "Rigoberto's Taco Shop",
+                    "children": [
+                        {
+                            "name": "Carne asada",
+                            "Cost": 6.6,
+                            "overall": 4.25,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 4,
+                                "Fillings": 3.5,
+                                "Uniformity": 4,
+                                "Salsa": 3.5,
+                                "Synergy": 4,
+                                "Wrap": 1
+                            }
+                        },
+                        {
+                            "name": "Campeon",
+                            "Cost": 7.65,
+                            "overall": 3.4,
+                            "ingredients": {
+                                "Temp": 1.5,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 3,
+                                "Salsa": 3.5,
+                                "Synergy": 2.5,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "California ",
+                            "Cost": 6.6,
+                            "overall": 4.5,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 4,
+                                "Fillings": 4.5,
+                                "Uniformity": 4.5,
+                                "Salsa": 4.5,
+                                "Synergy": 5,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Adobada",
+                            "Cost": 6.6,
+                            "overall": 4.5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 4,
+                                "Salsa": 0,
+                                "Synergy": 4.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 6.6,
+                            "overall": 3.6,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3.5,
+                                "Fillings": 3,
+                                "Uniformity": 2.5,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Surf & Turf",
+                            "Cost": 7.45,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3.5,
+                                "Fillings": 2.5,
+                                "Uniformity": 2.5,
+                                "Salsa": 3.75,
+                                "Synergy": 3,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "El Rusio",
+                            "Cost": 6.65,
+                            "overall": 2.5,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 2.5,
+                                "Fillings": 2,
+                                "Uniformity": 5,
+                                "Salsa": 1.5,
+                                "Synergy": 2,
+                                "Wrap": 1.5
+                            }
+                        },
+                        {
+                            "name": "Carnitas",
+                            "Cost": 7.5,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4,
+                                "Fillings": 5,
+                                "Uniformity": 4,
+                                "Salsa": 5,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Bacon breakfast",
+                            "Cost": 6.25,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 5,
+                                "Salsa": 0,
+                                "Synergy": 5,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Chile Relleno",
+                            "Cost": 6.6,
+                            "overall": 4.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 0,
+                                "Fillings": 5,
+                                "Uniformity": 4,
+                                "Salsa": 0,
+                                "Synergy": 5,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Fish",
+                            "Cost": 6,
+                            "overall": 5,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 5,
+                                "Salsa": 0,
+                                "Synergy": 5,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Al pastor",
+                            "Cost": 0,
+                            "overall": 4.8,
+                            "ingredients": {
+                                "Temp": 0,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 4,
+                                "Salsa": 5,
+                                "Synergy": 5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.4
+                },
+                {
+                    "name": "Sotos Mexican Food",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 6.75,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3,
+                                "Fillings": 4,
+                                "Uniformity": 3,
+                                "Salsa": 4.5,
+                                "Synergy": 3.5,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Pastor",
+                            "Cost": 5.99,
+                            "overall": 3.2,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 2.5,
+                                "Fillings": 4,
+                                "Uniformity": 3,
+                                "Salsa": 3.5,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.6
+                },
+                {
+                    "name": "California Burrito Company",
+                    "children": [
+                        {
+                            "name": "Dave's California",
+                            "Cost": 6.5,
+                            "overall": 3.3,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 2.5,
+                                "Fillings": 3,
+                                "Uniformity": 3.5,
+                                "Salsa": 2.5,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 5.5,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 3.5,
+                                "Salsa": 2,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Fajitas ",
+                            "Cost": 6.5,
+                            "overall": 2.2,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3.5,
+                                "Fillings": 1.5,
+                                "Uniformity": 2,
+                                "Salsa": 3.2,
+                                "Synergy": 2,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "California ",
+                            "Cost": 5.5,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4.5,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 4.5,
+                                "Synergy": 3.5,
+                                "Wrap": 4.5
+                            }
+                        }
+                    ],
+                    "rating": 4.4
+                }
+            ],
+            "burrito_count": 18
+        },
+        {
+            "name": "University Heights",
+            "children": [
+                {
+                    "name": "El Zarape",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 6.25,
+                            "overall": 3.33333,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4,
+                                "Fillings": 2.75,
+                                "Uniformity": 1.6,
+                                "Salsa": 3.5,
+                                "Synergy": 3.4,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California chicken",
+                            "Cost": 6.25,
+                            "overall": 2.5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 2.5,
+                                "Fillings": 2.5,
+                                "Uniformity": 2.7,
+                                "Salsa": 3.5,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Azteca",
+                            "Cost": 6.25,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 5,
+                                "Fillings": 4.5,
+                                "Uniformity": 4,
+                                "Salsa": 1.5,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Lobster",
+                            "Cost": 9.5,
+                            "overall": 3.2,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 4.5,
+                                "Salsa": 3.5,
+                                "Synergy": 3,
+                                "Wrap": 3.5
+                            }
+                        },
+                        {
+                            "name": "Surf and Turf",
+                            "Cost": 7,
+                            "overall": 5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 5,
+                                "Salsa": 5,
+                                "Synergy": 5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Carne asada supreme",
+                            "Cost": 6.25,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 0,
+                                "Fillings": 3.5,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4.4
+                }
+            ],
+            "burrito_count": 6
+        },
+        {
+            "name": "MIddletown",
+            "children": [
+                {
+                    "name": "El Indio",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 7.84,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 3.5,
+                                "Synergy": 3.5,
+                                "Wrap": 4.5
+                            }
+                        }
+                    ],
+                    "rating": 3.9
+                }
+            ],
+            "burrito_count": 1
+        },
+        {
+            "name": "Clairemont",
+            "children": [
+                {
+                    "name": "Vallarta express",
+                    "children": [
+                        {
+                            "name": "Quesaburro",
+                            "Cost": 6.95,
+                            "overall": 4.1,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 3.5,
+                                "Synergy": 4.5,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Philly ",
+                            "Cost": 6.95,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 2,
+                                "Salsa": 4,
+                                "Synergy": 2,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 6.5,
+                            "overall": 3.25,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 4.5,
+                                "Salsa": 3.5,
+                                "Synergy": 3,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Quesa",
+                            "Cost": 6.95,
+                            "overall": 3.75,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 5,
+                                "Salsa": 3.5,
+                                "Synergy": 2.5,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Surf and turf",
+                            "Cost": 7.65,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 2,
+                                "Salsa": 4,
+                                "Synergy": 2,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Mahi",
+                            "Cost": 7.3,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3.5,
+                                "Fillings": 3,
+                                "Uniformity": 2,
+                                "Salsa": 3.5,
+                                "Synergy": 2.5,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Fish",
+                            "Cost": 6.5,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 0,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 3,
+                                "Salsa": 0,
+                                "Synergy": 4,
+                                "Wrap": 1.5
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 6.65,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 0,
+                                "Meat": 3.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 3.5,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4
+                },
+                {
+                    "name": "Carmen's Mexican Food",
+                    "children": [
+                        {
+                            "name": "Adobada",
+                            "Cost": 6.5,
+                            "overall": 3.6,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 3,
+                                "Salsa": 1.5,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 6.5,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 3.5,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4.2
+                },
+                {
+                    "name": "Roberto's Taco Shop Clairemont",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 5.79,
+                            "overall": 3.6,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 5,
+                                "Salsa": 2.5,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California + Guac + sour cream",
+                            "Cost": 7.29,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4.7,
+                                "Meat": 4,
+                                "Fillings": 3.5,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 4.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 5.69,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 1.5,
+                                "Fillings": 3,
+                                "Uniformity": 4.5,
+                                "Salsa": 3.5,
+                                "Synergy": 2,
+                                "Wrap": 4.5
+                            }
+                        }
+                    ],
+                    "rating": 4
+                },
+                {
+                    "name": "El Portal Fresh Mexican Grill",
+                    "children": [
+                        {
+                            "name": "Mahi",
+                            "Cost": 7.35,
+                            "overall": 3.1,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3.5,
+                                "Fillings": 2,
+                                "Uniformity": 2,
+                                "Salsa": 2,
+                                "Synergy": 3,
+                                "Wrap": 1.2
+                            }
+                        },
+                        {
+                            "name": "Carnitas",
+                            "Cost": 6.7,
+                            "overall": 3.75,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 3,
+                                "Synergy": 3.5,
+                                "Wrap": 4.5
+                            }
+                        }
+                    ],
+                    "rating": 4.4
+                },
+                {
+                    "name": "Mister Falafel",
+                    "children": [
+                        {
+                            "name": "Chicken Shawarma",
+                            "Cost": 6.99,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 4.3,
+                                "Salsa": 0,
+                                "Synergy": 3.8,
+                                "Wrap": 2
+                            }
+                        }
+                    ],
+                    "rating": 4.6
+                },
+                {
+                    "name": "Lupe's Taco Shop",
+                    "children": [
+                        {
+                            "name": "Hot cheetos",
+                            "Cost": 7.29,
+                            "overall": 3.7,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 3.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 2.5,
+                                "Salsa": 3.7,
+                                "Synergy": 3.2,
+                                "Wrap": 4.2
+                            }
+                        },
+                        {
+                            "name": "Surfin California",
+                            "Cost": 7.89,
+                            "overall": 4.25,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4.5,
+                                "Fillings": 4,
+                                "Uniformity": 3.5,
+                                "Salsa": 3,
+                                "Synergy": 4.5,
+                                "Wrap": 2.5
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 7.49,
+                            "overall": 3.9,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 3.9,
+                                "Fillings": 4,
+                                "Uniformity": 2,
+                                "Salsa": 3.5,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Spicy a la Diabla",
+                            "Cost": 7.49,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 2,
+                                "Uniformity": 0,
+                                "Salsa": 0,
+                                "Synergy": 1,
+                                "Wrap": 2
+                            }
+                        },
+                        {
+                            "name": "TGunz",
+                            "Cost": 10,
+                            "overall": 3.9,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3.2,
+                                "Fillings": 3.5,
+                                "Uniformity": 1.8,
+                                "Salsa": 3.5,
+                                "Synergy": 3.7,
+                                "Wrap": 3.5
+                            }
+                        }
+                    ],
+                    "rating": 4.5
+                },
+                {
+                    "name": "Cotixan",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 7.19,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 3,
+                                "Fillings": 3.8,
+                                "Uniformity": 2,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4
+                },
+                {
+                    "name": "Vallarta Express",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 7.5,
+                            "overall": 4.1,
+                            "ingredients": {
+                                "Temp": 0,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 5,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Surf & Turf",
+                            "Cost": 8.55,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 2.8,
+                                "Salsa": 3.5,
+                                "Synergy": 2.8,
+                                "Wrap": 1.5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                },
+                {
+                    "name": "Los palmitos",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 7.1,
+                            "overall": 4.3,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3.8,
+                                "Fillings": 3.8,
+                                "Uniformity": 4,
+                                "Salsa": 3.9,
+                                "Synergy": 4.3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Surf & Turf",
+                            "Cost": 8.25,
+                            "overall": 3.6,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 4.5,
+                                "Salsa": 3.5,
+                                "Synergy": 3.5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.1
+                }
+            ],
+            "burrito_count": 26
+        },
+        {
+            "name": "Birdland",
+            "children": [
+                {
+                    "name": "California Burritos",
+                    "children": [
+                        {
+                            "name": "California Everything",
+                            "Cost": 6.25,
+                            "overall": 4.1,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 2.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Chile relleno and carnitas",
+                            "Cost": 6.5,
+                            "overall": 4.7,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California (only cheese)",
+                            "Cost": 6.25,
+                            "overall": 5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 5,
+                                "Fillings": 4,
+                                "Uniformity": 2,
+                                "Salsa": 0,
+                                "Synergy": 5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Carnitas",
+                            "Cost": 5.5,
+                            "overall": 4.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 5,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 4.5,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Carne asada everything",
+                            "Cost": 6.25,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 3,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Surf & Turf",
+                            "Cost": 7,
+                            "overall": 0,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3.5,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 3,
+                                "Synergy": 3,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4.4
+                },
+                {
+                    "name": "California burritos",
+                    "children": [
+                        {
+                            "name": "California everything",
+                            "Cost": 6.5,
+                            "overall": 4.1,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3.5,
+                                "Fillings": 4.5,
+                                "Uniformity": 4,
+                                "Salsa": 3.5,
+                                "Synergy": 4.3,
+                                "Wrap": 4.3
+                            }
+                        },
+                        {
+                            "name": "California everything mini",
+                            "Cost": 4.75,
+                            "overall": 4.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4.5,
+                                "Fillings": 4.3,
+                                "Uniformity": 4.5,
+                                "Salsa": 4.8,
+                                "Synergy": 4.8,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Surf & Turf",
+                            "Cost": 6.75,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 3.5,
+                                "Uniformity": 3,
+                                "Salsa": 2,
+                                "Synergy": 3.5,
+                                "Wrap": 3.5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                }
+            ],
+            "burrito_count": 9
+        },
+        {
+            "name": "Cardiff",
+            "children": [
+                {
+                    "name": "Jorge's Mexicatessen",
+                    "children": [
+                        {
+                            "name": "California ",
+                            "Cost": 5.95,
+                            "overall": 3.8,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 4.5,
+                                "Salsa": 4,
+                                "Synergy": 4.5,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Chimichanga beef",
+                            "Cost": 5.5,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 3.5,
+                                "Synergy": 3.5,
+                                "Wrap": 0
+                            }
+                        }
+                    ],
+                    "rating": 4.5
+                }
+            ],
+            "burrito_count": 2
+        },
+        {
+            "name": "Carlsbad Village",
+            "children": [
+                {
+                    "name": "Senor Grubby's",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 9,
+                            "overall": 1.5,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 3,
+                                "Fillings": 1.5,
+                                "Uniformity": 1,
+                                "Salsa": 2.5,
+                                "Synergy": 1.5,
+                                "Wrap": 3.5
+                            }
+                        },
+                        {
+                            "name": "Pastor",
+                            "Cost": 9,
+                            "overall": 1.8,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 1.5,
+                                "Fillings": 2.5,
+                                "Uniformity": 2,
+                                "Salsa": 2.5,
+                                "Synergy": 2,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.1
+                }
+            ],
+            "burrito_count": 2
+        },
+        {
+            "name": "Peacock",
+            "children": [
+                {
+                    "name": "Mi Asador Mexican & Seafood ",
+                    "children": [
+                        {
+                            "name": "California ",
+                            "Cost": 6.89,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3,
+                                "Fillings": 2.5,
+                                "Uniformity": 2,
+                                "Salsa": 3.5,
+                                "Synergy": 3,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "El Hawaiiano ",
+                            "Cost": 6.39,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 2.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 3,
+                                "Salsa": 3.5,
+                                "Synergy": 4,
+                                "Wrap": 3.5
+                            }
+                        }
+                    ],
+                    "rating": 4.4
+                }
+            ],
+            "burrito_count": 2
+        },
+        {
+            "name": "Leucadia",
+            "children": [
+                {
+                    "name": "Karina's Taco Shop ",
+                    "children": [
+                        {
+                            "name": "Bomb",
+                            "Cost": 7.99,
+                            "overall": 3.7,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 3.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 4,
+                                "Synergy": 3.5,
+                                "Wrap": 2.5
+                            }
+                        },
+                        {
+                            "name": "California ",
+                            "Cost": 6.99,
+                            "overall": 3.8,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 1,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 4.5
+                            }
+                        }
+                    ],
+                    "rating": 4.2
+                }
+            ],
+            "burrito_count": 2
+        },
+        {
+            "name": "Sorrento Mesa",
+            "children": [
+                {
+                    "name": "Kotija Jr.",
+                    "children": [
+                        {
+                            "name": "Fish",
+                            "Cost": 6.5,
+                            "overall": 5,
+                            "ingredients": {
+                                "Temp": 0,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 5,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 0
+                },
+                {
+                    "name": "Kotija Jr",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 6.99,
+                            "overall": 3.7,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 3.5,
+                                "Fillings": 3.8,
+                                "Uniformity": 2.5,
+                                "Salsa": 3.3,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Steak fajitas",
+                            "Cost": 7.1,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 4.75,
+                                "Salsa": 3.75,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.2
+                }
+            ],
+            "burrito_count": 3
+        },
+        {
+            "name": "Downtown San Diego",
+            "children": [
+                {
+                    "name": "Chipotle",
+                    "children": [
+                        {
+                            "name": "Custom",
+                            "Cost": 7,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 0,
+                                "Meat": 5,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Carnitas",
+                            "Cost": 7.15,
+                            "overall": 2.75,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3,
+                                "Fillings": 2.8,
+                                "Uniformity": 3.5,
+                                "Salsa": 0,
+                                "Synergy": 3,
+                                "Wrap": 3.5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                }
+            ],
+            "burrito_count": 2
+        },
+        {
+            "name": "Mission Valley",
+            "children": [
+                {
+                    "name": "Roberto's Very Mexican Food",
+                    "children": [
+                        {
+                            "name": "Chicken asada",
+                            "Cost": 6.5,
+                            "overall": 1.5,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 2,
+                                "Fillings": 2,
+                                "Uniformity": 1,
+                                "Salsa": 1,
+                                "Synergy": 2,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Carnitas",
+                            "Cost": 5.4,
+                            "overall": 2.7,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 4,
+                                "Fillings": 2.5,
+                                "Uniformity": 1.5,
+                                "Salsa": 1.5,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 3.9
+                }
+            ],
+            "burrito_count": 2
+        },
+        {
+            "name": "Central Escondido",
+            "children": [
+                {
+                    "name": "Alberto's 623 N Escondido Blvd, Escondido, CA 92025",
+                    "children": [
+                        {
+                            "name": "Carne Asada",
+                            "Cost": 4.59,
+                            "overall": 4.8,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 5,
+                                "Salsa": 5,
+                                "Synergy": 5,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 0
+                }
+            ],
+            "burrito_count": 1
+        },
+        {
+            "name": "Hillcrest",
+            "children": [
+                {
+                    "name": "MXN on Washington",
+                    "children": [
+                        {
+                            "name": "Bean and rice grande size",
+                            "Cost": 2.99,
+                            "overall": 4.5,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 0,
+                                "Fillings": 4.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 0
+                },
+                {
+                    "name": "El Cuervo",
+                    "children": [
+                        {
+                            "name": "California ",
+                            "Cost": 6.95,
+                            "overall": 3.6,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 3,
+                                "Fillings": 4,
+                                "Uniformity": 3,
+                                "Salsa": 4.5,
+                                "Synergy": 3.5,
+                                "Wrap": 2
+                            }
+                        },
+                        {
+                            "name": "Pollo adobado",
+                            "Cost": 5.95,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 4.5,
+                                "Salsa": 4.5,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.3
+                },
+                {
+                    "name": "Roberto's Taco Shop Hillcrest",
+                    "children": [
+                        {
+                            "name": "Asada",
+                            "Cost": 7,
+                            "overall": 2.8,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 2,
+                                "Fillings": 2.5,
+                                "Uniformity": 4,
+                                "Salsa": 3,
+                                "Synergy": 2.9,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "California Surf and Turf",
+                            "Cost": 9,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 4.5,
+                                "Salsa": 2,
+                                "Synergy": 3.5,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 7,
+                            "overall": 2.2,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 2,
+                                "Fillings": 2,
+                                "Uniformity": 2,
+                                "Salsa": 3,
+                                "Synergy": 2,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Golden State",
+                            "Cost": 25,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 4.4,
+                                "Meat": 4,
+                                "Fillings": 3.8,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.2
+                }
+            ],
+            "burrito_count": 7
+        },
+        {
+            "name": "East Village",
+            "children": [
+                {
+                    "name": "Lolita's",
+                    "children": [
+                        {
+                            "name": "Bean and Cheese",
+                            "Cost": 0,
+                            "overall": 4.8,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 0,
+                                "Fillings": 4.7,
+                                "Uniformity": 5,
+                                "Salsa": 0,
+                                "Synergy": 4.7,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                }
+            ],
+            "burrito_count": 1
+        },
+        {
+            "name": "Golden Hill",
+            "children": [
+                {
+                    "name": "Humbertos",
+                    "children": [
+                        {
+                            "name": "Pollo california",
+                            "Cost": 6,
+                            "overall": 5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 4,
+                                "Salsa": 5,
+                                "Synergy": 5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                },
+                {
+                    "name": "Gloria's Taco Shop",
+                    "children": [
+                        {
+                            "name": "California ",
+                            "Cost": 5.65,
+                            "overall": 2.7,
+                            "ingredients": {
+                                "Temp": 1.5,
+                                "Meat": 2,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 3,
+                                "Synergy": 2,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Cabeza",
+                            "Cost": 5.49,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 2,
+                                "Fillings": 2,
+                                "Uniformity": 3.5,
+                                "Salsa": 3,
+                                "Synergy": 2.5,
+                                "Wrap": 3
+                            }
+                        }
+                    ],
+                    "rating": 4.3
+                }
+            ],
+            "burrito_count": 3
+        },
+        {
+            "name": "Tierrasanta",
+            "children": [
+                {
+                    "name": "Chili Peppers",
+                    "children": [
+                        {
+                            "name": "Surf & Turf",
+                            "Cost": 9.43,
+                            "overall": 5,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 5,
+                                "Fillings": 5,
+                                "Uniformity": 5,
+                                "Salsa": 5,
+                                "Synergy": 5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                }
+            ],
+            "burrito_count": 1
+        },
+        {
+            "name": "Lake",
+            "children": [
+                {
+                    "name": "Los tacos ",
+                    "children": [
+                        {
+                            "name": "Local",
+                            "Cost": 7.9,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 4.5,
+                                "Fillings": 4,
+                                "Uniformity": 1.5,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Fusion",
+                            "Cost": 8.5,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 3.5,
+                                "Uniformity": 4,
+                                "Salsa": 4,
+                                "Synergy": 4.5,
+                                "Wrap": 4.5
+                            }
+                        }
+                    ],
+                    "rating": 4.2
+                },
+                {
+                    "name": "Los Tacos",
+                    "children": [
+                        {
+                            "name": "California ",
+                            "Cost": 7.9,
+                            "overall": 4.2,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4,
+                                "Fillings": 4,
+                                "Uniformity": 4,
+                                "Salsa": 3.5,
+                                "Synergy": 4,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "Local",
+                            "Cost": 7.9,
+                            "overall": 4.3,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 4.5,
+                                "Fillings": 4.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 3.5,
+                                "Synergy": 4,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Fusion",
+                            "Cost": 8.5,
+                            "overall": 3.9,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 4.1,
+                                "Fillings": 3,
+                                "Uniformity": 4,
+                                "Salsa": 4.3,
+                                "Synergy": 4.2,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 0
+                }
+            ],
+            "burrito_count": 5
+        },
+        {
+            "name": "University City",
+            "children": [
+                {
+                    "name": "Papa Chito's Mexican Food",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 6.25,
+                            "overall": 2.2,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 2.5,
+                                "Fillings": 2.5,
+                                "Uniformity": 4,
+                                "Salsa": 2,
+                                "Synergy": 1.5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 3.3
+                },
+                {
+                    "name": "Los Cabos",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 5.99,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 2.5,
+                                "Fillings": 2.5,
+                                "Uniformity": 1.5,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Al pastor",
+                            "Cost": 5.69,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3,
+                                "Fillings": 3.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 2.5,
+                                "Synergy": 4,
+                                "Wrap": 4.5
+                            }
+                        }
+                    ],
+                    "rating": 4.1
+                }
+            ],
+            "burrito_count": 3
+        },
+        {
+            "name": "North City",
+            "children": [
+                {
+                    "name": "El Pueblo Mexican Food",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 4.99,
+                            "overall": 4.3,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 5,
+                                "Salsa": 2.5,
+                                "Synergy": 4.5,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.7
+                }
+            ],
+            "burrito_count": 1
+        },
+        {
+            "name": "Mid-City",
+            "children": [
+                {
+                    "name": "Senor Panchos",
+                    "children": [
+                        {
+                            "name": "Pollo asado",
+                            "Cost": 6.25,
+                            "overall": 2.9,
+                            "ingredients": {
+                                "Temp": 3.5,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 4.5,
+                                "Salsa": 3.5,
+                                "Synergy": 2,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 6.25,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 4.5,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.2
+                },
+                {
+                    "name": "La Morena Taco Shop and Seafood",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 6.35,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 2,
+                                "Salsa": 2,
+                                "Synergy": 3,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 4.7
+                }
+            ],
+            "burrito_count": 3
+        },
+        {
+            "name": "Gulfton",
+            "children": [
+                {
+                    "name": "Tacos La Bala",
+                    "children": [
+                        {
+                            "name": "Pastor",
+                            "Cost": 4.99,
+                            "overall": 2.5,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 4,
+                                "Fillings": 2.5,
+                                "Uniformity": 1,
+                                "Salsa": 2,
+                                "Synergy": 4,
+                                "Wrap": 0
+                            }
+                        },
+                        {
+                            "name": "Barbacoa ",
+                            "Cost": 4.99,
+                            "overall": 2.4,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3.5,
+                                "Fillings": 2,
+                                "Uniformity": 2.5,
+                                "Salsa": 2,
+                                "Synergy": 2.5,
+                                "Wrap": 2.5
+                            }
+                        }
+                    ],
+                    "rating": 4.1
+                }
+            ],
+            "burrito_count": 2
+        },
+        {
+            "name": "Allied Gardens",
+            "children": [
+                {
+                    "name": "Los Panchos Taco Shop",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 6.25,
+                            "overall": 3.7,
+                            "ingredients": {
+                                "Temp": 5,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 3,
+                                "Salsa": 3.5,
+                                "Synergy": 3.5,
+                                "Wrap": 3
+                            }
+                        },
+                        {
+                            "name": "Bitchin California",
+                            "Cost": 7.25,
+                            "overall": 4.4,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 5,
+                                "Fillings": 4.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 5,
+                                "Synergy": 4.5,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "Tijuana",
+                            "Cost": 7,
+                            "overall": 3.7,
+                            "ingredients": {
+                                "Temp": 4,
+                                "Meat": 3.5,
+                                "Fillings": 4,
+                                "Uniformity": 3.5,
+                                "Salsa": 4.5,
+                                "Synergy": 4,
+                                "Wrap": 3.5
+                            }
+                        }
+                    ],
+                    "rating": 3.4
+                }
+            ],
+            "burrito_count": 3
+        },
+        {
+            "name": "Miramar Ranch North",
+            "children": [
+                {
+                    "name": "El Pollo Loco",
+                    "children": [
+                        {
+                            "name": "Chicken avocado",
+                            "Cost": 5.99,
+                            "overall": 3.2,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3.8,
+                                "Fillings": 2.5,
+                                "Uniformity": 3,
+                                "Salsa": 2.5,
+                                "Synergy": 3,
+                                "Wrap": 2.6
+                            }
+                        }
+                    ],
+                    "rating": 4.1
+                }
+            ],
+            "burrito_count": 1
+        },
+        {
+            "name": "Mission Beach",
+            "children": [
+                {
+                    "name": "Mr. Ruribertos Taco Shop ",
+                    "children": [
+                        {
+                            "name": "California",
+                            "Cost": 7.75,
+                            "overall": 2.9,
+                            "ingredients": {
+                                "Temp": 2.5,
+                                "Meat": 3,
+                                "Fillings": 3.3,
+                                "Uniformity": 2.3,
+                                "Salsa": 2.2,
+                                "Synergy": 3.3,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "Carne asada",
+                            "Cost": 7.75,
+                            "overall": 3,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 2,
+                                "Fillings": 2,
+                                "Uniformity": 3.5,
+                                "Salsa": 2,
+                                "Synergy": 2,
+                                "Wrap": 4
+                            }
+                        }
+                    ],
+                    "rating": 3.7
+                }
+            ],
+            "burrito_count": 2
+        },
+        {
+            "name": "Shearer Hills / Ridgeview",
+            "children": [
+                {
+                    "name": "Lourdes",
+                    "children": [
+                        {
+                            "name": "Carnitas",
+                            "Cost": 7.35,
+                            "overall": 3.75,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3.5,
+                                "Fillings": 3,
+                                "Uniformity": 4.5,
+                                "Salsa": 4,
+                                "Synergy": 4,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 6.35,
+                            "overall": 3.1,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3,
+                                "Fillings": 3,
+                                "Uniformity": 3,
+                                "Salsa": 3.5,
+                                "Synergy": 2.8,
+                                "Wrap": 5
+                            }
+                        }
+                    ],
+                    "rating": 4.7
+                }
+            ],
+            "burrito_count": 2
+        },
+        {
+            "name": "City Heights",
+            "children": [
+                {
+                    "name": "Filiberto's",
+                    "children": [
+                        {
+                            "name": "Adobada",
+                            "Cost": 6.25,
+                            "overall": 3.7,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 4,
+                                "Fillings": 3,
+                                "Uniformity": 3.8,
+                                "Salsa": 2.5,
+                                "Synergy": 3,
+                                "Wrap": 5
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 6.25,
+                            "overall": 4,
+                            "ingredients": {
+                                "Temp": 4.5,
+                                "Meat": 3.7,
+                                "Fillings": 3.5,
+                                "Uniformity": 3.5,
+                                "Salsa": 3,
+                                "Synergy": 4,
+                                "Wrap": 4.5
+                            }
+                        }
+                    ],
+                    "rating": 3.8
+                }
+            ],
+            "burrito_count": 2
+        },
+        {
+            "name": "Torrey Preserve",
+            "children": [
+                {
+                    "name": "Caliente Mexican Food",
+                    "children": [
+                        {
+                            "name": "carne asada ",
+                            "Cost": 5.56,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 2.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 4.5,
+                                "Salsa": 3.7,
+                                "Synergy": 3.3,
+                                "Wrap": 4.5
+                            }
+                        },
+                        {
+                            "name": "fried fish",
+                            "Cost": 5.56,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 0,
+                                "Fillings": 3.5,
+                                "Uniformity": 4,
+                                "Salsa": 4.5,
+                                "Synergy": 3.5,
+                                "Wrap": 4
+                            }
+                        },
+                        {
+                            "name": "California",
+                            "Cost": 6.47,
+                            "overall": 2,
+                            "ingredients": {
+                                "Temp": 2,
+                                "Meat": 2,
+                                "Fillings": 2,
+                                "Uniformity": 3,
+                                "Salsa": 1,
+                                "Synergy": 2,
+                                "Wrap": 3
+                            }
+                        }
+                    ],
+                    "rating": 4.4
+                }
+            ],
+            "burrito_count": 3
+        },
+        {
+            "name": "Rolando Village",
+            "children": [
+                {
+                    "name": "Burrito Factory",
+                    "children": [
+                        {
+                            "name": "Steak everything ",
+                            "Cost": 7.35,
+                            "overall": 3.5,
+                            "ingredients": {
+                                "Temp": 3,
+                                "Meat": 3.5,
+                                "Fillings": 3.5,
+                                "Uniformity": 3.3,
+                                "Salsa": 3,
+                                "Synergy": 3.8,
+                                "Wrap": 2
+                            }
+                        }
+                    ],
+                    "rating": 4.8
+                }
+            ],
+            "burrito_count": 1
+        }
+    ]
+}

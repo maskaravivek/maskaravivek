@@ -1,0 +1,187 @@
+.wrapper {
+  background-color: #1fa67a;
+}
+
+.burrito-img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 240px;
+  height: 240px;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  font-family: "Oxygen", sans-serif;
+}
+
+.label,
+.node--root {
+  pointer-events: none;
+}
+
+.viz {
+  float: left;
+}
+
+.detail {
+  float: left;
+}
+
+.sub-heading {
+  font-weight: 400;
+  font-size: 24px;
+  fill: hsl(0, 0%, 20%);
+  letter-spacing: 1.5px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  fill: hsl(0, 0%, 20%);
+  letter-spacing: 1.5px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.statistics {
+  font-size: 24px;
+  font-weight: 600;
+  fill: hsl(0, 0%, 20%);
+  text-align: right;
+  width: 80px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.cost-statistics {
+  font-size: 18px;
+  font-weight: 400;
+  fill: hsl(0, 0%, 20%);
+  letter-spacing: 2px;
+  text-align: right;
+  width: 80px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.statistics-text {
+  font-size: 21px;
+  font-weight: 400;
+  fill: hsl(0, 0%, 20%);
+  text-align: left;
+}
+
+.stars-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+}
+
+.stars-outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  color: #f8ce0b;
+}
+
+.attribution {
+  font-size: 12px;
+  color: #444;
+  text-decoration: none;
+  text-align: center;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: -1;
+}
+.attribution:hover {
+  color: blueviolet;
+}
+
+.detail {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 40px;
+  padding: 20px;
+  width: 500px;
+}
+
+.neighbourhood,
+.location,
+.burrito {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+td {
+  padding: 8px;
+}
+
+.ratings-legend {
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+}
+
+.reference {
+  color: #444;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+  z-index: 5;
+}
+
+.reference:hover {
+  color: blueviolet;
+}
+
+.ratings-legend-svg {
+  width: 350px;
+  height: 200px;
+}
+
+.page-heading {
+  font-weight: 700;
+  font-size: 42px;
+  fill: hsl(0, 0%, 20%);
+  letter-spacing: 1.5px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.description {
+  width: 85%;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 12px;
+}
