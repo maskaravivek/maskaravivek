@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Analyzing the Use of Bikesharing System using Statistical Methods"
+title: "Analyzing Bike Sharing Demand"
 subtitle: ""
 summary: ""
 authors: [admin]
