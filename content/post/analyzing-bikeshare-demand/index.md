@@ -4,12 +4,12 @@
 title: "Analyzing the Use of Bikesharing System using Statistical Methods"
 subtitle: ""
 summary: ""
-authors: []
-tags: []
-categories: []
+authors: [admin]
+tags: [Data Science]
+categories: [Data Science]
 date: 2021-02-12T23:16:01-07:00
 lastmod: 2021-02-12T23:16:01-07:00
-featured: false
+featured: true
 draft: false
 
 # Featured image
@@ -18,7 +18,7 @@ draft: false
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
