@@ -21,11 +21,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Download for Android
+  url: https://play.google.com/store/apps/details?id=fr.free.nrw.commons
+  icon_pack: fab
+  icon: google-play
 
 url_code: "https://github.com/commons-app/apps-android-commons"
 url_pdf: ""

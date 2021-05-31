@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Spaced"
-summary: "AR App for Zeta's design meetup 2019"
+title: "Helium Monitor"
+summary: "Electron based cross platform menu-bar app for monitoring earnings from helium miner"
 authors: [admin]
 tags: [Applications]
 categories: [Applications]
-date: 2020-07-26T14:16:47-07:00
+date: 2021-05-30T20:03:18-07:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://play.google.com/store/apps/details?id=com.maskaravivek.spaced&hl=en_US"
+external_link: "https://github.com/maskaravivek/helium-monitor"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -22,16 +22,12 @@ image:
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-- name: View iOS app
-  url: https://apps.apple.com/in/app/spaced/id1479808477
+- name: Download for macOS
+  url: https://apps.apple.com/us/app/helium-monitor/id1568899378
   icon_pack: fab
-  icon: apple
-- name: View Android app
-  url: https://play.google.com/store/apps/details?id=com.maskaravivek.spaced
-  icon_pack: fab
-  icon: google-play
+  icon: app-store
 
-url_code: ""
+url_code: "https://github.com/maskaravivek/helium-monitor"
 url_pdf: ""
 url_slides: ""
 url_video: ""

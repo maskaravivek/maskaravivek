@@ -21,11 +21,15 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Download for iOS
+  url: https://apps.apple.com/us/app/shipshape-scm/id1511349582
+  icon_pack: fab
+  icon: apple
+- name: Download for Android
+  url: https://play.google.com/store/apps/details?id=com.luminosity.scm
+  icon_pack: fab
+  icon: google-play
 
 url_code: ""
 url_pdf: ""

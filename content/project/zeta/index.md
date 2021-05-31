@@ -21,11 +21,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: View Android app
+  url: https://play.google.com/store/apps/details?id=in.zeta.android.pos
+  icon_pack: fab
+  icon: google-play
 
 url_code: ""
 url_pdf: ""
