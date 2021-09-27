@@ -2,10 +2,10 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Overview of programmatically managing AWS Infrastructure"
-subtitle: ""
+subtitle: "Using AWS CDK for infra deployments"
 summary: ""
 authors: [admin]
-tags: [AWS]
+tags: [AWS, AWS CDK, Infrastructure]
 categories: [Software Development]
 date: 2021-02-12T23:16:01-07:00
 lastmod: 2021-02-12T23:16:01-07:00
@@ -28,7 +28,6 @@ image:
 projects: []
 ---
 
-# Overview of programmatically managing AWS Infrastructure
 If your application uses just a handful of cloud resources, you can easily manage it using the GUI(Graphical User Interface) based console. As the complexity of your system increases, the underlying infrastructure also grows, and managing it manually becomes a nightmare. Moreover, it's prone to manual errors where a small user error can potentially bring the system into a bad state. In this article, we will focus on AWS and explore efficient ways of programmatically managing the infrastructure. 
 
 # Manual Deployment Workflow
@@ -36,7 +35,7 @@ If your application uses just a handful of cloud resources, you can easily manag
 Manual infrastructure deployment management requires a set of steps all of which are prone to errors, especially for larger systems. The diagram below shows a general workflow for manually processing any service request. 
 
 
-![Deployment workflow without IaC](https://paper-attachments.dropbox.com/s_2F0FB33790812616C3D2065DD9CACA50DB80AFDF920E0A52988722C1A3A527A1_1631927211024_Untitled+Workspace.jpg)
+![Manual deploy](images/manual.jpeg)
 
 # Benefits of programmatically managing infrastructure
 
@@ -61,8 +60,7 @@ As the complexity increases, working with YAML, JSON, Terraform files becomes a 
 The diagram below shows the infrastructure management workflow using AWS CDK. 
 
 
-![Infrastructure management workflow using AWS CDK (Source)](https://paper-attachments.dropbox.com/s_2F0FB33790812616C3D2065DD9CACA50DB80AFDF920E0A52988722C1A3A527A1_1631927575234_CDKCompilesCFN-1.png)
-
+![Infrastructure management workflow using AWS CDK](images/architecture.png)
 
 In the next few sections, I will provide a brief overview of CDK concepts and then we will use the AWS CDK toolkit to deploy a sample application to an AWS account. 
 
@@ -274,7 +272,7 @@ Finally, to deploy the stack using AWS CloudFormation, execute the following the
 Similar to the synth command, you don't need to specify the name of the stack if your application contains a single stack. If your stack results in any sensitive policy changes in your account, the toolkit will confirm those changes before proceeding with the deployment. The screenshot below shows the confirmation prompt while trying to deploy the stack. 
 
 
-![](https://paper-attachments.dropbox.com/s_2F0FB33790812616C3D2065DD9CACA50DB80AFDF920E0A52988722C1A3A527A1_1629069572568_Screen+Shot+2021-08-15+at+4.17.57+PM.png)
+![CDK Deploy](images/cdk-deploy.png)
 
 
 The toolkit displays the progress of deployment and once the deployment succeeds, you can visit the AWS CloudFormation console and see how it lists your stack. Also, if you check the SNS and SQS consoles, you will find respective resources created for you. 
