@@ -5,8 +5,8 @@ title: "Covid-19 Diagnosis using Radiography Images"
 subtitle: "Classifying radiography images using a pre-trained ResNet-18 architecture"
 summary: ""
 authors: [admin]
-tags: [Deep learning, Image Classification]
-categories: [Deep learning, Image Classification]
+tags: [Deep Learning, Image Classification]
+categories: [Deep Learning, Image Classification]
 date: 2020-07-25T16:22:57-07:00
 lastmod: 2020-07-25T16:22:57-07:00
 featured: false

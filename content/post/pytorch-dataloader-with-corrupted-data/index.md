@@ -5,8 +5,8 @@ title: "Handling corrupted data in Pytorch Dataloader"
 subtitle: ""
 summary: ""
 authors: []
-tags: [Pytorch, Deep learning]
-categories: [Deep learning, Pytorch]
+tags: [Pytorch, Deep Learning]
+categories: [Deep Learning, Pytorch]
 date: 2021-10-02T02:24:09-07:00
 lastmod: 2021-10-02T02:24:09-07:00
 featured: false

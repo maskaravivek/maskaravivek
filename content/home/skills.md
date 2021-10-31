@@ -30,7 +30,7 @@ subtitle = ""
   name = "Redshift"
 
 [[feature]]
-  name = "Tensorflow"
+  name = "TensorFlow"
 
 # Uncomment to use emoji icons.
 # [[feature]]
