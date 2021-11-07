@@ -73,9 +73,29 @@ You can choose to structure your nodes and relationships in any way that suits y
 
 Let us start off by defining uniqueness constrains for these nodes.
 
+```
+CREATE CONSTRAINT ON (c:Address) ASSERT c.address IS UNIQUE;
+CREATE CONSTRAINT ON (c:PhoneNumber) ASSERT c.phone_number IS UNIQUE;
+CREATE CONSTRAINT ON (c:Email) ASSERT c.email IS UNIQUE;
+CREATE CONSTRAINT ON (c:User) ASSERT c.id IS UNIQUE;
+```
+
 This will ensure that a duplicate node is not created for the same data.
 
 Finally, let us import the CSV data. We will use the `LOAD CSV` Cypher statement to import data from CSV. Start the Neo4J graph DB and execute the query in the Cypher query window.
+
+```
+LOAD CSV WITH HEADERS FROM "https://docs.google.com/spreadsheets/d/e/2PACX-1vRWR2ZZy7YL4s0xSc6dJK1nA4GtVD93yCco35B5ghD6jdLvOUC--f6u_AmtA9Ob1NJn9RrLGjdR8Q04/pub?gid=0&single=true&output=csv" AS line
+WITH line, SPLIT(replace(replace(replace(line.wallets, '"', ''), '[', ''), ']', ''), ',') AS wallets
+MERGE (user: User {user_id:line.user_id, name:line.name, created_date:date(line.created_at), citizenship_country: line.country})
+MERGE (phone_number:PhoneNumber {phone_number: line.phone_number})
+MERGE (email:Email {email:line.email})
+MERGE (address: Address {address:line.address})
+MERGE (user)-[:MAILING_ADDRESS]->(address)
+MERGE (user)-[:CONTACT_PHONE_NUMBER]->(phone_number)
+MERGE (user)-[:CONTACT_EMAIL_ID]->(email)
+FOREACH (wallet IN wallets| MERGE (w:Wallet {wallet_id: wallet}))
+```
 
 Let us discuss a few things about the above query:
 

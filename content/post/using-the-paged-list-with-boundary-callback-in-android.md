@@ -54,7 +54,8 @@ In this article, I will assume that you are using Room persistence in your app. 
 Add the following library dependencies in the `app/build.gradle` file. We would be using `-ktx` dependencies as we are using Kotlin in the app.
 
 ```
-implementation "androidx.paging:paging-runtime-ktx:2.1.2"    implementation "androidx.paging:paging-rxjava2-ktx:2.1.2"
+implementation "androidx.paging:paging-runtime-ktx:2.1.2"    
+implementation "androidx.paging:paging-rxjava2-ktx:2.1.2"
 ```
 
 #### Add a Recycler View holder
