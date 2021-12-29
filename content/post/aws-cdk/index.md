@@ -10,7 +10,7 @@ categories: [Software Development]
 date: 2021-02-12T23:16:01-07:00
 lastmod: 2021-02-12T23:16:01-07:00
 featured: true
-draft: false
+draft: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
