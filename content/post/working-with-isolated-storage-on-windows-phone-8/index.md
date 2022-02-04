@@ -5,7 +5,7 @@ title: "Working With Isolated Storage on Windows Phone 8"
 subtitle: ""
 summary: "Isolated storage is used to store local data on a Windows Phone. It is isolated because other applications can't access this data. In this tutorial you'll get an overview of isolated storage and learn how you can use it to store data more securely on Windows Phone 8."
 authors: [admin]
-tags: [External, Windows Phone]
+tags: [External, Windows Phone, Tuts+]
 categories: [Windows Phone]
 date: 2014-12-10T16:28:04+05:30
 lastmod: 2014-12-10T16:28:04+05:30

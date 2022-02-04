@@ -8,13 +8,14 @@ description: ""
 
 subtitle: ""
 
-categories: [Android]
+categories: [Android, Testing]
 
 tags:
  - Espresso
  - Android
  - Android Testing
  - Ui Testing
+ - Testing
  - Recyclerview
 
 

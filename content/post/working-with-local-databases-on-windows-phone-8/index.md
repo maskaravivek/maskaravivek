@@ -5,7 +5,7 @@ title: "Working With Local Databases on Windows Phone 8"
 subtitle: ""
 summary: "In this article, we focus on working with local databases that live in your app's isolated storage. You'll learn about database operations using LINQ, database schemas as well as how to fetch data from a local database."
 authors: [admin]
-tags: [External, Windows Phone]
+tags: [External, Windows Phone, Tuts+]
 categories: [Windows Phone]
 date: 2015-01-19T16:30:02+05:30
 lastmod: 2015-01-19T16:30:02+05:30

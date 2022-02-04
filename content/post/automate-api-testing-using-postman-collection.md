@@ -8,12 +8,13 @@ description: ""
 
 subtitle: ""
 
-categories: [Automation Testing]
+categories: [Testing]
 
 tags:
  - Postman
  - API testing
  - Automation
+ - Testing
 
 
 image:

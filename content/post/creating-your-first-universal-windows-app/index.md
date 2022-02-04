@@ -5,7 +5,7 @@ title: "Creating Your First Universal Windows App"
 subtitle: ""
 summary: "Universal Windows apps enable you to target every Windows device in one solution. You develop once, share most of your code, and deploy on Windows, Windows Phone, or Xbox. In this tutorial, I will use a universal Windows app template to create a Hex Clock app, a precise hexadecimal color clock."
 authors: [admin]
-tags: [Windows Phone, External]
+tags: [Windows Phone, External, Tuts+]
 categories: [Windows Phone]
 date: 2015-03-04T16:42:38+05:30
 lastmod: 2015-03-04T16:42:38+05:30

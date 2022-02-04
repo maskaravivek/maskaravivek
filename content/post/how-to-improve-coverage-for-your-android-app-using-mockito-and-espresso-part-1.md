@@ -8,12 +8,13 @@ description: ""
 
 subtitle: ""
 
-categories: [Android]
+categories: [Android, Testing]
 
 tags:
  - Android
  - Kotlin
  - Unit Testing
+ - Testing
  - Espresso
  - Mockito
 

@@ -18,8 +18,7 @@ organizations:
   url: "https://www.asu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Seeking Summer 2021 internships. Check out my [Resume](https://www.maskaravivek.com/files/Vivek%20Maskara%20Resume%20Data%20Science.pdf). 
-
+bio: Former SDE Intern @ Amazon | Graduated from MS CS @ ASU | Ex-Zeta
 
 interests:
 - Artificial Intelligence
@@ -68,8 +67,8 @@ user_groups:
 - Visitors
 ---
 
-I am currently pursuing my Masters in Computer Science from Arizona State University. I completed my bachelor's in Software Engineering from Delhi Technological University. I love writing code, developing apps and creating websites.
+I recently completed my Masters in Computer Science from Arizona State University. Prior to joining ASU, I worked as a full stack Software Engineer at Zeta. I helped in building a suite of products for digitizing office cafeterias used by ~700 corporates and attributing to 1 million+ monthly transactions. With strong Computer Science fundamentals and experience across multiple engineering verticals, I always tend to bring a unique perspective when solving business problems.
 
-As a full stack Software Engineer at Zeta, I helped in building a suite of products for digitizing office cafeterias used by ~700 corporates and attributing to 1 million+ monthly transactions. With strong Computer Science fundamentals and experience across multiple engineering verticals, I always tend to bring a unique perspective when solving business problems.
+Before joining Zeta, I completed my bachelor's in Software Engineering from Delhi Technological University. I love writing code, developing apps and creating websites.
 
-I have been associated with the Wikimedia Foundation as a volunteer for the past 3 years, contributing to their Wikimedia Commons Android app. 
+I was associated with the Wikimedia Foundation as a volunteer from 2016 to 2019, contributing to their Wikimedia Commons Android app. 

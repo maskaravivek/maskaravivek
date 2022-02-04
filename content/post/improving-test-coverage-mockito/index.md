@@ -5,8 +5,8 @@ title: "How To Improve Test Coverage For Your Android App Using Mockito And Espr
 subtitle: ""
 summary: "Frameworks such as Espresso and Mockito provide easy-to-use APIs that make writing tests for various scenarios easier. Let’s cover the fundamentals of testing and frameworks which developers can use to write unit tests."
 authors: [admin]
-tags: [Android, Testing, External]
-categories: [Android]
+tags: [Android, Testing, External, Smashing Magazine]
+categories: [Android, Testing]
 date: 2018-07-25T16:16:11+05:30
 lastmod: 2018-07-25T16:16:11+05:30
 featured: false

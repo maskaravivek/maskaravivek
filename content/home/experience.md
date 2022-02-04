@@ -17,13 +17,29 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Software Development Engineer Intern"
+  company = "Amazon"
+  company_url = "https://www.linkedin.com/company/amazon/"
+  location = "Tempe, Arizona"
+  date_start = "2020-05-17"
+  date_end = "2020-08-06"
+  description = """
+  Responsibilities include:
+  
+  * Designed and developed a serverless system for verification of brand ID mappings capable of processing millions of records at a time. It utilizes multiple AWS services such as Lambda, SNS, SQS, Step functions, Glue Jobs, EventBridge, S3, and DynamoDB.
+  * Programmatically provisioned the infrastructure using AWS CDK enabling CI/CD integration with the deployment pipeline. 
+  * Optimized the AWS Glue Job to process ~40 million input records in <10 minutes performing validation against >1 billion ML output data.
+  """
+
 [[experience]]
   title = "Graduate Research Assistant"
   company = "The Luminosity Lab, ASU"
   company_url = "https://theluminositylab.com/"
   location = "Tempe, Arizona"
   date_start = "2020-03-02"
-  date_end = ""
+  date_end = "2021-12-13"
   description = """
   Responsibilities include:
   

@@ -5,7 +5,7 @@ title: "How to Add Azure Mobile Services to a Windows Phone App"
 subtitle: ""
 summary: "This tutorial shows you how to add a backend service to a Windows Phone app using Azure Mobile Services. You will create a new mobile service and a simple to-do app that stores its data in the cloud using the new mobile service."
 authors: [admin]
-tags: [Windows Phone, External]
+tags: [Windows Phone, External, Tuts+]
 categories: [Windows Phone]
 date: 2016-01-18T16:47:16+05:30
 lastmod: 2016-01-18T16:47:16+05:30

@@ -5,7 +5,7 @@ title: "Implementing In-App Purchase on Windows Phone 8"
 subtitle: ""
 summary: "In-app purchases are an excellent way to increase revenue for your Windows Phone app. In this tutorial, I'll be showing you how to implement in-app purchases in a Windows Phone 8 Silverlight application."
 authors: [admin]
-tags: [Windows Phone, External]
+tags: [Windows Phone, External, Tuts+]
 categories: [Windows Phone]
 date: 2014-11-17T16:22:19+05:30
 lastmod: 2014-11-17T16:22:19+05:30

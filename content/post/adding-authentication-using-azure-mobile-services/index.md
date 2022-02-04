@@ -5,7 +5,7 @@ title: "Adding Authentication Using Azure Mobile Services"
 subtitle: ""
 summary: "In this tutorial, you will learn how to add authentication to a Windows Phone 8.1 WinRT app using different identity providers supported by Azure Mobile Services."
 authors: [admin]
-tags: [Windows Phone, External]
+tags: [Windows Phone, External, Tuts+]
 categories: [Windows Phone]
 date: 2015-05-06T16:44:17+05:30
 lastmod: 2015-05-06T16:44:17+05:30

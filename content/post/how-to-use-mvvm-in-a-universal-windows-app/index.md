@@ -5,7 +5,7 @@ title: "How to Use MVVM in a Universal Windows App"
 subtitle: ""
 summary: "The Model-View-ViewModel (MVVM) pattern helps developers separate an application's business and presentation logic from its user interface. Maintaining a clear separation between application logic and user interface helps address development and design issues, making an application easier to test, maintain, and develop."
 authors: [admin]
-tags: [Windows Phone, External]
+tags: [Windows Phone, External, Tuts+]
 categories: [Windows Phone]
 date: 2016-02-01T16:48:38+05:30
 lastmod: 2016-02-01T16:48:38+05:30
