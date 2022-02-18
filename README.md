@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I am currently pursuing my Masters in Computer Science from Arizona State University and am working part-time as a Student Research at the [Luminosity Lab, ASU](https://theluminositylab.com/). Prior to joining ASU, I worked as a Senior Software Engineer at [Zeta, Directi](https://zeta.tech/) with the Express payments division for over 3 years.
+I recently completed my Masters in Computer Science from Arizona State University and am working as a Software Engineer at JP Morgan with the [Onyx](https://www.jpmorgan.com/onyx/index) team. Prior to joining ASU, I worked as a Senior Software Engineer at [Zeta, Directi](https://zeta.tech/) with the Express payments division for over 3 years.
 
 **Things to checkout:** 
 
