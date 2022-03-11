@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Functional Testing Strategy in Agile Environments"
+title: "An Introduction To AWS Cloud Development Kit (CDK)"
 subtitle: ""
 summary: "In this article, I will provide a brief introduction AWS Cloud Development Kit (CDK) which is increasingly becoming a popular tool for managing AWS-based infrastructure. We’ll take a closer look into CDK concepts, and then how to use the AWS CDK toolkit to deploy a sample application to an AWS account."
 authors: [admin]
 tags: [AWS, External, Smashing Magazine]
 categories: [AWS]
-date: 2022-03-03T17:43:49+05:30
-lastmod: 2022-03-03T17:43:49+05:30
+date: 2022-03-11T17:43:49+05:30
+lastmod: 2022-11-03T17:43:49+05:30
 featured: false
 draft: false
 
