@@ -3,11 +3,11 @@
 
 title: "Recognizing Compositional Actions in Videos with Temporal Ordering"
 authors: [admin]
-date: 2022-05-31T18:56:27-07:00
+date: 2022-05-30T18:56:27-07:00
 doi: "https://search.lib.asu.edu/permalink/01ASU_INST/fdcm53/cdi_proquest_journals_2670610608"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2022-05-31T18:56:27-07:00
+publishDate: 2022-05-30T18:56:27-07:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
