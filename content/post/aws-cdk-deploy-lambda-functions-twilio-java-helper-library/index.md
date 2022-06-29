@@ -12,7 +12,7 @@ lastmod: 2022-06-27T17:43:49+05:30
 featured: false
 draft: false
 
-external_link: "https://blog.testproject.io/2022/02/03/code-coverage-best-practices-for-frontend-apps/"
+external_link: "https://www.twilio.com/blog/aws-cdk-deploy-lambda-functions-twilio-java-helper-library"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
