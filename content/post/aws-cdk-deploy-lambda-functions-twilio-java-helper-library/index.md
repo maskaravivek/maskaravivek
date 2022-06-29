@@ -7,8 +7,8 @@ summary: "In this post, learn how to leverage the AWS Cloud Development Kit (CDK
 authors: [admin]
 tags: [AWS, AWS CDK, Twilio, Infrastructure]
 categories: [Testing]
-date: 2022-02-03T17:43:49+05:30
-lastmod: 2022-02-03T17:43:49+05:30
+date: 2022-06-27T17:43:49+05:30
+lastmod: 2022-06-27T17:43:49+05:30
 featured: false
 draft: false
 
