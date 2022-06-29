@@ -6,7 +6,7 @@ subtitle: ""
 summary: "In this post, learn how to leverage the AWS Cloud Development Kit (CDK) to build and deploy a serverless AWS Lambda function that uses Twilio’s Programmable SMS API to send SMS to users."
 authors: [admin]
 tags: [AWS, AWS CDK, Twilio, Infrastructure]
-categories: [Testing]
+categories: [Software Development]
 date: 2022-06-27T17:43:49+05:30
 lastmod: 2022-06-27T17:43:49+05:30
 featured: false
