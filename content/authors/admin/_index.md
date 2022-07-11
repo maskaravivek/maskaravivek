@@ -10,20 +10,22 @@ authors:
 superuser: true
 
 # Role/position
-role: GRA at The Luminosity Lab, ASU | Ex Senior Software Engineer, Zeta | Volunteer, Wikimedia Foundation
+role: SDE @ JP Morgan
 
 # Organizations/Affiliations
 organizations:
+- name: Onyx @ JP Morgan
+  url: "https://www.jpmorgan.com/onyx/index"
 - name: Arizona State University
   url: "https://www.asu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Former SDE Intern @ Amazon | Graduated from MS CS @ ASU | Ex-Zeta
+bio: SDE @ JP Morgan | Former SDE Intern @ Amazon | Graduated from MS CS @ ASU | Ex-Zeta
 
 interests:
 - Artificial Intelligence
 - Computer Vision
-- Android app development
+- Android App Development
 
 education:
   courses:
