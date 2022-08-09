@@ -1,18 +1,18 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Creating and Shrinking Rasberry Pi Image using SD Card"
+title: "How to Record a Phone Call using Twilio Java SDK?"
 subtitle: ""
-summary: "Learn how to create a copy of the Rasberry Pi from an SD card and shrink it"
+summary: "In this tutorial, I will walk you through the process of recording a phone call using Twilio’s voice APIs as part of its Java SDK."
 authors: [admin]
-tags: [IoT, Raspberry Pi, Medium, External]
-categories: [Raspberry Pi]
-date: 2022-08-04T17:43:49+05:30
-lastmod: 2022-08-04T17:43:49+05:30
+tags: [Twilio SDK, Medium, Java, External]
+categories: [Software Development]
+date: 2022-05-12T17:43:49+05:30
+lastmod: 2022-05-12T17:43:49+05:30
 featured: false
 draft: false
 
-external_link: "https://maskaravivek.medium.com/creating-and-shrinking-bootable-for-rasberry-pi-image-from-sd-card-d9355cb29ee8"
+external_link: "https://maskaravivek.medium.com/how-to-record-a-phone-call-using-twilio-ebee3c4a87c6"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
