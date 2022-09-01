@@ -7,7 +7,6 @@ I recently completed my Masters in Computer Science from Arizona State Universit
 - Collection of my [deep learning experiments](https://github.com/maskaravivek/deep-learning)
 - Android, iOS and Web Development [projects](https://www.maskaravivek.com/#projects) I worked on as a employee at Zeta and The Luminosity Lab.
 - My [open source contributions](https://meta.wikimedia.org/wiki/User:Maskaravivek)
-- My Posts on [Towards Data Science](https://towardsdatascience.com/@maskaravivek) and [personal blog](https://www.maskaravivek.com/post/) about Machine Learning stuff. 
-- My [Medium blog](https://medium.com/@maskaravivek) and [Windows app Tutorials](http://windowsapptutorials.com/) for general tech stuff.
+- My blogs on [maskaravivek.com](https://www.maskaravivek.com/post/) about Machine Learning stuff. 
 
 📬  Reach me at [maskaravivek@gmail.com](mailto:maskaravivek@gmail.com)
