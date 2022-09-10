@@ -18,7 +18,7 @@ tags:
  - FFServer
  - Raspberry Pi
 
-external_link: "https://medium.com/me/stats/post/f820ef914975"
+external_link: "https://medium.com/p/f820ef914975"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

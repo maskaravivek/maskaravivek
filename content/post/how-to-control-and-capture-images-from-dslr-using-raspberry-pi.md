@@ -16,4 +16,5 @@ tags:
  - DSLR
  - Gphoto2
 
-external_link: "https://medium.com/me/stats/post/cfc0cf2d5e85"
+external_link: "https://medium.com/p/cfc0cf2d5e85"
+---

@@ -17,4 +17,5 @@ tags:
  - FFServer
  - Live Feed
 
-external_link: "https://medium.com/me/stats/post/656df3b3ef87"
+external_link: "https://medium.com/p/656df3b3ef87"
+---
