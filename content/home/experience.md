@@ -19,6 +19,21 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Associate Software Engineer"
+  company = "JP Morgan"
+  company_url = "https://www.linkedin.com/company/amazon/"
+  location = "Jersey City, NJ"
+  date_start = "2022-02-15"
+  date_end = "2022-11-04"
+  description = """
+  Responsibilities include:
+  
+  Working as part of the Onyx team @ JPMC on machine learning and software development-related work.
+
+  * Productionalized an internal intelligence platform by writing helm-charts for a stack containing Python apps, Dask, and PostgreSQL to a Kubernetes cluster.
+  """
+
+[[experience]]
   title = "Software Development Engineer Intern"
   company = "Amazon"
   company_url = "https://www.linkedin.com/company/amazon/"
