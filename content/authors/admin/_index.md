@@ -10,17 +10,17 @@ authors:
 superuser: true
 
 # Role/position
-role: SDE @ JP Morgan
+role: SDE @ Remitly
 
 # Organizations/Affiliations
 organizations:
-- name: Onyx @ JP Morgan
-  url: "https://www.jpmorgan.com/onyx/index"
+- name: Remitly
+  url: "https://remitly.com/"
 - name: Arizona State University
   url: "https://www.asu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: SDE @ JP Morgan | Former SDE Intern @ Amazon | Graduated from MS CS @ ASU | Ex-Zeta
+bio: SDE @ Remitly | Graduated from MS CS @ ASU | Ex-Morgan, Amazon, Zeta
 
 interests:
 - Artificial Intelligence
