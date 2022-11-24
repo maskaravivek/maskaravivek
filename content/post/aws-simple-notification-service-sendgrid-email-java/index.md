@@ -1,18 +1,18 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Building an automated unit testing pipeline for serverless applications"
+title: "How to Use the Twilio Java Helper Library and AWS CDK to Deploy AWS Lambda Functions"
 subtitle: ""
-summary: "In this tutorial, you will learn how to build an automated unit testing pipeline using Jest testing framework for serverless applications."
+summary: "In this post, learn how to integrate the AWS Simple Notification Service (SNS) with SendGrid to send emails to users."
 authors: [admin]
-tags: [AWS, CircleCI, Infrastructure, Testing]
-categories: [Testing]
-date: 2022-11-07T17:43:49+05:30
-lastmod: 2022-11-07T17:43:49+05:30
+tags: [AWS, AWS SNS, Twilio, Infrastructure]
+categories: [Software Development]
+date: 2022-11-23T17:43:49+05:30
+lastmod: 2022-11-23T17:43:49+05:30
 featured: false
 draft: false
 
-external_link: "https://circleci.com/blog/testing-pipeline-for-serverless-apps/"
+external_link: "https://www.twilio.com/blog/aws-simple-notification-service-sendgrid-email-java"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,5 +27,5 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [https://github.com/maskaravivek/aws-cdk-lambda-circle-ci]
+projects: [https://github.com/maskaravivek/twilio-java-lambda-send-email]
 ---
