@@ -4,6 +4,7 @@ I recently completed my Masters in Computer Science from Arizona State Universit
 
 **Things to checkout:** 
 
+- [Android Development Masterclass](https://www.educative.io/collection/6586453712175104/6335589393104896)
 - Collection of my [deep learning experiments](https://github.com/maskaravivek/deep-learning)
 - Android, iOS and Web Development [projects](https://www.maskaravivek.com/#projects) I worked on as a employee at Zeta and The Luminosity Lab.
 - My [open source contributions](https://meta.wikimedia.org/wiki/User:Maskaravivek)
