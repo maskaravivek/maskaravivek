@@ -1,18 +1,18 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Automate AWS Lambda function deployments to AWS CDK"
+title: "Deploy autoscaling self-hosted runners using AWS CDK"
 subtitle: ""
-summary: "In this tutorial, I will guide you through using AWS Cloud Development Kit (CDK) to deploy an AWS Lambda function that interacts with AWS S3 and AWS DynamoDB."
+summary: "In this tutorial, you will learn how to set up autoscaling using AWS CDK, an Infrastructure as Code (IaC) tool developed by AWS."
 authors: [admin]
 tags: [AWS, AWS CDK, CircleCI, Infrastructure, External]
 categories: [Software Development]
-date: 2022-08-12T17:43:49+05:30
-lastmod: 2022-08-12T17:43:49+05:30
+date: 2023-02-15T17:43:49+05:30
+lastmod: 2023-02-15T17:43:49+05:30
 featured: false
 draft: false
 
-external_link: "https://circleci.com/blog/deploy-aws-lambda-cdk/"
+external_link: "https://circleci.com/blog/deploy-autoscaling-self-hosted-runners-using-aws-cdk/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,5 +27,5 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [https://github.com/maskaravivek/aws-cdk-lambda-circle-ci]
+projects: [https://github.com/maskaravivek/circleci-self-hosted-runner-autoscaling]
 ---
