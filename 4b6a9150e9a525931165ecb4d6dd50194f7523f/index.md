@@ -1,6 +1,6 @@
 # How to Configure NGINX on Ubuntu to Run a NodeJS Web Server
 
-|                                 ![](images/0387dcdd-52c8-41e0-b8cf-3bc2f3b9def9.png)                                |
+|                                 ![](images/96315802-a4a2-40bc-8267-c66f33b3c0db.png)                                |
 | :-----------------------------------------------------------------------------------------------------------------: |
 | *Photo by [Gabriel Heinzer](https://unsplash.com/@6heinz3r) on [Unsplash](https://unsplash.com/photos/xbEVM6oJ1Fs)* |
 
@@ -95,6 +95,6 @@ Hello Node.js Server!
 
 Note: If you are using an AWS EC2 instance, you can find the server IP address on the EC2 instance dashboard. The screen
 
-![](images/e94c6eac-3b0f-40ed-9c00-bf9770ebbd72.png)
+![](images/c1290bf0-3ef6-4c8b-bbcc-f3074c6734fe.png)
 
 With this, you have successfully configured NGINX on Ubuntu to run a Node.js web server.
