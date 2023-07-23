@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Tech Writing Tools"
-summary: "Free Tech writing tools for developers with markdown editor and renderer."
+title: "MD Editor"
+summary: "AI powered Markdown Editor for developers with markdown editor and renderer."
 authors: [admin]
 tags: [Applications]
 categories: [Applications]
 date: 2022-12-30T20:17:27-07:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://techwritingtools.com/"
+external_link: "https://mdedit.ai/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -21,11 +21,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Website
-#   url: https://www.techdevelopertools.com/
-#   icon_pack: fab
-#   icon: google-play
+links:
+- name: Website
+  url: https://mdedit.ai/
+  icon_pack: fab
+  icon: google-play
 
 url_code: ""
 url_pdf: ""
