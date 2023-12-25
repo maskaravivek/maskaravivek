@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Python Script to Fix 'Export EXPORT_NAME cannot be updated as it is in use by STACK_NAME" error in AWS CloudFormation'"
+title: "Python Script to Fix \"Export EXPORT_NAME cannot be updated as it is in use by STACK_NAME\" error in AWS CloudFormation"
 subtitle: ""
 summary: ""
 authors: [admin]
