@@ -1,4 +1,32 @@
-# Python Script to Clean up Old Images From AWS ECR using Boto3
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "Python Script to Clean up Old Images From AWS ECR using Boto3"
+subtitle: ""
+summary: ""
+authors: [admin]
+tags: [AWS, Python]
+categories: [AWS]
+date: 2023-12-24T23:16:01-07:00
+lastmod: 2023-12-24T23:16:01-07:00
+featured: true
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: true
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
 
 For one of my projects, I automated [building and pushing AWS ECR images using Github Actions](https://medium.com/geekculture/github-actions-pipeline-to-push-docker-images-to-amazon-ecr-4bca6ec864bd), but soon realized that my AWS ECR repo had a pile-up of unused images. In my workflows, I use the most recently image and other images in the repository present a minor opportunity for optimization. Since, AWS ECR [charges](https://aws.amazon.com/ecr/pricing/) you based on the storage size, cleaning up old images will save me a few bucks.
 
