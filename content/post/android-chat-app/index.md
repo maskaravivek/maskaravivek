@@ -5,7 +5,7 @@ title: "Android chat app development: Build real-time chat with CometChat"
 subtitle: ""
 summary: "This tutorial guides you through integrating CometChat's chat SDK and UI kits to create a real-time chat experience for your users. Follow the steps and learn how to implement chat functionality in your Android app."
 authors: [admin]
-tags: [Web Scraping]
+tags: [Android]
 categories: [Software Enginnering]
 date: 2024-05-13T17:43:49+05:30
 lastmod: 2024-05-13T17:43:49+05:30
