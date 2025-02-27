@@ -1,18 +1,18 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Add Authentication to Your Kong API Gateway with Descope"
+title: "Add Authentication and SSO to Your Shiny App"
 subtitle: ""
-summary: "In this tutorial, you will learn about the Kong Gateway and API gateway authentication. You will also learn how to implement authentication in the Kong Gateway with Descope Flows."
+summary: "In this tutorial, you’ll learn how to implement authentication and SSO in a Shiny app."
 authors: [admin]
-tags: [Kubernetes, Descope, OAuth, Authentication]
-categories: [Software Development, Kubernetes, OAuth]
-date: 2024-07-07T17:43:49+05:30
-lastmod: 2024-07-07T17:43:49+05:30
+tags: [Shiny, R, Descope, Auth, SSO]
+categories: [Software Development, OAuth]
+date: 2025-02-25T17:43:49+05:30
+lastmod: 2025-02-25T17:43:49+05:30
 featured: false
 draft: false
 
-external_link: "https://www.descope.com/blog/post/kong-gateway-authentication"
+external_link: "https://www.descope.com/blog/post/auth-sso-shiny"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,5 +27,5 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [https://github.com/maskaravivek/kong-descope]
+projects: [https://github.com/maskaravivek/personal-finance-shiny]
 ---

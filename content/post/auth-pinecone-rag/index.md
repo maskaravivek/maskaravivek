@@ -1,18 +1,18 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Add Authentication to Your Kong API Gateway with Descope"
+title: "Add Auth and Access Control to a Pinecone RAG App"
 subtitle: ""
-summary: "In this tutorial, you will learn about the Kong Gateway and API gateway authentication. You will also learn how to implement authentication in the Kong Gateway with Descope Flows."
+summary: "In this tutorial, you will learn how to implement authentication and authorization (relationship-based access control or ReBAC) using Descope in a RAG application."
 authors: [admin]
-tags: [Kubernetes, Descope, OAuth, Authentication]
-categories: [Software Development, Kubernetes, OAuth]
-date: 2024-07-07T17:43:49+05:30
-lastmod: 2024-07-07T17:43:49+05:30
+tags: [Pinecone, Descope, RAG, LLM]
+categories: [Software Development, LLM]
+date: 2024-09-10T17:43:49+05:30
+lastmod: 2024-09-10T17:43:49+05:30
 featured: false
 draft: false
 
-external_link: "https://www.descope.com/blog/post/kong-gateway-authentication"
+external_link: "https://www.descope.com/blog/post/auth-pinecone-rag"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,5 +27,5 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [https://github.com/maskaravivek/kong-descope]
+projects: [https://github.com/maskaravivek/descope-pinecone-sample]
 ---

@@ -1,18 +1,18 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Add Authentication to Your Kong API Gateway with Descope"
+title: "How to Reduce the Cost of Data Collection"
 subtitle: ""
-summary: "In this tutorial, you will learn about the Kong Gateway and API gateway authentication. You will also learn how to implement authentication in the Kong Gateway with Descope Flows."
+summary: "In this article, you’ll learn about different factors that influence data collection costs as well as strategies to estimate and reduce these costs. We’ll also cover some of the pros and cons of in-house scraping versus third-party solutions."
 authors: [admin]
-tags: [Kubernetes, Descope, OAuth, Authentication]
-categories: [Software Development, Kubernetes, OAuth]
-date: 2024-07-07T17:43:49+05:30
-lastmod: 2024-07-07T17:43:49+05:30
+tags: [Web Scraping]
+categories: [Software Enginnering]
+date: 2024-12-04T17:43:49+05:30
+lastmod: 2024-12-04T17:43:49+05:30
 featured: false
 draft: false
 
-external_link: "https://www.descope.com/blog/post/kong-gateway-authentication"
+external_link: "https://brightdata.com/blog/web-data/reduce-data-collection-costs"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,5 +27,5 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [https://github.com/maskaravivek/kong-descope]
+projects: []
 ---
