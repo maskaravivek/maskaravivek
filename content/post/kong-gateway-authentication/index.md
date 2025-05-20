@@ -1,18 +1,18 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Add Authentication to Your Kong API Gateway with Descope"
+title: "How to Install SonarQube on Rocky Linux 9"
 subtitle: ""
-summary: "In this tutorial, you will learn about the Kong Gateway and API gateway authentication. You will also learn how to implement authentication in the Kong Gateway with Descope Flows."
+summary: "Learn to install SonarQube on Rocky Linux 9 for efficient code analysis, bug detection, and maintaining high coding standards."
 authors: [admin]
-tags: [Kubernetes, Descope, OAuth, Authentication]
-categories: [Software Development, Kubernetes, OAuth]
-date: 2024-07-07T17:43:49+05:30
-lastmod: 2024-07-07T17:43:49+05:30
+tags: [SonarQube, Static analysis]
+categories: [Software Development]
+date: 2025-04-22T17:43:49+05:30
+lastmod: 2025-04-22T17:43:49+05:30
 featured: false
 draft: false
 
-external_link: "https://www.descope.com/blog/post/kong-gateway-authentication"
+external_link: "https://docs.vultr.com/how-to-install-sonarqube-on-rocky-linux-9"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,5 +27,5 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [https://github.com/maskaravivek/kong-descope]
+projects: []
 ---

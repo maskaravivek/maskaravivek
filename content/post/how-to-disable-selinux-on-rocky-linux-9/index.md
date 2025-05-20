@@ -7,8 +7,8 @@ summary: "Learn how to disable SELinux on Rocky Linux 9 safely, including checki
 authors: [admin]
 tags: [Software development, SonarQube, Linux]
 categories: [Software development]
-date: 2024-04-04T17:43:49+05:30
-lastmod: 2024-04-04T17:43:49+05:30
+date: 2025-04-04T17:43:49+05:30
+lastmod: 2025-04-04T17:43:49+05:30
 featured: false
 draft: false
 
