@@ -29,7 +29,7 @@ height = ""
   cta_icon = "edit"
 
 [[item]]
-  title = "AI‑Powered Grain Analysis"
+  title = "Grain Measurement System"
   content = "Built the cloud infrastructure, mobile app, ML labeling platform, and Stripe payment integration for **Inweon GRAMS**, a secure AI‑powered grain quality analyzer using computer vision and ML to assess rice, wheat, pulses, and oilseeds with ~99% accuracy.<br><br>"
   align = "center"
 
