@@ -23,9 +23,9 @@ organizations:
 bio: SDE @ Remitly | Graduated from MS CS @ ASU | Ex-Morgan, Amazon, Zeta
 
 interests:
-- Artificial Intelligence
-- Computer Vision
-- Android App Development
+- Cross-Platform Mobile Development
+- React Native & Android Development
+- Cloud Infrastructure & AWS
 
 education:
   courses:
@@ -43,7 +43,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:vmaskara@asu.edu'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:maskaravivek@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/maskaravivek
@@ -60,7 +60,7 @@ social:
   link: "files/Vivek Maskara Resume Data Science.pdf"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "vmaskara@asu.edu"
+email: "maskaravivek@gmail.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -69,8 +69,8 @@ user_groups:
 - Visitors
 ---
 
-I recently completed my Masters in Computer Science from Arizona State University. Prior to joining ASU, I worked as a full stack Software Engineer at Zeta. I helped in building a suite of products for digitizing office cafeterias used by ~700 corporates and attributing to 1 million+ monthly transactions. With strong Computer Science fundamentals and experience across multiple engineering verticals, I always tend to bring a unique perspective when solving business problems.
+I'm a full‑stack Software Engineer at Remitly, building the client‑platform layer of the core app serving ~10 million customers globally. Prior to Remitly, I was at JP Morgan, where I helped productionalize a blockchain-based internal intelligence platform, similar in concept to Etherscan.
 
-Before joining Zeta, I completed my bachelor's in Software Engineering from Delhi Technological University. I love writing code, developing apps and creating websites.
+Prior to that, I earned my M.S. in Computer Science from Arizona State University with a thesis in  [Compositional Actions in Videos with Temporal Ordering](https://search.lib.asu.edu/discovery/fulldisplay?context=PC&vid=01ASU_INST:01ASU&search_scope=MyInst_and_CI&tab=Everything&docid=cdi_proquest_journals_2670610608). Before pursuing Masters, I worked at Zeta, where I helped design and launch a cafeteria‑digitization suite adopted by ~700 corporates, handling over 1 million monthly transactions. Earlier, I completed my Bachelor's in Software Engineering at Delhi Technological University.
 
-I was associated with the Wikimedia Foundation as a volunteer from 2016 to 2019, contributing to their Wikimedia Commons Android app. 
+I'm passionate about coding, building apps and websites, and solving real‑world problems through clean, scalable solutions. I also enjoy writing about technology, and over the past few years, I've authored [200+ technical articles](https://maskaravivek.com/post/) for publications like Draft.dev, Tuts+, CircleCI, Twilio, Descope, and Neo4j. Earlier, I volunteered with the Wikimedia Foundation (2016-2019), contributing to the Commons Android app.

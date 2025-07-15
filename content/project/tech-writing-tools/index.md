@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "MD Editor"
+title: "AI Powered Markdown Editor"
 summary: "AI powered Markdown Editor for developers with markdown editor and renderer."
 authors: [admin]
 tags: [Applications]

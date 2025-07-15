@@ -9,7 +9,7 @@ categories: [Applications]
 date: 2020-07-26T14:16:30-07:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://pperesponsenetwork.asu.edu/"
+external_link: "https://disrupt.asu.edu/article/covid-19-asus-ppe-response/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

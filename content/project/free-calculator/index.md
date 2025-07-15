@@ -9,7 +9,7 @@ categories: [Applications]
 date: 2024-12-30T20:17:27-07:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://www.freecalculator.io/"
+external_link: "https://freecalculator.io/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -23,7 +23,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Website
-  url: https://www.freecalculator.io/
+  url: https://freecalculator.io/
   icon_pack: fab
   icon: google-play
 

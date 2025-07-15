@@ -38,7 +38,7 @@ hero_media = "android-masterclass.png"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "https://bit.ly/android-masterclass"
-  label = "Check it out"
+  label = "Start Learning"
   icon_pack = "fab"
   icon = "android"
 
