@@ -8,6 +8,10 @@ tags: [Applications]
 categories: [Applications]
 date: 2020-07-26T14:16:47-07:00
 
+_build:
+  render: true
+  list: never
+
 # Optional external URL for project (replaces project detail page).
 external_link: "https://play.google.com/store/apps/details?id=com.maskaravivek.spaced&hl=en_US"
 
