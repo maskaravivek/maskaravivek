@@ -19,6 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Software Development Engineer"
+  company = "Remitly"
+  company_url = "https://www.linkedin.com/company/remitly/"
+  location = "Seattle, WA"
+  date_start = "2022-11-09"
+  date_end = ""
+  description = """
+  Working as part of the App Experiences team @ Remitly on the client platform layer that powers the core Remitly app, serving ~10M customers. 
+
+  * Led the end-to-end testing strategy for Remitly's Native applications, enhancing quality assurance processes. 
+  * Implemented Appium with Webdriver.io and BrowserStack for comprehensive E2E testing on Android and iOS. 
+  * Standardized Android project setup, achieving a 30% reduction in APK size and a 99.97% crash-free rate. 
+  * Developed Android and React Native SDKs, facilitating integration for financial institutions with Remitly.
+  """
+
+[[experience]]
   title = "Associate Software Engineer"
   company = "JP Morgan"
   company_url = "https://www.linkedin.com/company/amazon/"
@@ -26,8 +42,6 @@ date_format = "Jan 2006"
   date_start = "2022-02-15"
   date_end = "2022-11-04"
   description = """
-  Responsibilities include:
-  
   Working as part of the Onyx team @ JPMC on machine learning and software development-related work.
 
   * Productionalized an internal intelligence platform by writing helm-charts for a stack containing Python apps, Dask, and PostgreSQL to a Kubernetes cluster.
