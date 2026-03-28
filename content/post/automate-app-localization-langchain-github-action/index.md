@@ -4,6 +4,9 @@ author: "Vivek Maskara"
 date: 2026-03-28T00:00:00.000Z
 lastmod: 2026-03-28T00:00:00.000Z
 
+aliases:
+  - /post/why-i-built-gpt-localize-action/
+
 description: "How I automated translation workflows across 7+ apps using a reusable GitHub Action powered by OpenAI and Anthropic."
 
 subtitle: "Stop manually translating strings. Let AI handle it — automatically, on every push."
