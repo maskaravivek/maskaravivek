@@ -19,18 +19,27 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Senior Software Engineer"
+  company = "Micromart"
+  company_url = "https://www.micromart.com/"
+  location = "Remote"
+  date_start = "2025-10-01"
+  date_end = ""
+  description = ""
+
+[[experience]]
   title = "Software Development Engineer"
   company = "Remitly"
   company_url = "https://www.linkedin.com/company/remitly/"
   location = "Seattle, WA"
   date_start = "2022-11-09"
-  date_end = ""
+  date_end = "2025-10-01"
   description = """
-  Working as part of the App Experiences team @ Remitly on the client platform layer that powers the core Remitly app, serving ~10M customers. 
+  Working as part of the App Experiences team @ Remitly on the client platform layer that powers the core Remitly app, serving ~10M customers.
 
-  * Led the end-to-end testing strategy for Remitly's Native applications, enhancing quality assurance processes. 
-  * Implemented Appium with Webdriver.io and BrowserStack for comprehensive E2E testing on Android and iOS. 
-  * Standardized Android project setup, achieving a 30% reduction in APK size and a 99.97% crash-free rate. 
+  * Led the end-to-end testing strategy for Remitly's Native applications, enhancing quality assurance processes.
+  * Implemented Appium with Webdriver.io and BrowserStack for comprehensive E2E testing on Android and iOS.
+  * Standardized Android project setup, achieving a 30% reduction in APK size and a 99.97% crash-free rate.
   * Developed Android and React Native SDKs, facilitating integration for financial institutions with Remitly.
   """
 

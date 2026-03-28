@@ -16,25 +16,38 @@ height = ""
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "AI-Powered Markdown Editor"
-  content = "Built an AI-powered markdown editor using Next.js, AWS CDK, Lamdba, and DynamoDB for tech writers with intelligent suggestions, code highlighting, and seamless publishing workflows<br><br>"
+  title = "mdedit.ai"
+  content = "An AI-powered Markdown editor built for developers and tech writers. 8,000+ writers use it to write, edit, and publish seamlessly.<br><br>"
   align = "center"
 
-  overlay_color = "#2E86AB"  # Professional blue
-  overlay_filter = 0.4  # Darken image so text is readable
+  overlay_color = "#2E86AB"
+  overlay_filter = 0.4
 
-  cta_label = "Visit mdedit.ai"
+  cta_label = "Try mdedit.ai"
   cta_url = "https://mdedit.ai"
   cta_icon_pack = "fas"
   cta_icon = "edit"
 
 [[item]]
-  title = "Grain Measurement System"
-  content = "Built the cloud infrastructure, mobile app, ML labeling platform, and Stripe payment integration for **Inweon GRAMS**, a secure AI‑powered grain quality analyzer using computer vision and ML to assess rice, wheat, pulses, and oilseeds with ~99% accuracy.<br><br>"
+  title = "Automated i18n for Any App"
+  content = "gpt-localize-action is a GitHub Action that keeps your translation files in sync automatically. It detects changes, translates only the diff, and opens a PR. Running across 7+ of my own apps.<br><br>"
   align = "center"
 
-  overlay_color = "#4C8C2B"  # Agritech green
-  overlay_filter = 0.4  # Darken background for readability
+  overlay_color = "#A663CC"
+  overlay_filter = 0.4
+
+  cta_label = "View on GitHub"
+  cta_url = "https://github.com/mangoappstudio/gpt-localize-action"
+  cta_icon_pack = "fab"
+  cta_icon = "github"
+
+[[item]]
+  title = "Grain Quality Analysis with AI"
+  content = "Inweon GRAMS uses computer vision to assess rice, wheat, pulses, and oilseeds with ~99% accuracy. I built the cloud infrastructure, mobile app, and ML labeling platform.<br><br>"
+  align = "center"
+
+  overlay_color = "#4C8C2B"
+  overlay_filter = 0.4
 
   cta_label = "Check out GRAMS"
   cta_url = "https://inweon.com"
@@ -43,10 +56,10 @@ height = ""
 
 [[item]]
   title = "Android Development Masterclass"
-  content = "Created comprehensive Android course for Educative with 60+ lessons and 40+ interactive example apps teaching modern development practices<br><br>"
+  content = "A hands-on course with 60+ lessons and 40+ interactive example apps. Learn to build complex Android apps the right way, available on Educative.<br><br>"
   align = "center"
 
-  overlay_color = "#3DDC84"  # Android green
+  overlay_color = "#3DDC84"
   overlay_img = ""
   overlay_filter = 0.3
 
@@ -56,25 +69,11 @@ height = ""
   cta_icon = "android"
 
 [[item]]
-  title = "Recognizing Compositional Actions in Videos with Temporal Ordering"
-  content = "As part of my Masters course, I published thesis on Compositional Actions in Videos with Temporal Ordering.<br><br>"
+  title = "200+ Technical Articles"
+  content = "Writing is how I give back to the dev community. I've published articles for Draft.dev, CircleCI, Twilio, Neo4j, and others, covering mobile, cloud, and everything in between.<br><br>"
   align = "center"
 
-  overlay_color = "#A663CC"  # Purple for research
-  overlay_img = ""
-  overlay_filter = 0.3
-
-  cta_label = "View Publications"
-  cta_url = "#publications"
-  cta_icon_pack = "fas"
-  cta_icon = "brain"
-
-[[item]]
-  title = "Technical Content Writing"
-  content = "Authored 200+ technical articles for leading publications including Draft.dev, CircleCI, Twilio, and Neo4j<br><br>"
-  align = "center"
-
-  overlay_color = "#4ECDC4"  # Teal for writing
+  overlay_color = "#4ECDC4"
   overlay_img = ""
   overlay_filter = 0.3
 
@@ -99,7 +98,7 @@ height = ""
    margin-top: 2rem !important;
  }
  """
- 
+
  # CSS class.
  css_class = ""
 +++

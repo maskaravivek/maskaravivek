@@ -5,7 +5,7 @@ title: "Generating Tabular Synthetic Data Using GANs"
 subtitle: ""
 summary: ""
 authors: [admin]
-tags: [GANs, Privacy, Deep Learning, Synthetic Data]
+tags: [GANs, Privacy, Deep Learning, Synthetic Data, Jupyter]
 categories: [Deep Learning, GANs]
 date: 2020-07-20T23:54:40-07:00
 lastmod: 2020-07-20T23:54:40-07:00

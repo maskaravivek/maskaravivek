@@ -4,7 +4,7 @@ date: 2020-06-21T19:51:22-07:00
 subtitle: ""
 summary: ""
 authors: [admin]
-tags: [YOLOV1, Object Detection, Deep Learning, CNN]
+tags: [YOLOV1, Object Detection, Deep Learning, CNN, Jupyter]
 categories: [Deep Learning, Object Detection]
 draft: false
 ---

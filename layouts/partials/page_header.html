@@ -62,7 +62,11 @@
   {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
   {{ partial "page_links_div.html" $page }}
 
-  <h5>Checkout <a href="https://mdedit.ai/">mdedit.ai</a>, AI powered Markdown Editor for tech writers</h5>  
+  {{ if in $page.Params.tags "Jupyter" }}
+  <h5>This post was written using a Jupyter notebook. Convert your own with <a href="https://app.mdedit.ai/tools/converter/ipynb-to-markdown">mdedit.ai's ipynb → Markdown converter</a>.</h5>
+  {{ else }}
+  <h5>Writing a dev blog? I built <a href="https://mdedit.ai/">mdedit.ai</a> and use it to write mine. Join 8,000+ writers.</h5>
+  {{ end }}
 </div>
 
 

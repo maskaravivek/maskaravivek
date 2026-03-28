@@ -3,3 +3,389 @@
 
 {{/* This partial is included in `themes/academic/layouts/partials/site_head.html`. */}}
 {{ template "_internal/google_analytics.html" . }}
+
+<style>
+/* ── Post width ── */
+.article-container {
+  max-width: 960px !important;
+}
+
+/* ── Code block padding ── */
+.highlight {
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+.highlight .lntable {
+  width: 100%;
+  border-spacing: 0;
+}
+.highlight .lntd:first-child {
+  padding: 1.1rem 0.9rem 1.1rem 1.25rem;
+  user-select: none;
+  white-space: nowrap;
+  width: 1%;
+}
+.highlight .lntd:last-child {
+  padding: 1.1rem 1.25rem 1.1rem 0.9rem;
+  width: 99%;
+}
+.highlight pre {
+  padding: 1.1rem 1.25rem;
+  margin: 0;
+}
+div.highlight pre { position: relative; }
+
+/* ── Navbar: dark mode background + text ── */
+body.dark .navbar,
+.dark .navbar {
+  background: rgb(40, 42, 54) !important;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1) !important;
+}
+body.dark .navbar .nav-link,
+.dark .navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+body.dark .navbar .nav-link:hover,
+.dark .navbar .nav-link:hover,
+body.dark .navbar .nav-link.active,
+.dark .navbar .nav-link.active {
+  color: #fff !important;
+}
+body.dark .navbar-brand,
+.dark .navbar-brand {
+  color: #fff !important;
+}
+body.dark .navbar .navbar-toggler-icon,
+.dark .navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* ── Reading progress bar ── */
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: #2962ff;
+  z-index: 9999;
+  transition: width 0.1s linear;
+}
+
+/* ── Post body typography ── */
+.article-style {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+.article-style p {
+  margin-bottom: 1.4rem;
+}
+.article-style h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.article-style h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ── Heading anchor links ── */
+.heading-anchor {
+  margin-left: 0.4rem;
+  opacity: 0;
+  font-size: 0.85em;
+  text-decoration: none;
+  color: #2962ff;
+  transition: opacity 0.15s;
+  vertical-align: middle;
+}
+h2:hover .heading-anchor,
+h3:hover .heading-anchor,
+h4:hover .heading-anchor {
+  opacity: 1;
+}
+
+/* ── Featured image height cap ── */
+.featured-image-wrapper {
+  overflow: hidden;
+}
+.featured-image {
+  max-height: 420px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* ── Sticky TOC sidebar ── */
+.post-with-toc {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+.post-toc {
+  display: none;
+  flex: 0 0 220px;
+  position: sticky;
+  top: 80px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(128,128,128,0.2);
+}
+.post-toc nav {
+  display: flex;
+  flex-direction: column;
+}
+.post-toc-title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-bottom: 0.6rem;
+}
+.post-toc nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.post-toc nav ul li {
+  margin-bottom: 0.35rem;
+}
+.post-toc nav ul li a {
+  opacity: 0.6;
+  text-decoration: none;
+  display: block;
+  transition: opacity 0.15s, color 0.15s;
+}
+.post-toc nav ul li a:hover,
+.post-toc nav ul li a.toc-active {
+  opacity: 1;
+  color: #2962ff;
+}
+.post-toc nav ul ul {
+  padding-left: 0.9rem;
+  margin-top: 0.25rem;
+}
+@media (min-width: 1280px) {
+  .post-toc { display: block; }
+  .post-with-toc .article-style { min-width: 0; flex: 1; overflow-x: hidden; }
+}
+.post-with-toc .article-style img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── Alert / callout boxes ── */
+.alert {
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid;
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+.alert::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+.alert-note   { background: rgba(41,98,255,0.08); border-color: #2962ff; color: inherit; }
+.alert-note::before   { content: "\f05a"; color: #2962ff; }
+.alert-tip    { background: rgba(46,160,67,0.1);  border-color: #2ea043; color: inherit; }
+.alert-tip::before    { content: "\f0eb"; color: #2ea043; }
+.alert-warning { background: rgba(210,153,34,0.12); border-color: #d99222; color: inherit; }
+.alert-warning::before { content: "\f071"; color: #d99222; }
+.alert-danger  { background: rgba(220,53,69,0.1);  border-color: #dc3545; color: inherit; }
+.alert-danger::before  { content: "\f06a"; color: #dc3545; }
+
+/* ── Code language label ── */
+.code-lang-label {
+  position: absolute;
+  top: 0.4rem;
+  right: 5rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.68rem;
+  font-family: inherit;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* ── Copy button ── */
+.code-copy-btn {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.75rem;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 4px;
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.7);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s, background 0.15s;
+  line-height: 1.4;
+  font-family: inherit;
+}
+.highlight:hover .code-copy-btn,
+pre:hover .code-copy-btn {
+  opacity: 1;
+}
+.highlight:hover .code-lang-label {
+  opacity: 1;
+}
+.code-copy-btn:hover {
+  background: rgba(255,255,255,0.18);
+  color: #fff;
+}
+.code-copy-btn.copied {
+  color: #7ee787;
+  border-color: #7ee787;
+}
+
+/* ── Image lightbox ── */
+.img-lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: zoom-out;
+  align-items: center;
+  justify-content: center;
+}
+.img-lightbox-overlay.active {
+  display: flex;
+}
+.img-lightbox-overlay img {
+  max-width: 92vw;
+  max-height: 92vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+  cursor: default;
+}
+.article-style img {
+  cursor: zoom-in;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  /* ── Reading progress bar ── */
+  var bar = document.createElement('div');
+  bar.id = 'reading-progress';
+  document.body.prepend(bar);
+  window.addEventListener('scroll', function () {
+    var doc = document.documentElement;
+    var scrolled = doc.scrollTop || document.body.scrollTop;
+    var total = doc.scrollHeight - doc.clientHeight;
+    bar.style.width = (total > 0 ? (scrolled / total) * 100 : 0) + '%';
+  }, { passive: true });
+
+  /* ── Heading anchor links ── */
+  document.querySelectorAll('.article-style h2, .article-style h3, .article-style h4').forEach(function (h) {
+    if (!h.id) return;
+    var a = document.createElement('a');
+    a.className = 'heading-anchor';
+    a.href = '#' + h.id;
+    a.innerHTML = '#';
+    a.setAttribute('aria-hidden', 'true');
+    h.appendChild(a);
+  });
+
+  /* ── TOC active link on scroll ── */
+  var tocLinks = document.querySelectorAll('.post-toc nav a');
+  if (tocLinks.length) {
+    var headings = Array.from(document.querySelectorAll('.article-style h2, .article-style h3'));
+    window.addEventListener('scroll', function () {
+      var scrollY = window.scrollY + 120;
+      var current = headings.filter(function (h) { return h.offsetTop <= scrollY; });
+      var active = current.length ? current[current.length - 1] : null;
+      tocLinks.forEach(function (l) {
+        l.classList.toggle('toc-active', active && l.getAttribute('href') === '#' + active.id);
+      });
+    }, { passive: true });
+  }
+
+  /* ── Code blocks: language label + copy button ── */
+  document.querySelectorAll('.highlight').forEach(function (block) {
+    var pre = block.querySelector('pre');
+    if (!pre) return;
+
+    /* language label */
+    var code = pre.querySelector('code') || pre;
+    var lang = '';
+    code.classList.forEach(function (c) {
+      var m = c.match(/^language-(.+)$/);
+      if (m) lang = m[1];
+    });
+    if (!lang) {
+      /* Chroma puts class on the highlight div itself sometimes */
+      block.classList.forEach(function (c) {
+        var m = c.match(/^language-(.+)$/);
+        if (m) lang = m[1];
+      });
+    }
+    if (lang && lang !== 'fallback') {
+      var label = document.createElement('span');
+      label.className = 'code-lang-label';
+      label.textContent = lang;
+      block.appendChild(label);
+    }
+
+    /* copy button */
+    var btn = document.createElement('button');
+    btn.className = 'code-copy-btn';
+    btn.textContent = 'Copy';
+    block.appendChild(btn);
+    btn.addEventListener('click', function () {
+      var text = (pre.querySelector('code') || pre).innerText;
+      navigator.clipboard.writeText(text).then(function () {
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(function () {
+          btn.textContent = 'Copy';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    });
+  });
+
+  /* ── Image lightbox ── */
+  var overlay = document.createElement('div');
+  overlay.className = 'img-lightbox-overlay';
+  var overlayImg = document.createElement('img');
+  overlay.appendChild(overlayImg);
+  document.body.appendChild(overlay);
+
+  document.querySelectorAll('.article-style img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      overlayImg.src = img.src;
+      overlayImg.alt = img.alt;
+      overlay.classList.add('active');
+    });
+  });
+
+  overlay.addEventListener('click', function (e) {
+    if (e.target !== overlayImg) overlay.classList.remove('active');
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') overlay.classList.remove('active');
+  });
+
+});
+</script>
