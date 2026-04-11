@@ -1,0 +1,210 @@
+# mdedit CLI — Agent Skill
+
+> Use this skill to manage articles, folders, workspaces, and API keys on [mdedit.ai](https://mdedit.ai) directly from your terminal or from an AI agent.
+
+## Install
+
+```bash
+npm install -g mdedit-cli
+```
+
+## Quick-start authentication
+
+```bash
+# Set your API key (get one at https://docs.mdedit.ai/api-keys)
+mdedit config login --api-key <YOUR_KEY>
+
+# Or via environment variable (recommended for CI/agents)
+export MDEDIT_API_KEY=<YOUR_KEY>
+export MDEDIT_WORKSPACE_ID=<YOUR_WORKSPACE_ID>   # optional default workspace
+```
+
+## Agent tips
+
+- **Always use `--format json`** when parsing output programmatically: `mdedit article list --format json`
+- **Suppress interactive prompts** by supplying all required flags (title, name, …) on the command line.
+- **Use `-y` / `--yes`** on destructive commands to skip confirmation prompts.
+- **Pipe article content** via stdin using `--file -` or read it back with `--content-only` (stdout).
+- In `json` mode, **human-facing messages go to stderr** (stdout stays machine-parseable).
+- **Exit codes**: `0` = success, `1` = error. Errors are written to stderr.
+
+## Global flags
+
+| Flag | Description |
+|------|-------------|
+| `-F, --format <plain\|table\|json>` | Output format. Use `json` for agents. |
+| `--api-key <key>` | Override API key for this call |
+| `--workspace <workspaceId>` | Override default workspace for this call |
+| `--api-url <url>` | Override API base URL |
+| `--local` | Target local API at `http://localhost:8080` |
+| `--debug` | Print stack traces and request info on errors |
+
+## Commands reference
+
+### config
+
+```bash
+mdedit config show                          # show current config (api key redacted)
+mdedit config login --api-key <key>         # authenticate
+mdedit config logout                        # remove stored api key
+mdedit config use-workspace <workspaceId>   # set default workspace
+mdedit config set <key> <value>             # set any config key
+mdedit config clear --yes                   # wipe all config
+```
+
+### workspace
+
+```bash
+mdedit workspace list
+mdedit workspace get <workspaceId>
+mdedit workspace create --name "My Workspace" --type user
+mdedit workspace update <workspaceId> --name "New Name"
+mdedit workspace delete <workspaceId> --yes
+```
+
+### folder
+
+```bash
+mdedit folder list [-w <workspaceId>]
+mdedit folder list --include-deleted
+mdedit folder get <folderId>
+mdedit folder create --name "Drafts" [--parent <parentFolderId>]
+mdedit folder update <folderId> --name "Archive"
+mdedit folder delete <folderId> --yes
+```
+
+### article
+
+```bash
+# List & filter
+mdedit article list
+mdedit article list --folder <folderId>
+mdedit article list --limit 10 --offset 0
+
+# Read
+mdedit article get <articleId>
+mdedit article get <articleId> --content-only        # raw markdown to stdout
+mdedit article get <articleId> --include-content     # include markdown in output object
+mdedit article get <articleId> --output article.md   # save markdown to file
+
+# Create
+mdedit article create --title "My Article"
+mdedit article create --title "My Article" --folder <folderId> --file article.md
+mdedit article create --title "My Article" --content "# Hello world"
+echo "# Hello" | mdedit article create --title "My Article" --file -
+
+# Update
+mdedit article update <articleId> --title "New Title"
+mdedit article update <articleId> --file updated.md
+mdedit article update <articleId> --content "# Updated"
+cat updated.md | mdedit article update <articleId> --file -
+mdedit article update <articleId> --archive
+mdedit article update <articleId> --pin
+
+# Delete
+mdedit article delete <articleId> --yes
+
+# Export
+mdedit article export <articleId> --output article.zip
+```
+
+### api-key
+
+```bash
+mdedit apikey list
+mdedit apikey create --name "CI/CD Key" --description "Used in pipeline"
+mdedit apikey create --name "30-day key" --expires 30
+mdedit apikey revoke <keyId> --yes
+```
+
+### utility
+
+```bash
+mdedit health    # check API health
+mdedit info      # CLI version, API URL, workspace, auth status
+```
+
+### skill
+
+```bash
+mdedit skill show                             # print this skill to stdout
+mdedit skill install                          # install skill into all detected agent tools
+mdedit skill install --target claude          # Claude Code: ~/.claude/CLAUDE.md
+mdedit skill install --target cursor          # Cursor: .cursor/rules/mdedit.mdc
+mdedit skill install --target codex           # GitHub Copilot: .github/copilot-instructions.md
+mdedit skill install --target all             # all of the above
+mdedit skill install --global                 # install globally (home directory targets)
+```
+
+## Common agent workflows
+
+### Workflow: read an article and update its content
+
+```bash
+# Fetch current content
+CONTENT=$(mdedit article get <articleId> --content-only)
+
+# Modify $CONTENT with your agent logic, then push it back
+echo "$MODIFIED_CONTENT" | mdedit article update <articleId> --file -
+```
+
+### Workflow: create a new article in a folder
+
+```bash
+# Find the target folder
+mdedit folder list --format json | jq '.[] | select(.name=="Docs") | .id'
+
+# Create article in that folder
+mdedit article create --title "API Reference" --folder <folderId> --file api-ref.md
+```
+
+### Workflow: bulk export all articles as JSON
+
+```bash
+mdedit article list --format json > articles.json
+```
+
+### Workflow: set up a fresh environment
+
+```bash
+export MDEDIT_API_KEY=<key>
+mdedit config login --api-key "$MDEDIT_API_KEY"
+# list workspaces and set the default
+mdedit workspace list --format json
+mdedit config use-workspace <workspaceId>
+```
+
+## Environment variables
+
+| Variable | Description |
+|----------|-------------|
+| `MDEDIT_API_KEY` | API key (overrides stored config) |
+| `MDEDIT_API_URL` | API base URL (default: `https://apiv2.mdedit.ai`) |
+| `MDEDIT_WORKSPACE_ID` | Default workspace ID |
+| `MDEDIT_CONFIG_DIR` | Override config directory (default: `~/.mdedit-cli`) |
+| `MDEDIT_DEBUG` | Set to `1` to enable debug output |
+
+## Output format guide
+
+| Format | Best for |
+|--------|----------|
+| `table` | Humans scanning many rows (default) |
+| `plain` | Human reading (object details) |
+| `json` | Agents, scripts, piping to `jq` |
+
+Use `--format json` globally: `mdedit <command> --format json`.
+In `json` mode all human-readable messages go to **stderr** so stdout stays machine-parseable.
+
+## Error handling
+
+Errors write a descriptive message to **stderr** and exit with code `1`.
+
+Common errors and fixes:
+
+| HTTP | Meaning | Fix |
+|------|---------|-----|
+| 401 | Unauthenticated | Run `mdedit config login --api-key <key>` |
+| 403 | Forbidden | Check API key workspace permissions |
+| 404 | Not found | Verify IDs and `--api-url` |
+
+Add `--debug` to print full stack traces.
