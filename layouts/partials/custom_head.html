@@ -106,14 +106,12 @@ h4:hover .heading-anchor {
   opacity: 1;
 }
 
-/* ── Featured image height cap ── */
+/* ── Featured image ── */
 .featured-image-wrapper {
   overflow: hidden;
 }
 .featured-image {
-  max-height: 420px;
-  object-fit: cover;
-  object-position: top;
+  height: auto;
 }
 
 /* ── Sticky TOC sidebar ── */
@@ -213,8 +211,8 @@ h4:hover .heading-anchor {
   font-size: 0.68rem;
   font-family: inherit;
   border-radius: 3px;
-  background: rgba(255,255,255,0.1);
-  color: rgba(255,255,255,0.5);
+  background: rgba(0,0,0,0.06);
+  color: rgba(0,0,0,0.4);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   pointer-events: none;
@@ -228,10 +226,10 @@ h4:hover .heading-anchor {
   right: 0.4rem;
   padding: 0.2rem 0.55rem;
   font-size: 0.75rem;
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(0,0,0,0.15);
   border-radius: 4px;
-  background: rgba(255,255,255,0.08);
-  color: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.8);
+  color: rgba(0,0,0,0.5);
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.15s, background 0.15s;
@@ -246,12 +244,12 @@ pre:hover .code-copy-btn {
   opacity: 1;
 }
 .code-copy-btn:hover {
-  background: rgba(255,255,255,0.18);
-  color: #fff;
+  background: #fff;
+  color: rgba(0,0,0,0.8);
 }
 .code-copy-btn.copied {
-  color: #7ee787;
-  border-color: #7ee787;
+  color: #1a7f37;
+  border-color: #1a7f37;
 }
 
 /* ── Image lightbox ── */
