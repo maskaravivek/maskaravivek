@@ -16,7 +16,7 @@ tags:
 categories:
   - "AI"
   - "Machine Learning"
-draft: true
+draft: false
 description: ""
 slug: "how-x-detects-ai-generated-images-its-not-synthid"
 ---
