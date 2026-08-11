@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I recently completed my Masters in Computer Science from Arizona State University and am working as a Software Engineer at JP Morgan with the [Onyx](https://www.jpmorgan.com/onyx/index) team. Prior to joining ASU, I worked as a Senior Software Engineer at [Zeta, Directi](https://zeta.tech/) with the Express payments division for over 3 years.
+I’m a Senior Software Engineer at Micromart, where I’ve been working since October 2025. Prior to Micromart, I was at Remitly, building the client-platform layer of the core app serving ~10 million customers globally. Before that, I was at JP Morgan, where I helped productionalize a blockchain-based internal intelligence platform, similar in concept to Etherscan. Prior to joining ASU, I worked as a Senior Software Engineer at [Zeta, Directi](https://zeta.tech/) with the Express payments division for over 3 years.
 
 **Things to checkout:** 
 
