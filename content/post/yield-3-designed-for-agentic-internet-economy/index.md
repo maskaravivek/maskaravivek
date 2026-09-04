@@ -1,8 +1,8 @@
 ---
 title: "Yield 3.0: Why AI Agents Need Wallet-Native Treasury Infrastructure"
 author: "Vivek Maskara"
-date: 2026-05-24T00:00:00.000Z
-lastmod: 2026-05-24T00:00:00.000Z
+date: 2025-05-25T00:00:00.000Z
+lastmod: 2025-05-25T00:00:00.000Z
 
 description: "Yield 3.0 treats yield as part of an agent's runtime, not a separate investing workflow — rethinking treasury infrastructure for the agentic internet economy."
 
