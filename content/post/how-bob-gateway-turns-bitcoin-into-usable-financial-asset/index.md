@@ -1,8 +1,8 @@
 ---
 title: "How BOB Gateway Turns Bitcoin Into a Usable Financial Asset"
 author: "Vivek Maskara"
-date: 2026-05-25T00:00:00.000Z
-lastmod: 2026-05-25T00:00:00.000Z
+date: 2025-05-25T00:00:00.000Z
+lastmod: 2025-05-25T00:00:00.000Z
 
 description: "Bitcoin has won the asset narrative, but using BTC is still fragmented. A neobank-style product layer — not custodial banking, but a coherent financial surface — is what Bitcoin needs next."
 
