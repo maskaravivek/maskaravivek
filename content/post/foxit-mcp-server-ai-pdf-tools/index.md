@@ -1,7 +1,7 @@
 ---
 title: "Foxit MCP Server: Give AI Agents Direct Access to 30+ PDF Tools"
 subtitle: ""
-summary: "Promotional post: Foxit's open source MCP server brings 30+ PDF operations to AI agents, with a guide to setup and document automation workflows."
+summary: "Foxit's open source MCP server brings 30+ PDF operations to AI agents, with a guide to setup and document automation workflows."
 description: "Connect Foxit's PDF Services API to Claude, VS Code, and Cursor through its open source MCP server, and explore document automation workflows."
 authors: [admin]
 tags: [AI, MCP, PDF, Document Automation, Foxit]
@@ -12,8 +12,6 @@ featured: false
 draft: false
 projects: []
 ---
-
-**Disclosure: This is a promotional post for Foxit.**
 
 Foxit's open source MCP server connects its PDF Services API to AI tools like Claude, VS Code, and Cursor. It exposes 30+ PDF operations, including conversion, OCR, merge, split, compression, and form handling, as tools an agent can call directly.
 
