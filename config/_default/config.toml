@@ -66,9 +66,9 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
       unsafe = true  # Enable user to embed HTML snippets in Markdown content.
   [markup.highlight]
     codeFences = true
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = true
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = false
     style = "github"
   [markup.tableOfContents]
     startLevel = 2

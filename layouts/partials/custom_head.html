@@ -4,37 +4,14 @@
 {{/* This partial is included in `themes/academic/layouts/partials/site_head.html`. */}}
 {{ template "_internal/google_analytics.html" . }}
 
+{{ $codeCSS := resources.Get "css/code.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $codeCSS.RelPermalink }}" integrity="{{ $codeCSS.Data.Integrity }}">
+
 <style>
 /* ── Post width ── */
 .article-container {
   max-width: 960px !important;
 }
-
-/* ── Code block padding ── */
-.highlight {
-  border-radius: 6px;
-  overflow: hidden;
-  position: relative;
-}
-.highlight .lntable {
-  width: 100%;
-  border-spacing: 0;
-}
-.highlight .lntd:first-child {
-  padding: 1.1rem 0.9rem 1.1rem 1.25rem;
-  user-select: none;
-  white-space: nowrap;
-  width: 1%;
-}
-.highlight .lntd:last-child {
-  padding: 1.1rem 1.25rem 1.1rem 0.9rem;
-  width: 99%;
-}
-.highlight pre {
-  padding: 1.1rem 1.25rem;
-  margin: 0;
-}
-div.highlight pre { position: relative; }
 
 /* ── Navbar: dark mode background + text ── */
 body.dark .navbar,
@@ -167,9 +144,10 @@ h4:hover .heading-anchor {
   padding-left: 0.9rem;
   margin-top: 0.25rem;
 }
+.post-with-toc .article-style { min-width: 0; flex: 1; }
 @media (min-width: 1280px) {
   .post-toc { display: block; }
-  .post-with-toc .article-style { min-width: 0; flex: 1; overflow-x: hidden; }
+  .post-with-toc .article-style { overflow-x: hidden; }
 }
 .post-with-toc .article-style img {
   max-width: 100%;
@@ -201,56 +179,6 @@ h4:hover .heading-anchor {
 .alert-warning::before { content: "\f071"; color: #d99222; }
 .alert-danger  { background: rgba(220,53,69,0.1);  border-color: #dc3545; color: inherit; }
 .alert-danger::before  { content: "\f06a"; color: #dc3545; }
-
-/* ── Code language label ── */
-.code-lang-label {
-  position: absolute;
-  top: 0.4rem;
-  right: 5rem;
-  padding: 0.15rem 0.5rem;
-  font-size: 0.68rem;
-  font-family: inherit;
-  border-radius: 3px;
-  background: rgba(0,0,0,0.06);
-  color: rgba(0,0,0,0.4);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  pointer-events: none;
-  user-select: none;
-}
-
-/* ── Copy button ── */
-.code-copy-btn {
-  position: absolute;
-  top: 0.4rem;
-  right: 0.4rem;
-  padding: 0.2rem 0.55rem;
-  font-size: 0.75rem;
-  border: 1px solid rgba(0,0,0,0.15);
-  border-radius: 4px;
-  background: rgba(255,255,255,0.8);
-  color: rgba(0,0,0,0.5);
-  cursor: pointer;
-  opacity: 0;
-  transition: opacity 0.15s, background 0.15s;
-  line-height: 1.4;
-  font-family: inherit;
-}
-.highlight:hover .code-copy-btn,
-pre:hover .code-copy-btn {
-  opacity: 1;
-}
-.highlight:hover .code-lang-label {
-  opacity: 1;
-}
-.code-copy-btn:hover {
-  background: #fff;
-  color: rgba(0,0,0,0.8);
-}
-.code-copy-btn.copied {
-  color: #1a7f37;
-  border-color: #1a7f37;
-}
 
 /* ── Image lightbox ── */
 .img-lightbox-overlay {
@@ -318,47 +246,60 @@ document.addEventListener('DOMContentLoaded', function () {
     }, { passive: true });
   }
 
-  /* ── Code blocks: language label + copy button ── */
-  document.querySelectorAll('.highlight').forEach(function (block) {
-    var pre = block.querySelector('pre');
-    if (!pre) return;
-
-    /* language label */
+  /* Keep controls outside the scrollable code, including unlabelled fences. */
+  document.querySelectorAll('.article-style pre').forEach(function (pre) {
+    var block = pre.closest('.highlight');
+    if (!block) {
+      block = document.createElement('div');
+      block.className = 'highlight';
+      pre.parentNode.insertBefore(block, pre);
+      block.appendChild(pre);
+    }
+    if (block.querySelector('.code-toolbar')) return;
     var code = pre.querySelector('code') || pre;
-    var lang = '';
-    code.classList.forEach(function (c) {
-      var m = c.match(/^language-(.+)$/);
-      if (m) lang = m[1];
+    var languageClass = Array.from(code.classList).find(function (name) {
+      return name.indexOf('language-') === 0;
     });
-    if (!lang) {
-      /* Chroma puts class on the highlight div itself sometimes */
-      block.classList.forEach(function (c) {
-        var m = c.match(/^language-(.+)$/);
-        if (m) lang = m[1];
-      });
-    }
-    if (lang && lang !== 'fallback') {
-      var label = document.createElement('span');
-      label.className = 'code-lang-label';
-      label.textContent = lang;
-      block.appendChild(label);
-    }
+    var lang = code.getAttribute('data-lang') || (languageClass || '').replace('language-', '');
+    var names = { ts: 'TypeScript', js: 'JavaScript', sh: 'Shell', bash: 'Bash',
+      json: 'JSON', html: 'HTML', css: 'CSS', py: 'Python', text: 'Plain text',
+      plaintext: 'Plain text', fallback: 'Plain text' };
+    var languageName = names[lang] || lang || 'Code';
+    pre.tabIndex = 0;
+    pre.setAttribute('aria-label', languageName + ' code; scroll horizontally for long lines');
 
-    /* copy button */
+    var toolbar = document.createElement('div');
+    toolbar.className = 'code-toolbar';
+    var label = document.createElement('span');
+    label.className = 'code-lang-label';
+    label.textContent = languageName;
+    toolbar.appendChild(label);
+
     var btn = document.createElement('button');
+    btn.type = 'button';
     btn.className = 'code-copy-btn';
     btn.textContent = 'Copy';
-    block.appendChild(btn);
-    btn.addEventListener('click', function () {
-      var text = (pre.querySelector('code') || pre).innerText;
-      navigator.clipboard.writeText(text).then(function () {
+    btn.setAttribute('aria-label', 'Copy ' + languageName + ' code');
+    btn.setAttribute('aria-live', 'polite');
+    toolbar.appendChild(btn);
+    block.insertBefore(toolbar, block.firstChild);
+    btn.addEventListener('click', async function () {
+      try {
+        await navigator.clipboard.writeText(code.textContent);
         btn.textContent = 'Copied!';
         btn.classList.add('copied');
-        setTimeout(function () {
-          btn.textContent = 'Copy';
-          btn.classList.remove('copied');
-        }, 2000);
-      });
+      } catch (error) {
+        btn.textContent = 'Select code';
+        var selection = window.getSelection();
+        var range = document.createRange();
+        range.selectNodeContents(code);
+        selection.removeAllRanges();
+        selection.addRange(range);
+      }
+      setTimeout(function () {
+        btn.textContent = 'Copy';
+        btn.classList.remove('copied');
+      }, 2000);
     });
   });
 
