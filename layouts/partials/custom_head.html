@@ -6,6 +6,10 @@
 
 {{ $codeCSS := resources.Get "css/code.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $codeCSS.RelPermalink }}" integrity="{{ $codeCSS.Data.Integrity }}">
+{{ if and .IsPage (eq .Type "post") }}
+{{ $readingCSS := resources.Get "css/reading.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $readingCSS.RelPermalink }}" integrity="{{ $readingCSS.Data.Integrity }}">
+{{ end }}
 
 <style>
 /* ── Post width ── */

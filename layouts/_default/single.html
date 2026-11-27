@@ -1,6 +1,6 @@
 {{- define "main" -}}
 
-<article class="article">
+<article class="article{{ if eq .Type "post" }} post-article{{ end }}">
 
   {{ partial "page_header" . }}
 
